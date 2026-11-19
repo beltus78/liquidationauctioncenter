@@ -10,7 +10,7 @@ export const SITE = {
   address2: "[City, State ZIP]",
   stateOfReg: "[State of registration]",
   email: "sales@liquidationauctioncenter.com",
-  phone: "", // e.g. "+1 555 123 4567" — call and WhatsApp buttons appear once filled in
+  phone: "+1 (450) 485-9006",
 };
 
 export type Lang3 = { en: string; fr: string; es: string };
