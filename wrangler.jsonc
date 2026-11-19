@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "liquidationauctioncenter",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-01",
+  "assets": { "directory": "./public", "binding": "ASSETS", "run_worker_first": false },
+  "d1_databases": [
+    { "binding": "DB", "database_name": "liquidationauctioncenter", "database_id": "d61be733-98db-424b-8405-73e88c6dcbfa", "migrations_dir": "migrations" }
+  ],
+  "vars": {
+    "SALES_EMAIL": "sales@liquidationauctioncenter.com",
+    "EMAIL_FROM": "Liquidation Auction Center <orders@liquidationauctioncenter.com>"
+  },
+  "observability": { "enabled": true }
+}

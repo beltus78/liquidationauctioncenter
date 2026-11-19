@@ -1,0 +1,3677 @@
+[
+ {
+  "no": 1001,
+  "slug": "milwaukee-m18-fuel-kits-pallet",
+  "cat": "tools",
+  "type": "pallet",
+  "source": "homedepot",
+  "cond": "returns",
+  "units": 45,
+  "unit": "units",
+  "price": 1450,
+  "retail": 6600,
+  "img": "/lots/milwaukee-m18-fuel-kits-pallet",
+  "own_photo": true,
+  "name": {
+   "en": "Milwaukee M18 & M12 Fuel Kits",
+   "fr": "Kits Milwaukee M18 et M12 Fuel",
+   "es": "Kits Milwaukee M18 y M12 Fuel"
+  },
+  "title": {
+   "en": "Milwaukee M18 & M12 Fuel Kits Pallet — Home Depot Returns",
+   "fr": "Kits Milwaukee M18 et M12 Fuel — palette, retours Home Depot",
+   "es": "Kits Milwaukee M18 y M12 Fuel — palé, devoluciones de Home Depot"
+  },
+  "items": {
+   "en": [
+    "boxed M18 Fuel combo kits",
+    "M12 drill and impact sets",
+    "circular and reciprocating saws",
+    "battery and charger packs"
+   ],
+   "fr": [
+    "kits combinés M18 Fuel en boîte",
+    "ensembles perceuse et visseuse M12",
+    "scies circulaires et sabres",
+    "batteries et chargeurs"
+   ],
+   "es": [
+    "kits combinados M18 Fuel en caja",
+    "juegos de taladro e impacto M12",
+    "sierras circulares y sables",
+    "baterías y cargadores"
+   ]
+  },
+  "note": {
+   "en": "Most boxes are still sealed or taped shut after return, which is why this pallet sells fast to contractor supply stores.",
+   "fr": "La plupart des boîtes sont encore scellées ou refermées après retour, d'où la forte demande des fournisseurs d'entrepreneurs.",
+   "es": "La mayoría de las cajas siguen selladas o cerradas tras la devolución, por eso este palé se vende rápido a proveedores de contratistas."
+  }
+ },
+ {
+  "no": 1002,
+  "slug": "dewalt-20v-atomic-xr-pallet",
+  "cat": "tools",
+  "type": "pallet",
+  "source": "homedepot",
+  "cond": "returns",
+  "units": 55,
+  "unit": "units",
+  "price": 1350,
+  "retail": 6100,
+  "img": "/lots/dewalt-20v-atomic-xr-pallet",
+  "own_photo": true,
+  "name": {
+   "en": "DeWalt 20V Atomic & XR Power Tools",
+   "fr": "Outils électriques DeWalt 20V Atomic et XR",
+   "es": "Herramientas eléctricas DeWalt 20V Atomic y XR"
+  },
+  "title": {
+   "en": "DeWalt 20V Atomic & XR Power Tools Pallet — Home Depot Returns",
+   "fr": "Outils électriques DeWalt 20V Atomic et XR — palette, retours Home Depot",
+   "es": "Herramientas eléctricas DeWalt 20V Atomic y XR — palé, devoluciones de Home Depot"
+  },
+  "items": {
+   "en": [
+    "Atomic compact drills and drivers",
+    "XR brushless impact wrenches",
+    "FlexVolt and 20V kits",
+    "hard-case combo sets"
+   ],
+   "fr": [
+    "perceuses et visseuses compactes Atomic",
+    "clés à chocs sans balais XR",
+    "kits FlexVolt et 20V",
+    "coffrets combinés"
+   ],
+   "es": [
+    "taladros y atornilladores compactos Atomic",
+    "llaves de impacto sin escobillas XR",
+    "kits FlexVolt y 20V",
+    "combos en maletín rígido"
+   ]
+  },
+  "note": {
+   "en": "Yellow-box pallets like this one are the easiest power-tool lots to resell on Facebook Marketplace and at swap meets.",
+   "fr": "Les palettes jaunes de ce type sont les lots d'outils les plus faciles à revendre sur Marketplace et dans les marchés aux puces.",
+   "es": "Los palés amarillos como este son los lotes de herramientas más fáciles de revender en Marketplace y mercadillos."
+  }
+ },
+ {
+  "no": 1003,
+  "slug": "dewalt-mixed-tools-gaylord",
+  "cat": "tools",
+  "type": "gaylord",
+  "source": "homedepot",
+  "cond": "returns",
+  "units": 70,
+  "unit": "units",
+  "price": 1100,
+  "retail": 5000,
+  "img": "/lots/dewalt-mixed-tools-gaylord",
+  "own_photo": true,
+  "name": {
+   "en": "DeWalt Mixed Tools",
+   "fr": "Outils DeWalt assortis",
+   "es": "Herramientas DeWalt surtidas"
+  },
+  "title": {
+   "en": "DeWalt Mixed Tools Gaylord — Home Depot Returns",
+   "fr": "Outils DeWalt assortis — gaylord, retours Home Depot",
+   "es": "Herramientas DeWalt surtidas — gaylord, devoluciones de Home Depot"
+  },
+  "items": {
+   "en": [
+    "drills, drivers and grinders",
+    "miter saw and table saw accessories",
+    "batteries and chargers",
+    "nailers and outdoor tools"
+   ],
+   "fr": [
+    "perceuses, visseuses et meuleuses",
+    "accessoires de scie à onglets et de table",
+    "batteries et chargeurs",
+    "cloueuses et outils d'extérieur"
+   ],
+   "es": [
+    "taladros, atornilladores y amoladoras",
+    "accesorios para ingletadora y sierra de mesa",
+    "baterías y cargadores",
+    "clavadoras y herramientas de exterior"
+   ]
+  },
+  "note": {
+   "en": "Gaylord boxes pack tighter than flat pallets, so you get more units per freight dollar.",
+   "fr": "Les gaylords se remplissent plus densément qu'une palette plate : plus d'unités pour le même coût de transport.",
+   "es": "Los gaylords se llenan más que un palé plano, así que recibes más unidades por cada dólar de flete."
+  }
+ },
+ {
+  "no": 1004,
+  "slug": "dewalt-tool-pallet-sealed-kits",
+  "cat": "tools",
+  "type": "pallet",
+  "source": "manufacturer",
+  "cond": "overstock",
+  "units": 50,
+  "unit": "units",
+  "price": 1650,
+  "retail": 4600,
+  "img": "/lots/dewalt-tool-pallet-sealed-kits",
+  "own_photo": true,
+  "name": {
+   "en": "DeWalt Sealed Combo Kits",
+   "fr": "Kits combinés DeWalt scellés",
+   "es": "Kits combinados DeWalt sellados"
+  },
+  "title": {
+   "en": "DeWalt Sealed Combo Kits Pallet — Brand Overstock",
+   "fr": "Kits combinés DeWalt scellés — palette, surstock de marque",
+   "es": "Kits combinados DeWalt sellados — palé, excedente de marca"
+  },
+  "items": {
+   "en": [
+    "sealed 20V MAX combo kits",
+    "Atomic hammer drills",
+    "circular saws",
+    "angle grinders"
+   ],
+   "fr": [
+    "kits combinés 20V MAX scellés",
+    "perceuses à percussion Atomic",
+    "scies circulaires",
+    "meuleuses d'angle"
+   ],
+   "es": [
+    "kits combinados 20V MAX sellados",
+    "taladros percutores Atomic",
+    "sierras circulares",
+    "amoladoras angulares"
+   ]
+  },
+  "note": {
+   "en": "Overstock means factory-sealed boxes, so you can list them as new without testing.",
+   "fr": "Surstock signifie boîtes scellées d'usine : vous pouvez les vendre comme neuves sans test.",
+   "es": "Excedente significa cajas selladas de fábrica: puedes venderlas como nuevas sin probarlas."
+  }
+ },
+ {
+  "no": 1005,
+  "slug": "dewalt-milwaukee-tools-truckload",
+  "cat": "tools",
+  "type": "truckload",
+  "source": "homedepot",
+  "cond": "returns",
+  "units": 26,
+  "unit": "pallets",
+  "price": 32000,
+  "retail": 145500,
+  "img": "/lots/dewalt-milwaukee-tools-truckload",
+  "own_photo": true,
+  "name": {
+   "en": "DeWalt & Milwaukee Tool",
+   "fr": "Outils DeWalt et Milwaukee",
+   "es": "Herramientas DeWalt y Milwaukee"
+  },
+  "title": {
+   "en": "DeWalt & Milwaukee Tool Truckload — Home Depot Returns",
+   "fr": "Outils DeWalt et Milwaukee — camion complet, retours Home Depot",
+   "es": "Herramientas DeWalt y Milwaukee — camión completo, devoluciones de Home Depot"
+  },
+  "items": {
+   "en": [
+    "26 pallets and gaylords of power tools",
+    "hand tools and accessories",
+    "batteries and chargers",
+    "outdoor power equipment"
+   ],
+   "fr": [
+    "26 palettes et gaylords d'outils électriques",
+    "outils à main et accessoires",
+    "batteries et chargeurs",
+    "équipement motorisé d'extérieur"
+   ],
+   "es": [
+    "26 palés y gaylords de herramientas eléctricas",
+    "herramientas manuales y accesorios",
+    "baterías y cargadores",
+    "equipo motorizado de exterior"
+   ]
+  },
+  "note": {
+   "en": "Built for tool resellers who need a full season of stock in one delivery.",
+   "fr": "Conçu pour les revendeurs d'outils qui veulent une saison complète de stock en une seule livraison.",
+   "es": "Pensado para revendedores de herramientas que necesitan una temporada completa de stock en una entrega."
+  }
+ },
+ {
+  "no": 1006,
+  "slug": "loose-dewalt-tools-case-pack",
+  "cat": "tools",
+  "type": "casepack",
+  "source": "homedepot",
+  "cond": "shelfpulls",
+  "units": 12,
+  "unit": "units",
+  "price": 420,
+  "retail": 1400,
+  "img": "/lots/loose-dewalt-tools-case-pack",
+  "own_photo": true,
+  "name": {
+   "en": "Loose DeWalt Bare Tools",
+   "fr": "Outils DeWalt nus en vrac",
+   "es": "Herramientas DeWalt sueltas sin batería"
+  },
+  "title": {
+   "en": "Loose DeWalt Bare Tools Case Pack — Home Depot Shelf Pulls",
+   "fr": "Outils DeWalt nus en vrac — lot de caisses, retraits de rayon Home Depot",
+   "es": "Herramientas DeWalt sueltas sin batería — lote de cajas, retirados de estantería de Home Depot"
+  },
+  "items": {
+   "en": [
+    "impact drivers",
+    "hammer drills",
+    "reciprocating saws",
+    "20V batteries"
+   ],
+   "fr": [
+    "visseuses à chocs",
+    "perceuses à percussion",
+    "scies sabres",
+    "batteries 20V"
+   ],
+   "es": [
+    "atornilladores de impacto",
+    "taladros percutores",
+    "sierras sable",
+    "baterías de 20V"
+   ]
+  },
+  "note": {
+   "en": "A small starter lot for buyers who want to test the tool category before taking a full pallet.",
+   "fr": "Un petit lot de départ pour tester la catégorie outils avant de prendre une palette complète.",
+   "es": "Un lote pequeño para probar la categoría de herramientas antes de comprar un palé completo."
+  }
+ },
+ {
+  "no": 1007,
+  "slug": "ridgid-ryobi-tools-pallet",
+  "cat": "tools",
+  "type": "pallet",
+  "source": "homedepot",
+  "cond": "returns",
+  "units": 50,
+  "unit": "units",
+  "price": 1500,
+  "retail": 6800,
+  "img": "/lots/ridgid-ryobi-tools-pallet",
+  "own_photo": false,
+  "name": {
+   "en": "Ridgid & Ryobi Tools",
+   "fr": "Outils Ridgid et Ryobi",
+   "es": "Herramientas Ridgid y Ryobi"
+  },
+  "title": {
+   "en": "Ridgid & Ryobi Tools Pallet — Home Depot Returns",
+   "fr": "Outils Ridgid et Ryobi — palette, retours Home Depot",
+   "es": "Herramientas Ridgid y Ryobi — palé, devoluciones de Home Depot"
+  },
+  "items": {
+   "en": [
+    "Ridgid drills and wet/dry vacs",
+    "Ryobi One+ tools",
+    "string trimmers and blowers",
+    "battery kits"
+   ],
+   "fr": [
+    "perceuses et aspirateurs eau/poussière Ridgid",
+    "outils Ryobi One+",
+    "coupe-bordures et souffleurs",
+    "kits de batteries"
+   ],
+   "es": [
+    "taladros y aspiradoras Ridgid",
+    "herramientas Ryobi One+",
+    "desbrozadoras y sopladores",
+    "kits de baterías"
+   ]
+  },
+  "note": {
+   "en": "Ryobi's One+ battery system has a huge user base, which keeps resale demand steady.",
+   "fr": "Le système de batteries Ryobi One+ compte énormément d'utilisateurs, ce qui maintient la demande.",
+   "es": "El sistema de baterías Ryobi One+ tiene muchísimos usuarios, lo que mantiene estable la demanda."
+  }
+ },
+ {
+  "no": 1008,
+  "slug": "makita-tools-pallet",
+  "cat": "tools",
+  "type": "pallet",
+  "source": "manufacturer",
+  "cond": "mixed",
+  "units": 60,
+  "unit": "units",
+  "price": 700,
+  "retail": 2800,
+  "img": "/lots/makita-tools-pallet",
+  "own_photo": false,
+  "name": {
+   "en": "Makita LXT Tools",
+   "fr": "Outils Makita LXT",
+   "es": "Herramientas Makita LXT"
+  },
+  "title": {
+   "en": "Makita LXT Tools Pallet — Brand Mixed Condition",
+   "fr": "Outils Makita LXT — palette, marque, état mixte",
+   "es": "Herramientas Makita LXT — palé, marca, condición mixta"
+  },
+  "items": {
+   "en": [
+    "18V LXT drills and drivers",
+    "grinders and sanders",
+    "batteries and chargers",
+    "tool bags"
+   ],
+   "fr": [
+    "perceuses et visseuses 18V LXT",
+    "meuleuses et ponceuses",
+    "batteries et chargeurs",
+    "sacs à outils"
+   ],
+   "es": [
+    "taladros y atornilladores 18V LXT",
+    "amoladoras y lijadoras",
+    "baterías y cargadores",
+    "bolsas de herramientas"
+   ]
+  },
+  "note": {
+   "en": "Mixed condition keeps the entry price low; sealed kits in the load usually cover most of the cost.",
+   "fr": "L'état mixte garde le prix d'entrée bas ; les kits scellés couvrent généralement l'essentiel du coût.",
+   "es": "La condición mixta mantiene bajo el precio; los kits sellados suelen cubrir gran parte del costo."
+  }
+ },
+ {
+  "no": 1009,
+  "slug": "toro-ryobi-outdoor-power-pallet",
+  "cat": "tools",
+  "type": "pallet",
+  "source": "homedepot",
+  "cond": "returns",
+  "units": 12,
+  "unit": "units",
+  "price": 1500,
+  "retail": 6800,
+  "img": "/lots/toro-ryobi-outdoor-power-pallet",
+  "own_photo": false,
+  "name": {
+   "en": "Toro Mowers & Outdoor Power",
+   "fr": "Tondeuses Toro et motorisé d'extérieur",
+   "es": "Cortacéspedes Toro y equipo de exterior"
+  },
+  "title": {
+   "en": "Toro Mowers & Outdoor Power Pallet — Home Depot Returns",
+   "fr": "Tondeuses Toro et motorisé d'extérieur — palette, retours Home Depot",
+   "es": "Cortacéspedes Toro y equipo de exterior — palé, devoluciones de Home Depot"
+  },
+  "items": {
+   "en": [
+    "self-propelled mowers",
+    "electric push mowers",
+    "leaf blowers",
+    "string trimmers"
+   ],
+   "fr": [
+    "tondeuses autotractées",
+    "tondeuses électriques à pousser",
+    "souffleurs de feuilles",
+    "coupe-bordures"
+   ],
+   "es": [
+    "cortacéspedes autopropulsados",
+    "cortacéspedes eléctricos",
+    "sopladores de hojas",
+    "desbrozadoras"
+   ]
+  },
+  "note": {
+   "en": "Order in late winter so mowers are tested and listed before spring demand starts.",
+   "fr": "Commandez en fin d'hiver pour tester et publier les tondeuses avant la demande du printemps.",
+   "es": "Compra a finales del invierno para probar y publicar los cortacéspedes antes de la primavera."
+  }
+ },
+ {
+  "no": 1010,
+  "slug": "pressure-washer-pallet",
+  "cat": "tools",
+  "type": "pallet",
+  "source": "homedepot",
+  "cond": "returns",
+  "units": 20,
+  "unit": "units",
+  "price": 2800,
+  "retail": 12700,
+  "img": "/lots/pressure-washer-pallet",
+  "own_photo": false,
+  "name": {
+   "en": "Ryobi Pressure Washers",
+   "fr": "Nettoyeurs haute pression Ryobi",
+   "es": "Hidrolavadoras Ryobi"
+  },
+  "title": {
+   "en": "Ryobi Pressure Washers Pallet — Home Depot Returns",
+   "fr": "Nettoyeurs haute pression Ryobi — palette, retours Home Depot",
+   "es": "Hidrolavadoras Ryobi — palé, devoluciones de Home Depot"
+  },
+  "items": {
+   "en": [
+    "electric pressure washers",
+    "gas pressure washers",
+    "surface cleaners",
+    "hoses and nozzles"
+   ],
+   "fr": [
+    "nettoyeurs électriques",
+    "nettoyeurs thermiques",
+    "nettoyeurs de surface",
+    "tuyaux et buses"
+   ],
+   "es": [
+    "hidrolavadoras eléctricas",
+    "hidrolavadoras de gasolina",
+    "limpiadores de superficie",
+    "mangueras y boquillas"
+   ]
+  },
+  "note": {
+   "en": "Pressure washers are bulky, so a full pallet ships far cheaper per unit than single orders.",
+   "fr": "Les nettoyeurs sont encombrants : une palette complète revient bien moins cher par unité.",
+   "es": "Las hidrolavadoras son voluminosas: un palé completo sale mucho más barato por unidad."
+  }
+ },
+ {
+  "no": 1011,
+  "slug": "ps5-console-pallet",
+  "cat": "electronics",
+  "type": "pallet",
+  "source": "walmart",
+  "cond": "overstock",
+  "units": 24,
+  "unit": "units",
+  "price": 7200,
+  "retail": 10000,
+  "img": "/lots/ps5-console-pallet",
+  "own_photo": true,
+  "name": {
+   "en": "PlayStation 5 Console",
+   "fr": "Consoles PlayStation 5",
+   "es": "Consolas PlayStation 5"
+  },
+  "title": {
+   "en": "PlayStation 5 Console Pallet — Walmart Overstock",
+   "fr": "Consoles PlayStation 5 — palette, surstock Walmart",
+   "es": "Consolas PlayStation 5 — palé, excedente de Walmart"
+  },
+  "items": {
+   "en": [
+    "PS5 disc and digital editions",
+    "DualSense controllers",
+    "HDMI and power cables",
+    "retail boxes"
+   ],
+   "fr": [
+    "PS5 édition standard et numérique",
+    "manettes DualSense",
+    "câbles HDMI et alimentation",
+    "boîtes de vente"
+   ],
+   "es": [
+    "PS5 edición estándar y digital",
+    "mandos DualSense",
+    "cables HDMI y de corriente",
+    "cajas de venta"
+   ]
+  },
+  "note": {
+   "en": "Sealed consoles move fastest in November and December; reserve early for holiday stock.",
+   "fr": "Les consoles scellées partent le plus vite en novembre et décembre : réservez tôt.",
+   "es": "Las consolas selladas se venden más rápido en noviembre y diciembre: reserva con tiempo."
+  }
+ },
+ {
+  "no": 1012,
+  "slug": "ps5-console-case-pack",
+  "cat": "electronics",
+  "type": "casepack",
+  "source": "target",
+  "cond": "returns",
+  "units": 8,
+  "unit": "units",
+  "price": 2400,
+  "retail": 10900,
+  "img": "/lots/ps5-console-case-pack",
+  "own_photo": true,
+  "name": {
+   "en": "PS5 Console Returns",
+   "fr": "Consoles PS5 retournées",
+   "es": "Consolas PS5 devueltas"
+  },
+  "title": {
+   "en": "PS5 Console Returns Case Pack — Target Returns",
+   "fr": "Consoles PS5 retournées — lot de caisses, retours Target",
+   "es": "Consolas PS5 devueltas — lote de cajas, devoluciones de Target"
+  },
+  "items": {
+   "en": [
+    "PS5 consoles",
+    "controllers",
+    "cables",
+    "original packaging on most units"
+   ],
+   "fr": [
+    "consoles PS5",
+    "manettes",
+    "câbles",
+    "emballage d'origine pour la plupart"
+   ],
+   "es": [
+    "consolas PS5",
+    "mandos",
+    "cables",
+    "empaque original en la mayoría"
+   ]
+  },
+  "note": {
+   "en": "A smaller lot for game stores that want to test and refurbish a handful of consoles.",
+   "fr": "Un petit lot pour les magasins de jeux qui veulent tester et reconditionner quelques consoles.",
+   "es": "Un lote pequeño para tiendas de videojuegos que quieren probar y reacondicionar algunas consolas."
+  }
+ },
+ {
+  "no": 1013,
+  "slug": "ps5-slim-truckload",
+  "cat": "electronics",
+  "type": "truckload",
+  "source": "manufacturer",
+  "cond": "overstock",
+  "units": 22,
+  "unit": "pallets",
+  "price": 145000,
+  "retail": 201500,
+  "img": "/lots/ps5-slim-truckload",
+  "own_photo": true,
+  "name": {
+   "en": "PS5 Slim Console",
+   "fr": "Consoles PS5 Slim",
+   "es": "Consolas PS5 Slim"
+  },
+  "title": {
+   "en": "PS5 Slim Console Truckload — Brand Overstock",
+   "fr": "Consoles PS5 Slim — camion complet, surstock de marque",
+   "es": "Consolas PS5 Slim — camión completo, excedente de marca"
+  },
+  "items": {
+   "en": [
+    "PS5 Slim consoles",
+    "bundle editions",
+    "controllers",
+    "sealed master cartons"
+   ],
+   "fr": [
+    "consoles PS5 Slim",
+    "éditions groupées",
+    "manettes",
+    "cartons maîtres scellés"
+   ],
+   "es": [
+    "consolas PS5 Slim",
+    "ediciones en paquete",
+    "mandos",
+    "cajas master selladas"
+   ]
+  },
+  "note": {
+   "en": "For established electronics distributors only; proof of business is required before shipping.",
+   "fr": "Réservé aux distributeurs d'électronique établis ; une preuve d'entreprise est requise.",
+   "es": "Solo para distribuidores de electrónica establecidos; se requiere comprobante de empresa."
+  }
+ },
+ {
+  "no": 1014,
+  "slug": "premium-electronics-gaylord",
+  "cat": "electronics",
+  "type": "gaylord",
+  "source": "amazon",
+  "cond": "returns",
+  "units": 90,
+  "unit": "units",
+  "price": 1900,
+  "retail": 8600,
+  "img": "/lots/premium-electronics-gaylord",
+  "own_photo": true,
+  "name": {
+   "en": "Premium Electronics & Accessories",
+   "fr": "Électronique et accessoires premium",
+   "es": "Electrónica y accesorios premium"
+  },
+  "title": {
+   "en": "Premium Electronics & Accessories Gaylord — Amazon Returns",
+   "fr": "Électronique et accessoires premium — gaylord, retours Amazon",
+   "es": "Electrónica y accesorios premium — gaylord, devoluciones de Amazon"
+  },
+  "items": {
+   "en": [
+    "Apple Watch and Apple Pencils",
+    "Xbox and PlayStation controllers",
+    "PC parts like CPUs and coolers",
+    "smart home gadgets"
+   ],
+   "fr": [
+    "Apple Watch et Apple Pencil",
+    "manettes Xbox et PlayStation",
+    "pièces PC (processeurs, refroidisseurs)",
+    "objets connectés"
+   ],
+   "es": [
+    "Apple Watch y Apple Pencil",
+    "mandos de Xbox y PlayStation",
+    "piezas de PC como CPU y refrigeración",
+    "dispositivos inteligentes"
+   ]
+  },
+  "note": {
+   "en": "High-value small items: sort and list the top 10 pieces first, they usually cover the whole box.",
+   "fr": "Petits articles de valeur : listez d'abord les 10 meilleurs, ils couvrent souvent toute la boîte.",
+   "es": "Artículos pequeños de alto valor: publica primero los 10 mejores, suelen cubrir toda la caja."
+  }
+ },
+ {
+  "no": 1015,
+  "slug": "amazon-small-electronics-pallet",
+  "cat": "electronics",
+  "type": "pallet",
+  "source": "amazon",
+  "cond": "returns",
+  "units": 120,
+  "unit": "units",
+  "price": 750,
+  "retail": 3400,
+  "img": "/lots/amazon-small-electronics-pallet",
+  "own_photo": true,
+  "name": {
+   "en": "Amazon Small Electronics",
+   "fr": "Petite électronique Amazon",
+   "es": "Electrónica pequeña de Amazon"
+  },
+  "title": {
+   "en": "Amazon Small Electronics Pallet — Amazon Returns",
+   "fr": "Petite électronique Amazon — palette, retours Amazon",
+   "es": "Electrónica pequeña de Amazon — palé, devoluciones de Amazon"
+  },
+  "items": {
+   "en": [
+    "massage guns and heated pads",
+    "phone chargers and power banks",
+    "battery chargers",
+    "RC cars and gadgets"
+   ],
+   "fr": [
+    "pistolets de massage et coussins chauffants",
+    "chargeurs et batteries externes",
+    "chargeurs de batteries",
+    "voitures RC et gadgets"
+   ],
+   "es": [
+    "pistolas de masaje y almohadillas térmicas",
+    "cargadores y baterías externas",
+    "cargadores de baterías",
+    "coches RC y gadgets"
+   ]
+  },
+  "note": {
+   "en": "Light, easy-to-ship items that suit eBay, Mercari and Whatnot sellers.",
+   "fr": "Articles légers et faciles à expédier, parfaits pour eBay, Mercari et Whatnot.",
+   "es": "Artículos ligeros y fáciles de enviar, ideales para eBay, Mercari y Whatnot."
+  }
+ },
+ {
+  "no": 1016,
+  "slug": "smart-tv-pallet",
+  "cat": "electronics",
+  "type": "pallet",
+  "source": "walmart",
+  "cond": "returns",
+  "units": 14,
+  "unit": "units",
+  "price": 1250,
+  "retail": 5700,
+  "img": "/lots/smart-tv-pallet",
+  "own_photo": false,
+  "name": {
+   "en": "Smart TVs 43–65 in",
+   "fr": "Téléviseurs intelligents 43–65 po",
+   "es": "Televisores inteligentes de 43 a 65 pulgadas"
+  },
+  "title": {
+   "en": "Smart TVs 43–65 in Pallet — Walmart Returns",
+   "fr": "Téléviseurs intelligents 43–65 po — palette, retours Walmart",
+   "es": "Televisores inteligentes de 43 a 65 pulgadas — palé, devoluciones de Walmart"
+  },
+  "items": {
+   "en": [
+    "4K smart TVs",
+    "Roku and Google TV models",
+    "remotes and stands",
+    "boxed returns"
+   ],
+   "fr": [
+    "téléviseurs intelligents 4K",
+    "modèles Roku et Google TV",
+    "télécommandes et pieds",
+    "retours en boîte"
+   ],
+   "es": [
+    "televisores 4K",
+    "modelos Roku y Google TV",
+    "controles y bases",
+    "devoluciones en caja"
+   ]
+  },
+  "note": {
+   "en": "TVs ship upright on a dedicated pallet; we recommend liftgate delivery or dock pickup.",
+   "fr": "Les téléviseurs voyagent debout sur palette dédiée ; prévoyez un hayon ou un quai.",
+   "es": "Los televisores viajan de pie en palé dedicado; recomendamos camión con rampa o muelle."
+  }
+ },
+ {
+  "no": 1017,
+  "slug": "laptop-mixed-brands-pallet",
+  "cat": "electronics",
+  "type": "pallet",
+  "source": "mixed",
+  "cond": "returns",
+  "units": 30,
+  "unit": "units",
+  "price": 1350,
+  "retail": 6100,
+  "img": "/lots/laptop-mixed-brands-pallet",
+  "own_photo": false,
+  "name": {
+   "en": "Mixed-Brand Laptops",
+   "fr": "Ordinateurs portables multimarques",
+   "es": "Laptops de varias marcas"
+  },
+  "title": {
+   "en": "Mixed-Brand Laptops Pallet — Mixed Retailers, Returns",
+   "fr": "Ordinateurs portables multimarques — palette, détaillants divers, retours",
+   "es": "Laptops de varias marcas — palé, varios minoristas, devoluciones"
+  },
+  "items": {
+   "en": [
+    "HP, Dell and Lenovo laptops",
+    "Chromebooks",
+    "chargers",
+    "laptop bags"
+   ],
+   "fr": [
+    "portables HP, Dell et Lenovo",
+    "Chromebook",
+    "chargeurs",
+    "sacoches"
+   ],
+   "es": [
+    "laptops HP, Dell y Lenovo",
+    "Chromebooks",
+    "cargadores",
+    "fundas"
+   ]
+  },
+  "note": {
+   "en": "Refurbishers do best here: wipe, update and grade each unit before resale.",
+   "fr": "Idéal pour les reconditionneurs : effacez, mettez à jour et classez chaque appareil.",
+   "es": "Ideal para reacondicionadores: borra, actualiza y clasifica cada equipo antes de vender."
+  }
+ },
+ {
+  "no": 1018,
+  "slug": "hp-laptops-case-pack",
+  "cat": "electronics",
+  "type": "casepack",
+  "source": "manufacturer",
+  "cond": "shelfpulls",
+  "units": 10,
+  "unit": "units",
+  "price": 750,
+  "retail": 2500,
+  "img": "/lots/hp-laptops-case-pack",
+  "own_photo": false,
+  "name": {
+   "en": "HP Laptop Shelf Pulls",
+   "fr": "Portables HP retirés de rayon",
+   "es": "Laptops HP retiradas de estantería"
+  },
+  "title": {
+   "en": "HP Laptop Shelf Pulls Case Pack — Brand Shelf Pulls",
+   "fr": "Portables HP retirés de rayon — lot de caisses, marque, retraits de rayon",
+   "es": "Laptops HP retiradas de estantería — lote de cajas, marca, retirados de estantería"
+  },
+  "items": {
+   "en": [
+    "HP 14 and 15 inch laptops",
+    "Pavilion models",
+    "chargers",
+    "original boxes"
+   ],
+   "fr": [
+    "portables HP 14 et 15 pouces",
+    "modèles Pavilion",
+    "chargeurs",
+    "boîtes d'origine"
+   ],
+   "es": [
+    "laptops HP de 14 y 15 pulgadas",
+    "modelos Pavilion",
+    "cargadores",
+    "cajas originales"
+   ]
+  },
+  "note": {
+   "en": "Shelf pulls are display or overstock units that never went home with a customer.",
+   "fr": "Les retraits de rayon sont des unités d'exposition ou de surplus jamais vendues.",
+   "es": "Los retirados de estantería son unidades de exhibición o excedente que nunca se vendieron."
+  }
+ },
+ {
+  "no": 1019,
+  "slug": "starlink-kits-pallet",
+  "cat": "electronics",
+  "type": "pallet",
+  "source": "mixed",
+  "cond": "returns",
+  "units": 20,
+  "unit": "units",
+  "price": 1200,
+  "retail": 5500,
+  "img": "/lots/starlink-kits-pallet",
+  "own_photo": false,
+  "name": {
+   "en": "Starlink Standard Kits",
+   "fr": "Kits Starlink Standard",
+   "es": "Kits Starlink Standard"
+  },
+  "title": {
+   "en": "Starlink Standard Kits Pallet — Mixed Retailers, Returns",
+   "fr": "Kits Starlink Standard — palette, détaillants divers, retours",
+   "es": "Kits Starlink Standard — palé, varios minoristas, devoluciones"
+  },
+  "items": {
+   "en": [
+    "Starlink dishes",
+    "routers",
+    "cables and power supplies",
+    "kickstands"
+   ],
+   "fr": [
+    "antennes Starlink",
+    "routeurs",
+    "câbles et alimentations",
+    "supports"
+   ],
+   "es": [
+    "antenas Starlink",
+    "routers",
+    "cables y fuentes",
+    "soportes"
+   ]
+  },
+  "note": {
+   "en": "Popular with rural and RV buyers across Canada and the western US.",
+   "fr": "Très demandé par les acheteurs ruraux et en VR au Canada et dans l'Ouest américain.",
+   "es": "Muy buscado por compradores rurales y de autocaravanas en Canadá y el oeste de EE. UU."
+  }
+ },
+ {
+  "no": 1020,
+  "slug": "jbl-speakers-case-pack",
+  "cat": "electronics",
+  "type": "casepack",
+  "source": "target",
+  "cond": "overstock",
+  "units": 48,
+  "unit": "units",
+  "price": 420,
+  "retail": 1150,
+  "img": "/lots/jbl-speakers-case-pack",
+  "own_photo": false,
+  "name": {
+   "en": "JBL Portable Speakers",
+   "fr": "Enceintes portables JBL",
+   "es": "Altavoces portátiles JBL"
+  },
+  "title": {
+   "en": "JBL Portable Speakers Case Pack — Target Overstock",
+   "fr": "Enceintes portables JBL — lot de caisses, surstock Target",
+   "es": "Altavoces portátiles JBL — lote de cajas, excedente de Target"
+  },
+  "items": {
+   "en": [
+    "JBL Clip speakers",
+    "JBL Go speakers",
+    "assorted colours",
+    "retail packaging"
+   ],
+   "fr": [
+    "enceintes JBL Clip",
+    "enceintes JBL Go",
+    "couleurs variées",
+    "emballage de vente"
+   ],
+   "es": [
+    "altavoces JBL Clip",
+    "altavoces JBL Go",
+    "colores variados",
+    "empaque de venta"
+   ]
+  },
+  "note": {
+   "en": "Bright, giftable stock that sells well at kiosks and pop-up stalls.",
+   "fr": "Un stock coloré, facile à offrir, qui se vend bien en kiosque et en stand.",
+   "es": "Stock colorido y fácil de regalar que se vende bien en kioscos y puestos."
+  }
+ },
+ {
+  "no": 1021,
+  "slug": "video-games-gaylord",
+  "cat": "electronics",
+  "type": "gaylord",
+  "source": "mixed",
+  "cond": "mixed",
+  "units": 500,
+  "unit": "units",
+  "price": 500,
+  "retail": 2000,
+  "img": "/lots/video-games-gaylord",
+  "own_photo": false,
+  "name": {
+   "en": "Video Games & Gaming Accessories",
+   "fr": "Jeux vidéo et accessoires",
+   "es": "Videojuegos y accesorios gamer"
+  },
+  "title": {
+   "en": "Video Games & Gaming Accessories Gaylord — Mixed Retailers, Mixed Condition",
+   "fr": "Jeux vidéo et accessoires — gaylord, détaillants divers, état mixte",
+   "es": "Videojuegos y accesorios gamer — gaylord, varios minoristas, condición mixta"
+  },
+  "items": {
+   "en": [
+    "PS4 and PS5 games",
+    "Xbox and PlayStation controllers",
+    "Nintendo Switch games and accessories",
+    "headsets"
+   ],
+   "fr": [
+    "jeux PS4 et PS5",
+    "manettes Xbox et PlayStation",
+    "jeux et accessoires Nintendo Switch",
+    "casques"
+   ],
+   "es": [
+    "juegos de PS4 y PS5",
+    "mandos de Xbox y PlayStation",
+    "juegos y accesorios de Nintendo Switch",
+    "audífonos"
+   ]
+  },
+  "note": {
+   "en": "Scan barcodes with a pricing app; rare titles in the box often pay for the lot.",
+   "fr": "Scannez les codes-barres : les titres rares paient souvent le lot.",
+   "es": "Escanea los códigos: los títulos raros suelen pagar el lote."
+  }
+ },
+ {
+  "no": 1022,
+  "slug": "iphone-mixed-generations-case-pack",
+  "cat": "phones",
+  "type": "casepack",
+  "source": "mixed",
+  "cond": "returns",
+  "units": 25,
+  "unit": "units",
+  "price": 3000,
+  "retail": 6000,
+  "img": "/lots/iphone-mixed-generations-case-pack",
+  "own_photo": false,
+  "name": {
+   "en": "iPhone Mixed Generations",
+   "fr": "iPhone de générations mixtes",
+   "es": "iPhone de generaciones mixtas"
+  },
+  "title": {
+   "en": "iPhone Mixed Generations Case Pack — Mixed Retailers, Returns",
+   "fr": "iPhone de générations mixtes — lot de caisses, détaillants divers, retours",
+   "es": "iPhone de generaciones mixtas — lote de cajas, varios minoristas, devoluciones"
+  },
+  "items": {
+   "en": [
+    "iPhone 12 to 15 models",
+    "mixed storage sizes",
+    "phones with screen or battery wear",
+    "IMEI-checked units"
+   ],
+   "fr": [
+    "modèles iPhone 12 à 15",
+    "capacités variées",
+    "usure d'écran ou de batterie",
+    "IMEI vérifiés"
+   ],
+   "es": [
+    "modelos de iPhone 12 a 15",
+    "capacidades variadas",
+    "desgaste de pantalla o batería",
+    "IMEI verificados"
+   ]
+  },
+  "note": {
+   "en": "Each phone is IMEI-checked before shipping, so blacklisted units are kept out of the lot.",
+   "fr": "Chaque téléphone est vérifié par IMEI avant expédition : aucun appareil bloqué dans le lot.",
+   "es": "Cada teléfono se revisa por IMEI antes del envío: sin equipos bloqueados en el lote."
+  }
+ },
+ {
+  "no": 1023,
+  "slug": "iphone-16-pro-max-case-pack",
+  "cat": "phones",
+  "type": "casepack",
+  "source": "manufacturer",
+  "cond": "overstock",
+  "units": 10,
+  "unit": "units",
+  "price": 5200,
+  "retail": 7200,
+  "img": "/lots/iphone-16-pro-max-case-pack",
+  "own_photo": false,
+  "name": {
+   "en": "iPhone 16 Pro Max",
+   "fr": "iPhone 16 Pro Max",
+   "es": "iPhone 16 Pro Max"
+  },
+  "title": {
+   "en": "iPhone 16 Pro Max Case Pack — Brand Overstock",
+   "fr": "iPhone 16 Pro Max — lot de caisses, surstock de marque",
+   "es": "iPhone 16 Pro Max — lote de cajas, excedente de marca"
+  },
+  "items": {
+   "en": [
+    "sealed iPhone 16 Pro Max",
+    "256GB and 512GB",
+    "assorted titanium finishes",
+    "US and Canadian models"
+   ],
+   "fr": [
+    "iPhone 16 Pro Max scellés",
+    "256 Go et 512 Go",
+    "finitions titane variées",
+    "modèles américains et canadiens"
+   ],
+   "es": [
+    "iPhone 16 Pro Max sellados",
+    "256 GB y 512 GB",
+    "acabados de titanio variados",
+    "modelos de EE. UU. y Canadá"
+   ]
+  },
+  "note": {
+   "en": "Sold in tens; larger quantities quoted on request.",
+   "fr": "Vendu par dix ; quantités plus grandes sur devis.",
+   "es": "Se vende por decenas; cantidades mayores bajo cotización."
+  }
+ },
+ {
+  "no": 1024,
+  "slug": "apple-watch-case-pack",
+  "cat": "phones",
+  "type": "casepack",
+  "source": "target",
+  "cond": "returns",
+  "units": 30,
+  "unit": "units",
+  "price": 1800,
+  "retail": 3600,
+  "img": "/lots/apple-watch-case-pack",
+  "own_photo": false,
+  "name": {
+   "en": "Apple Watch Returns",
+   "fr": "Apple Watch retournées",
+   "es": "Apple Watch devueltas"
+  },
+  "title": {
+   "en": "Apple Watch Returns Case Pack — Target Returns",
+   "fr": "Apple Watch retournées — lot de caisses, retours Target",
+   "es": "Apple Watch devueltas — lote de cajas, devoluciones de Target"
+  },
+  "items": {
+   "en": [
+    "Apple Watch Series 8 and 9",
+    "Apple Watch SE",
+    "sport bands",
+    "magnetic chargers"
+   ],
+   "fr": [
+    "Apple Watch Series 8 et 9",
+    "Apple Watch SE",
+    "bracelets sport",
+    "chargeurs magnétiques"
+   ],
+   "es": [
+    "Apple Watch Series 8 y 9",
+    "Apple Watch SE",
+    "correas deportivas",
+    "cargadores magnéticos"
+   ]
+  },
+  "note": {
+   "en": "Check activation lock on arrival; locked units are swapped under our arrival-claim policy.",
+   "fr": "Vérifiez le verrouillage d'activation à l'arrivée ; les unités verrouillées sont échangées.",
+   "es": "Revisa el bloqueo de activación al recibir; las unidades bloqueadas se cambian."
+  }
+ },
+ {
+  "no": 1025,
+  "slug": "airpods-pro-case-pack",
+  "cat": "phones",
+  "type": "casepack",
+  "source": "amazon",
+  "cond": "returns",
+  "units": 50,
+  "unit": "units",
+  "price": 2300,
+  "retail": 4600,
+  "img": "/lots/airpods-pro-case-pack",
+  "own_photo": false,
+  "name": {
+   "en": "AirPods Pro Returns",
+   "fr": "AirPods Pro retournés",
+   "es": "AirPods Pro devueltos"
+  },
+  "title": {
+   "en": "AirPods Pro Returns Case Pack — Amazon Returns",
+   "fr": "AirPods Pro retournés — lot de caisses, retours Amazon",
+   "es": "AirPods Pro devueltos — lote de cajas, devoluciones de Amazon"
+  },
+  "items": {
+   "en": [
+    "AirPods Pro 2nd generation",
+    "MagSafe and USB-C cases",
+    "ear tips",
+    "boxed and loose units"
+   ],
+   "fr": [
+    "AirPods Pro 2e génération",
+    "boîtiers MagSafe et USB-C",
+    "embouts",
+    "unités en boîte et en vrac"
+   ],
+   "es": [
+    "AirPods Pro 2.ª generación",
+    "estuches MagSafe y USB-C",
+    "almohadillas",
+    "unidades en caja y sueltas"
+   ]
+  },
+  "note": {
+   "en": "Small, high-value and easy to ship: a strong lot for online resellers.",
+   "fr": "Petit, cher et facile à expédier : un excellent lot pour la revente en ligne.",
+   "es": "Pequeño, valioso y fácil de enviar: un gran lote para revendedores en línea."
+  }
+ },
+ {
+  "no": 1026,
+  "slug": "ipad-macbook-mixed-pallet",
+  "cat": "phones",
+  "type": "pallet",
+  "source": "mixed",
+  "cond": "returns",
+  "units": 35,
+  "unit": "units",
+  "price": 8800,
+  "retail": 17600,
+  "img": "/lots/ipad-macbook-mixed-pallet",
+  "own_photo": false,
+  "name": {
+   "en": "iPad & MacBook Air",
+   "fr": "iPad et MacBook Air",
+   "es": "iPad y MacBook Air"
+  },
+  "title": {
+   "en": "iPad & MacBook Air Pallet — Mixed Retailers, Returns",
+   "fr": "iPad et MacBook Air — palette, détaillants divers, retours",
+   "es": "iPad y MacBook Air — palé, varios minoristas, devoluciones"
+  },
+  "items": {
+   "en": [
+    "MacBook Air M1 and M2",
+    "iPad Pro and iPad Air",
+    "chargers",
+    "sleeves and cases"
+   ],
+   "fr": [
+    "MacBook Air M1 et M2",
+    "iPad Pro et iPad Air",
+    "chargeurs",
+    "housses et étuis"
+   ],
+   "es": [
+    "MacBook Air M1 y M2",
+    "iPad Pro y iPad Air",
+    "cargadores",
+    "fundas y estuches"
+   ]
+  },
+  "note": {
+   "en": "Every unit is checked for iCloud lock before the pallet is wrapped.",
+   "fr": "Chaque appareil est vérifié pour le verrouillage iCloud avant l'emballage.",
+   "es": "Cada equipo se revisa por bloqueo de iCloud antes de envolver el palé."
+  }
+ },
+ {
+  "no": 1027,
+  "slug": "phone-cases-accessories-gaylord",
+  "cat": "phones",
+  "type": "gaylord",
+  "source": "mixed",
+  "cond": "overstock",
+  "units": 1200,
+  "unit": "units",
+  "price": 1500,
+  "retail": 2100,
+  "img": "/lots/phone-cases-accessories-gaylord",
+  "own_photo": false,
+  "name": {
+   "en": "Phone Cases & Accessories",
+   "fr": "Étuis et accessoires de téléphone",
+   "es": "Fundas y accesorios para teléfono"
+  },
+  "title": {
+   "en": "Phone Cases & Accessories Gaylord — Mixed Retailers, Overstock",
+   "fr": "Étuis et accessoires de téléphone — gaylord, détaillants divers, surstock",
+   "es": "Fundas y accesorios para teléfono — gaylord, varios minoristas, excedente"
+  },
+  "items": {
+   "en": [
+    "iPhone and Samsung cases",
+    "screen protectors",
+    "charging cables",
+    "car mounts"
+   ],
+   "fr": [
+    "étuis iPhone et Samsung",
+    "protections d'écran",
+    "câbles de charge",
+    "supports voiture"
+   ],
+   "es": [
+    "fundas para iPhone y Samsung",
+    "protectores de pantalla",
+    "cables de carga",
+    "soportes para auto"
+   ]
+  },
+  "note": {
+   "en": "Packed by the hundred: an easy restock for kiosks, gas stations and dollar stores.",
+   "fr": "Emballé par centaines : un réassort facile pour kiosques, stations-service et magasins à petits prix.",
+   "es": "Empacado por cientos: un resurtido fácil para kioscos, gasolineras y tiendas de a dólar."
+  }
+ },
+ {
+  "no": 1028,
+  "slug": "instant-pot-vacuum-mix-pallet",
+  "cat": "appliances",
+  "type": "pallet",
+  "source": "walmart",
+  "cond": "returns",
+  "units": 40,
+  "unit": "units",
+  "price": 950,
+  "retail": 4300,
+  "img": "/lots/instant-pot-vacuum-mix-pallet",
+  "own_photo": true,
+  "name": {
+   "en": "Instant Pot & Vacuum Mix",
+   "fr": "Instant Pot et aspirateurs",
+   "es": "Instant Pot y aspiradoras"
+  },
+  "title": {
+   "en": "Instant Pot & Vacuum Mix Pallet — Walmart Returns",
+   "fr": "Instant Pot et aspirateurs — palette, retours Walmart",
+   "es": "Instant Pot y aspiradoras — palé, devoluciones de Walmart"
+  },
+  "items": {
+   "en": [
+    "Instant Pot multicookers",
+    "Shark and Hoover stick vacuums",
+    "steam mops",
+    "air fryer ovens"
+   ],
+   "fr": [
+    "autocuiseurs Instant Pot",
+    "aspirateurs balais Shark et Hoover",
+    "balais vapeur",
+    "fours friteuses à air"
+   ],
+   "es": [
+    "ollas Instant Pot",
+    "aspiradoras de mano Shark y Hoover",
+    "trapeadores a vapor",
+    "hornos freidora de aire"
+   ]
+  },
+  "note": {
+   "en": "Two of the best-selling return categories in one pallet; most units power on.",
+   "fr": "Deux des catégories de retours les plus vendues sur une même palette ; la plupart fonctionnent.",
+   "es": "Dos de las categorías de devolución más vendidas en un palé; la mayoría enciende."
+  }
+ },
+ {
+  "no": 1029,
+  "slug": "kitchen-appliance-pallet",
+  "cat": "appliances",
+  "type": "pallet",
+  "source": "walmart",
+  "cond": "returns",
+  "units": 45,
+  "unit": "units",
+  "price": 850,
+  "retail": 3850,
+  "img": "/lots/kitchen-appliance-pallet",
+  "own_photo": true,
+  "name": {
+   "en": "Kitchen Appliance",
+   "fr": "Électroménager de cuisine",
+   "es": "Electrodomésticos de cocina"
+  },
+  "title": {
+   "en": "Kitchen Appliance Pallet — Walmart Returns",
+   "fr": "Électroménager de cuisine — palette, retours Walmart",
+   "es": "Electrodomésticos de cocina — palé, devoluciones de Walmart"
+  },
+  "items": {
+   "en": [
+    "microwaves",
+    "toaster and convection ovens",
+    "Keurig and drip coffee makers",
+    "wet/dry shop vacs"
+   ],
+   "fr": [
+    "micro-ondes",
+    "fours grille-pain et à convection",
+    "cafetières Keurig et filtres",
+    "aspirateurs d'atelier"
+   ],
+   "es": [
+    "microondas",
+    "hornos tostadores y de convección",
+    "cafeteras Keurig y de goteo",
+    "aspiradoras de taller"
+   ]
+  },
+  "note": {
+   "en": "Test on arrival and sell working units near retail; the rest part out well.",
+   "fr": "Testez à l'arrivée et vendez les unités fonctionnelles près du prix de détail ; le reste se vend en pièces.",
+   "es": "Prueba al recibir y vende las unidades funcionales cerca del precio de tienda; el resto se vende por piezas."
+  }
+ },
+ {
+  "no": 1030,
+  "slug": "kitchen-cookware-small-appliances-pallet",
+  "cat": "appliances",
+  "type": "pallet",
+  "source": "target",
+  "cond": "returns",
+  "units": 60,
+  "unit": "units",
+  "price": 900,
+  "retail": 4100,
+  "img": "/lots/kitchen-cookware-small-appliances-pallet",
+  "own_photo": true,
+  "name": {
+   "en": "Cookware & Small Appliances",
+   "fr": "Batterie de cuisine et petit électroménager",
+   "es": "Utensilios de cocina y pequeños electrodomésticos"
+  },
+  "title": {
+   "en": "Cookware & Small Appliances Pallet — Target Returns",
+   "fr": "Batterie de cuisine et petit électroménager — palette, retours Target",
+   "es": "Utensilios de cocina y pequeños electrodomésticos — palé, devoluciones de Target"
+  },
+  "items": {
+   "en": [
+    "Instant Vortex air fryers",
+    "Calphalon and Farberware cookware",
+    "coffee makers",
+    "stainless pots"
+   ],
+   "fr": [
+    "friteuses Instant Vortex",
+    "batteries Calphalon et Farberware",
+    "cafetières",
+    "casseroles inox"
+   ],
+   "es": [
+    "freidoras Instant Vortex",
+    "baterías Calphalon y Farberware",
+    "cafeteras",
+    "ollas de acero"
+   ]
+  },
+  "note": {
+   "en": "Brand names buyers search for, which makes online listings sell faster.",
+   "fr": "Des marques recherchées, ce qui accélère la vente en ligne.",
+   "es": "Marcas que los compradores buscan, lo que acelera la venta en línea."
+  }
+ },
+ {
+  "no": 1031,
+  "slug": "major-appliance-mixed-pallet",
+  "cat": "appliances",
+  "type": "pallet",
+  "source": "mixed",
+  "cond": "returns",
+  "units": 8,
+  "unit": "units",
+  "price": 1400,
+  "retail": 6400,
+  "img": "/lots/major-appliance-mixed-pallet",
+  "own_photo": true,
+  "name": {
+   "en": "Compact Fridges, Ranges & Espresso",
+   "fr": "Mini-frigos, cuisinières et espresso",
+   "es": "Minirefrigeradores, estufas y espresso"
+  },
+  "title": {
+   "en": "Compact Fridges, Ranges & Espresso Pallet — Mixed Retailers, Returns",
+   "fr": "Mini-frigos, cuisinières et espresso — palette, détaillants divers, retours",
+   "es": "Minirefrigeradores, estufas y espresso — palé, varios minoristas, devoluciones"
+  },
+  "items": {
+   "en": [
+    "compact refrigerators",
+    "gas range tops",
+    "Nespresso and Breville machines",
+    "countertop microwaves"
+   ],
+   "fr": [
+    "réfrigérateurs compacts",
+    "plaques de cuisson au gaz",
+    "machines Nespresso et Breville",
+    "micro-ondes"
+   ],
+   "es": [
+    "refrigeradores compactos",
+    "parrillas de gas",
+    "cafeteras Nespresso y Breville",
+    "microondas de mesa"
+   ]
+  },
+  "note": {
+   "en": "Heavy pallet: book liftgate delivery or pick up at our dock.",
+   "fr": "Palette lourde : prévoyez un hayon ou un enlèvement au quai.",
+   "es": "Palé pesado: reserva camión con rampa o recógelo en nuestro muelle."
+  }
+ },
+ {
+  "no": 1032,
+  "slug": "kenmore-black-decker-gaylord",
+  "cat": "appliances",
+  "type": "gaylord",
+  "source": "mixed",
+  "cond": "returns",
+  "units": 55,
+  "unit": "units",
+  "price": 700,
+  "retail": 3200,
+  "img": "/lots/kenmore-black-decker-gaylord",
+  "own_photo": true,
+  "name": {
+   "en": "Kenmore & Black+Decker Small Appliances",
+   "fr": "Petit électroménager Kenmore et Black+Decker",
+   "es": "Pequeños electrodomésticos Kenmore y Black+Decker"
+  },
+  "title": {
+   "en": "Kenmore & Black+Decker Small Appliances Gaylord — Mixed Retailers, Returns",
+   "fr": "Petit électroménager Kenmore et Black+Decker — gaylord, détaillants divers, retours",
+   "es": "Pequeños electrodomésticos Kenmore y Black+Decker — gaylord, varios minoristas, devoluciones"
+  },
+  "items": {
+   "en": [
+    "Kenmore rice and slow cookers",
+    "Black+Decker toaster ovens",
+    "coffee makers",
+    "blenders"
+   ],
+   "fr": [
+    "cuiseurs à riz et mijoteuses Kenmore",
+    "mini-fours Black+Decker",
+    "cafetières",
+    "mélangeurs"
+   ],
+   "es": [
+    "arroceras y ollas lentas Kenmore",
+    "hornos tostadores Black+Decker",
+    "cafeteras",
+    "licuadoras"
+   ]
+  },
+  "note": {
+   "en": "A budget entry lot for flea-market and bin-store sellers.",
+   "fr": "Un lot d'entrée abordable pour les marchés aux puces et magasins à bacs.",
+   "es": "Un lote económico para vendedores de mercadillo y tiendas de contenedores."
+  }
+ },
+ {
+  "no": 1033,
+  "slug": "hamilton-beach-microwave-pallet",
+  "cat": "appliances",
+  "type": "pallet",
+  "source": "costco",
+  "cond": "shelfpulls",
+  "units": 36,
+  "unit": "units",
+  "price": 1100,
+  "retail": 3650,
+  "img": "/lots/hamilton-beach-microwave-pallet",
+  "own_photo": false,
+  "name": {
+   "en": "Hamilton Beach Countertop",
+   "fr": "Électroménager de comptoir Hamilton Beach",
+   "es": "Electrodomésticos de mesa Hamilton Beach"
+  },
+  "title": {
+   "en": "Hamilton Beach Countertop Pallet — Costco Shelf Pulls",
+   "fr": "Électroménager de comptoir Hamilton Beach — palette, retraits de rayon Costco",
+   "es": "Electrodomésticos de mesa Hamilton Beach — palé, retirados de estantería de Costco"
+  },
+  "items": {
+   "en": [
+    "microwaves",
+    "toaster ovens",
+    "slow cookers",
+    "hand mixers"
+   ],
+   "fr": [
+    "micro-ondes",
+    "mini-fours",
+    "mijoteuses",
+    "batteurs à main"
+   ],
+   "es": [
+    "microondas",
+    "hornos tostadores",
+    "ollas de cocción lenta",
+    "batidoras de mano"
+   ]
+  },
+  "note": {
+   "en": "Shelf pulls: mostly unused, often with small box damage only.",
+   "fr": "Retraits de rayon : surtout inutilisés, souvent avec de légers dommages de boîte.",
+   "es": "Retirados de estantería: casi sin uso, a menudo solo con daños leves en la caja."
+  }
+ },
+ {
+  "no": 1034,
+  "slug": "air-conditioner-pallet",
+  "cat": "appliances",
+  "type": "pallet",
+  "source": "homedepot",
+  "cond": "returns",
+  "units": 14,
+  "unit": "units",
+  "price": 900,
+  "retail": 4100,
+  "img": "/lots/air-conditioner-pallet",
+  "own_photo": false,
+  "name": {
+   "en": "Window & Portable Air Conditioners",
+   "fr": "Climatiseurs de fenêtre et portables",
+   "es": "Aires acondicionados de ventana y portátiles"
+  },
+  "title": {
+   "en": "Window & Portable Air Conditioners Pallet — Home Depot Returns",
+   "fr": "Climatiseurs de fenêtre et portables — palette, retours Home Depot",
+   "es": "Aires acondicionados de ventana y portátiles — palé, devoluciones de Home Depot"
+  },
+  "items": {
+   "en": [
+    "window AC units",
+    "portable AC units",
+    "dehumidifiers",
+    "remotes and window kits"
+   ],
+   "fr": [
+    "climatiseurs de fenêtre",
+    "climatiseurs portables",
+    "déshumidificateurs",
+    "télécommandes et kits de fenêtre"
+   ],
+   "es": [
+    "aires de ventana",
+    "aires portátiles",
+    "deshumidificadores",
+    "controles y kits de ventana"
+   ]
+  },
+  "note": {
+   "en": "Buy in spring, sell in the first heat wave.",
+   "fr": "Achetez au printemps, vendez à la première canicule.",
+   "es": "Compra en primavera, vende en la primera ola de calor."
+  }
+ },
+ {
+  "no": 1035,
+  "slug": "scratch-dent-appliances-truckload",
+  "cat": "appliances",
+  "type": "truckload",
+  "source": "homedepot",
+  "cond": "mixed",
+  "units": 22,
+  "unit": "pallets",
+  "price": 18500,
+  "retail": 74000,
+  "img": "/lots/scratch-dent-appliances-truckload",
+  "own_photo": false,
+  "name": {
+   "en": "Scratch & Dent Appliance",
+   "fr": "Électroménager rayé et bosselé",
+   "es": "Electrodomésticos con rayones y abolladuras"
+  },
+  "title": {
+   "en": "Scratch & Dent Appliance Truckload — Home Depot Mixed Condition",
+   "fr": "Électroménager rayé et bosselé — camion complet, état mixte Home Depot",
+   "es": "Electrodomésticos con rayones y abolladuras — camión completo, condición mixta de Home Depot"
+  },
+  "items": {
+   "en": [
+    "washers and dryers",
+    "refrigerators",
+    "ranges and dishwashers",
+    "microwaves"
+   ],
+   "fr": [
+    "laveuses et sécheuses",
+    "réfrigérateurs",
+    "cuisinières et lave-vaisselle",
+    "micro-ondes"
+   ],
+   "es": [
+    "lavadoras y secadoras",
+    "refrigeradores",
+    "estufas y lavavajillas",
+    "microondas"
+   ]
+  },
+  "note": {
+   "en": "Cosmetic damage, working machines: the classic stock for appliance outlets.",
+   "fr": "Défauts esthétiques, appareils fonctionnels : le stock classique des magasins d'électroménager.",
+   "es": "Daños estéticos, equipos funcionales: el stock clásico de las tiendas de electrodomésticos."
+  }
+ },
+ {
+  "no": 1036,
+  "slug": "toy-gaylord-container-load",
+  "cat": "toys",
+  "type": "truckload",
+  "source": "target",
+  "cond": "returns",
+  "units": 24,
+  "unit": "units",
+  "price": 14500,
+  "retail": 66000,
+  "img": "/lots/toy-gaylord-container-load",
+  "own_photo": true,
+  "name": {
+   "en": "Toy Gaylord Container",
+   "fr": "Conteneur de gaylords de jouets",
+   "es": "Contenedor de gaylords de juguetes"
+  },
+  "title": {
+   "en": "Toy Gaylord Container Truckload — Target Returns",
+   "fr": "Conteneur de gaylords de jouets — camion complet, retours Target",
+   "es": "Contenedor de gaylords de juguetes — camión completo, devoluciones de Target"
+  },
+  "items": {
+   "en": [
+    "24 gaylords of mixed toys",
+    "LEGO, Barbie and Hot Wheels",
+    "plush and dolls",
+    "games and puzzles"
+   ],
+   "fr": [
+    "24 gaylords de jouets variés",
+    "LEGO, Barbie et Hot Wheels",
+    "peluches et poupées",
+    "jeux et casse-tête"
+   ],
+   "es": [
+    "24 gaylords de juguetes variados",
+    "LEGO, Barbie y Hot Wheels",
+    "peluches y muñecas",
+    "juegos y rompecabezas"
+   ]
+  },
+  "note": {
+   "en": "Holiday-season stock for bin stores; a full container keeps shelves full through December.",
+   "fr": "Stock des fêtes pour magasins à bacs : un conteneur complet remplit les rayons jusqu'en décembre.",
+   "es": "Stock navideño para tiendas de contenedores: uno completo llena estantes hasta diciembre."
+  }
+ },
+ {
+  "no": 1037,
+  "slug": "toy-gaylord-lego-star-wars",
+  "cat": "toys",
+  "type": "gaylord",
+  "source": "target",
+  "cond": "returns",
+  "units": 120,
+  "unit": "units",
+  "price": 850,
+  "retail": 3850,
+  "img": "/lots/toy-gaylord-lego-star-wars",
+  "own_photo": true,
+  "name": {
+   "en": "Branded Toys (LEGO, Pokémon, Monster High)",
+   "fr": "Jouets de marque (LEGO, Pokémon, Monster High)",
+   "es": "Juguetes de marca (LEGO, Pokémon, Monster High)"
+  },
+  "title": {
+   "en": "Branded Toys (LEGO, Pokémon, Monster High) Gaylord — Target Returns",
+   "fr": "Jouets de marque (LEGO, Pokémon, Monster High) — gaylord, retours Target",
+   "es": "Juguetes de marca (LEGO, Pokémon, Monster High) — gaylord, devoluciones de Target"
+  },
+  "items": {
+   "en": [
+    "LEGO Star Wars sets",
+    "Pokémon figures",
+    "Monster High and Shadow High dolls",
+    "Melissa & Doug toys"
+   ],
+   "fr": [
+    "ensembles LEGO Star Wars",
+    "figurines Pokémon",
+    "poupées Monster High et Shadow High",
+    "jouets Melissa & Doug"
+   ],
+   "es": [
+    "sets LEGO Star Wars",
+    "figuras Pokémon",
+    "muñecas Monster High y Shadow High",
+    "juguetes Melissa & Doug"
+   ]
+  },
+  "note": {
+   "en": "Branded toys hold their price online; check every LEGO box for missing bags.",
+   "fr": "Les jouets de marque gardent leur prix en ligne ; vérifiez les sachets des boîtes LEGO.",
+   "es": "Los juguetes de marca mantienen su precio; revisa las bolsas de cada caja LEGO."
+  }
+ },
+ {
+  "no": 1038,
+  "slug": "toy-gaylord-truck-mix",
+  "cat": "toys",
+  "type": "gaylord",
+  "source": "walmart",
+  "cond": "returns",
+  "units": 140,
+  "unit": "units",
+  "price": 780,
+  "retail": 3550,
+  "img": "/lots/toy-gaylord-truck-mix",
+  "own_photo": true,
+  "name": {
+   "en": "Mixed Toys",
+   "fr": "Jouets variés",
+   "es": "Juguetes variados"
+  },
+  "title": {
+   "en": "Mixed Toys Gaylord — Walmart Returns",
+   "fr": "Jouets variés — gaylord, retours Walmart",
+   "es": "Juguetes variados — gaylord, devoluciones de Walmart"
+  },
+  "items": {
+   "en": [
+    "baby doll and nursery sets",
+    "kinetic sand and craft kits",
+    "action figures",
+    "board games"
+   ],
+   "fr": [
+    "poupons et coffrets de puériculture",
+    "sable magique et kits créatifs",
+    "figurines",
+    "jeux de société"
+   ],
+   "es": [
+    "muñecos bebé y sets de guardería",
+    "arena mágica y kits de manualidades",
+    "figuras de acción",
+    "juegos de mesa"
+   ]
+  },
+  "note": {
+   "en": "Mixed toy gaylords are the backbone of most bin stores' weekly restock.",
+   "fr": "Les gaylords de jouets sont la base du réassort hebdomadaire des magasins à bacs.",
+   "es": "Los gaylords de juguetes son la base del resurtido semanal de las tiendas de contenedores."
+  }
+ },
+ {
+  "no": 1039,
+  "slug": "toy-bins-watermelon-gaylords",
+  "cat": "toys",
+  "type": "gaylord",
+  "source": "amazon",
+  "cond": "returns",
+  "units": 130,
+  "unit": "units",
+  "price": 700,
+  "retail": 3200,
+  "img": "/lots/toy-bins-watermelon-gaylords",
+  "own_photo": true,
+  "name": {
+   "en": "Amazon Toy Returns",
+   "fr": "Retours de jouets Amazon",
+   "es": "Devoluciones de juguetes de Amazon"
+  },
+  "title": {
+   "en": "Amazon Toy Returns Gaylord — Amazon Returns",
+   "fr": "Retours de jouets Amazon — gaylord, retours Amazon",
+   "es": "Devoluciones de juguetes de Amazon — gaylord, devoluciones de Amazon"
+  },
+  "items": {
+   "en": [
+    "Amazon toy returns",
+    "plush and fidget toys",
+    "kids' craft kits",
+    "electronic toys"
+   ],
+   "fr": [
+    "retours de jouets Amazon",
+    "peluches et jouets anti-stress",
+    "kits créatifs",
+    "jouets électroniques"
+   ],
+   "es": [
+    "devoluciones de juguetes de Amazon",
+    "peluches y fidgets",
+    "kits de manualidades",
+    "juguetes electrónicos"
+   ]
+  },
+  "note": {
+   "en": "Packed in repurposed produce bins, so you pay for toys, not packaging.",
+   "fr": "Emballé dans des bacs recyclés : vous payez les jouets, pas l'emballage.",
+   "es": "Empacado en contenedores reutilizados: pagas juguetes, no empaque."
+  }
+ },
+ {
+  "no": 1040,
+  "slug": "pokemon-tcg-sealed-case-pack",
+  "cat": "toys",
+  "type": "casepack",
+  "source": "manufacturer",
+  "cond": "overstock",
+  "units": 60,
+  "unit": "units",
+  "price": 1800,
+  "retail": 5000,
+  "img": "/lots/pokemon-tcg-sealed-case-pack",
+  "own_photo": false,
+  "name": {
+   "en": "Pokémon TCG Sealed Product",
+   "fr": "Produits scellés Pokémon JCC",
+   "es": "Producto sellado de Pokémon JCC"
+  },
+  "title": {
+   "en": "Pokémon TCG Sealed Product Case Pack — Brand Overstock",
+   "fr": "Produits scellés Pokémon JCC — lot de caisses, surstock de marque",
+   "es": "Producto sellado de Pokémon JCC — lote de cajas, excedente de marca"
+  },
+  "items": {
+   "en": [
+    "booster boxes",
+    "elite trainer boxes",
+    "booster bundles",
+    "collection boxes"
+   ],
+   "fr": [
+    "boîtes de boosters",
+    "coffrets dresseur d'élite",
+    "lots de boosters",
+    "coffrets collection"
+   ],
+   "es": [
+    "cajas de sobres",
+    "cajas de entrenador élite",
+    "paquetes de sobres",
+    "cajas de colección"
+   ]
+  },
+  "note": {
+   "en": "Sealed product only; no loose or resealed packs.",
+   "fr": "Produits scellés uniquement ; aucun booster ouvert ou refermé.",
+   "es": "Solo producto sellado; sin sobres sueltos ni resellados."
+  }
+ },
+ {
+  "no": 1041,
+  "slug": "funko-hot-wheels-collectibles-case-pack",
+  "cat": "toys",
+  "type": "casepack",
+  "source": "manufacturer",
+  "cond": "overstock",
+  "units": 200,
+  "unit": "units",
+  "price": 650,
+  "retail": 1800,
+  "img": "/lots/funko-hot-wheels-collectibles-case-pack",
+  "own_photo": false,
+  "name": {
+   "en": "Funko Pop & Hot Wheels Collectibles",
+   "fr": "Objets de collection Funko Pop et Hot Wheels",
+   "es": "Coleccionables Funko Pop y Hot Wheels"
+  },
+  "title": {
+   "en": "Funko Pop & Hot Wheels Collectibles Case Pack — Brand Overstock",
+   "fr": "Objets de collection Funko Pop et Hot Wheels — lot de caisses, surstock de marque",
+   "es": "Coleccionables Funko Pop y Hot Wheels — lote de cajas, excedente de marca"
+  },
+  "items": {
+   "en": [
+    "Funko Pop vinyl figures",
+    "Hot Wheels singles and 5-packs",
+    "Matchbox cars",
+    "display cases"
+   ],
+   "fr": [
+    "figurines Funko Pop",
+    "Hot Wheels à l'unité et lots de 5",
+    "voitures Matchbox",
+    "vitrines"
+   ],
+   "es": [
+    "figuras Funko Pop",
+    "Hot Wheels sueltos y de 5",
+    "autos Matchbox",
+    "vitrinas"
+   ]
+  },
+  "note": {
+   "en": "Collectors check every box: chase variants turn up often.",
+   "fr": "Les collectionneurs vérifient chaque boîte : les variantes rares sont fréquentes.",
+   "es": "Los coleccionistas revisan cada caja: las variantes raras aparecen a menudo."
+  }
+ },
+ {
+  "no": 1042,
+  "slug": "lego-sets-pallet",
+  "cat": "toys",
+  "type": "pallet",
+  "source": "walmart",
+  "cond": "shelfpulls",
+  "units": 45,
+  "unit": "units",
+  "price": 900,
+  "retail": 3000,
+  "img": "/lots/lego-sets-pallet",
+  "own_photo": false,
+  "name": {
+   "en": "LEGO Sets",
+   "fr": "Ensembles LEGO",
+   "es": "Sets de LEGO"
+  },
+  "title": {
+   "en": "LEGO Sets Pallet — Walmart Shelf Pulls",
+   "fr": "Ensembles LEGO — palette, retraits de rayon Walmart",
+   "es": "Sets de LEGO — palé, retirados de estantería de Walmart"
+  },
+  "items": {
+   "en": [
+    "LEGO City and Technic",
+    "LEGO Friends",
+    "Star Wars and Marvel sets",
+    "seasonal sets"
+   ],
+   "fr": [
+    "LEGO City et Technic",
+    "LEGO Friends",
+    "ensembles Star Wars et Marvel",
+    "ensembles saisonniers"
+   ],
+   "es": [
+    "LEGO City y Technic",
+    "LEGO Friends",
+    "sets de Star Wars y Marvel",
+    "sets de temporada"
+   ]
+  },
+  "note": {
+   "en": "Shelf pulls mean sealed boxes with shelf wear, the best LEGO condition for resale.",
+   "fr": "Retraits de rayon : boîtes scellées avec usure de rayon, l'état idéal pour la revente LEGO.",
+   "es": "Retirados de estantería: cajas selladas con desgaste, la mejor condición para revender LEGO."
+  }
+ },
+ {
+  "no": 1043,
+  "slug": "shoebox-mixed-footwear-pallet",
+  "cat": "apparel",
+  "type": "pallet",
+  "source": "mixed",
+  "cond": "shelfpulls",
+  "units": 160,
+  "unit": "pairs",
+  "price": 1500,
+  "retail": 5000,
+  "img": "/lots/shoebox-mixed-footwear-pallet",
+  "own_photo": true,
+  "name": {
+   "en": "Boxed Brand-Name Footwear",
+   "fr": "Chaussures de marque en boîte",
+   "es": "Calzado de marca en caja"
+  },
+  "title": {
+   "en": "Boxed Brand-Name Footwear Pallet — Mixed Retailers, Shelf Pulls",
+   "fr": "Chaussures de marque en boîte — palette, détaillants divers, retraits de rayon",
+   "es": "Calzado de marca en caja — palé, varios minoristas, retirados de estantería"
+  },
+  "items": {
+   "en": [
+    "boxed sneakers",
+    "boots and booties",
+    "sandals and heels",
+    "men's, women's and kids' sizes"
+   ],
+   "fr": [
+    "baskets en boîte",
+    "bottes et bottines",
+    "sandales et talons",
+    "tailles homme, femme et enfant"
+   ],
+   "es": [
+    "tenis en caja",
+    "botas y botines",
+    "sandalias y tacones",
+    "tallas de hombre, mujer y niño"
+   ]
+  },
+  "note": {
+   "en": "Every pair arrives in its own box, which makes online listing and storage simple.",
+   "fr": "Chaque paire arrive dans sa boîte, ce qui simplifie la vente en ligne et le stockage.",
+   "es": "Cada par llega en su caja, lo que facilita la venta en línea y el almacenaje."
+  }
+ },
+ {
+  "no": 1044,
+  "slug": "nike-jordan-sneakers-case-pack",
+  "cat": "apparel",
+  "type": "casepack",
+  "source": "mixed",
+  "cond": "mixed",
+  "units": 36,
+  "unit": "pairs",
+  "price": 950,
+  "retail": 3800,
+  "img": "/lots/nike-jordan-sneakers-case-pack",
+  "own_photo": false,
+  "name": {
+   "en": "Nike & Jordan Sneakers",
+   "fr": "Baskets Nike et Jordan",
+   "es": "Tenis Nike y Jordan"
+  },
+  "title": {
+   "en": "Nike & Jordan Sneakers Case Pack — Mixed Retailers, Mixed Condition",
+   "fr": "Baskets Nike et Jordan — lot de caisses, détaillants divers, état mixte",
+   "es": "Tenis Nike y Jordan — lote de cajas, varios minoristas, condición mixta"
+  },
+  "items": {
+   "en": [
+    "Jordan retros",
+    "Nike Dunks",
+    "Air Max",
+    "grade-school and men's sizes"
+   ],
+   "fr": [
+    "Jordan rétro",
+    "Nike Dunk",
+    "Air Max",
+    "tailles junior et homme"
+   ],
+   "es": [
+    "Jordan retro",
+    "Nike Dunk",
+    "Air Max",
+    "tallas juveniles y de hombre"
+   ]
+  },
+  "note": {
+   "en": "Authenticate every pair before resale; we refund any pair that fails a major authenticator.",
+   "fr": "Authentifiez chaque paire ; nous remboursons toute paire refusée par un authentificateur reconnu.",
+   "es": "Autentica cada par; reembolsamos cualquier par rechazado por un autenticador reconocido."
+  }
+ },
+ {
+  "no": 1045,
+  "slug": "athletic-shoes-pallet",
+  "cat": "apparel",
+  "type": "pallet",
+  "source": "kohls",
+  "cond": "returns",
+  "units": 180,
+  "unit": "pairs",
+  "price": 1500,
+  "retail": 6800,
+  "img": "/lots/athletic-shoes-pallet",
+  "own_photo": false,
+  "name": {
+   "en": "Athletic Shoes (Nike, Adidas, Puma)",
+   "fr": "Chaussures de sport (Nike, Adidas, Puma)",
+   "es": "Calzado deportivo (Nike, Adidas, Puma)"
+  },
+  "title": {
+   "en": "Athletic Shoes (Nike, Adidas, Puma) Pallet — Kohl's Returns",
+   "fr": "Chaussures de sport (Nike, Adidas, Puma) — palette, retours Kohl's",
+   "es": "Calzado deportivo (Nike, Adidas, Puma) — palé, devoluciones de Kohl's"
+  },
+  "items": {
+   "en": [
+    "running shoes",
+    "training sneakers",
+    "slides",
+    "kids' athletic shoes"
+   ],
+   "fr": [
+    "chaussures de course",
+    "baskets d'entraînement",
+    "claquettes",
+    "chaussures de sport enfant"
+   ],
+   "es": [
+    "tenis para correr",
+    "tenis de entrenamiento",
+    "chanclas",
+    "calzado deportivo infantil"
+   ]
+  },
+  "note": {
+   "en": "Sort into size runs: complete size runs sell fastest to shoe stores.",
+   "fr": "Classez par pointures : les séries complètes se vendent le plus vite aux magasins.",
+   "es": "Ordena por tallas: las series completas se venden más rápido a zapaterías."
+  }
+ },
+ {
+  "no": 1046,
+  "slug": "amazon-apparel-gaylord",
+  "cat": "apparel",
+  "type": "gaylord",
+  "source": "amazon",
+  "cond": "returns",
+  "units": 450,
+  "unit": "pieces",
+  "price": 900,
+  "retail": 4100,
+  "img": "/lots/amazon-apparel-gaylord",
+  "own_photo": false,
+  "name": {
+   "en": "Amazon Apparel",
+   "fr": "Vêtements Amazon",
+   "es": "Ropa de Amazon"
+  },
+  "title": {
+   "en": "Amazon Apparel Gaylord — Amazon Returns",
+   "fr": "Vêtements Amazon — gaylord, retours Amazon",
+   "es": "Ropa de Amazon — gaylord, devoluciones de Amazon"
+  },
+  "items": {
+   "en": [
+    "polybagged tops and dresses",
+    "activewear",
+    "jeans and joggers",
+    "kids' clothing"
+   ],
+   "fr": [
+    "hauts et robes en sachet",
+    "vêtements de sport",
+    "jeans et joggings",
+    "vêtements enfant"
+   ],
+   "es": [
+    "blusas y vestidos embolsados",
+    "ropa deportiva",
+    "jeans y joggers",
+    "ropa infantil"
+   ]
+  },
+  "note": {
+   "en": "Most pieces are still in their poly bags, ready for Poshmark or a bin-store rack.",
+   "fr": "La plupart des pièces sont encore en sachet, prêtes pour Poshmark ou un portant.",
+   "es": "La mayoría siguen en su bolsa, listas para Poshmark o un perchero."
+  }
+ },
+ {
+  "no": 1047,
+  "slug": "kohls-apparel-pallet",
+  "cat": "apparel",
+  "type": "pallet",
+  "source": "kohls",
+  "cond": "shelfpulls",
+  "units": 400,
+  "unit": "pieces",
+  "price": 1150,
+  "retail": 3850,
+  "img": "/lots/kohls-apparel-pallet",
+  "own_photo": false,
+  "name": {
+   "en": "Kohl's Department Store Apparel",
+   "fr": "Vêtements de grand magasin Kohl's",
+   "es": "Ropa de tienda departamental Kohl's"
+  },
+  "title": {
+   "en": "Kohl's Department Store Apparel Pallet — Kohl's Shelf Pulls",
+   "fr": "Vêtements de grand magasin Kohl's — palette, retraits de rayon Kohl's",
+   "es": "Ropa de tienda departamental Kohl's — palé, retirados de estantería de Kohl's"
+  },
+  "items": {
+   "en": [
+    "women's and men's clothing",
+    "Nike and Under Armour activewear",
+    "kids' clothing",
+    "shoes and accessories"
+   ],
+   "fr": [
+    "vêtements femme et homme",
+    "vêtements de sport Nike et Under Armour",
+    "vêtements enfant",
+    "chaussures et accessoires"
+   ],
+   "es": [
+    "ropa de mujer y hombre",
+    "ropa deportiva Nike y Under Armour",
+    "ropa infantil",
+    "calzado y accesorios"
+   ]
+  },
+  "note": {
+   "en": "Many pieces still carry original price tags, which helps you show the discount.",
+   "fr": "Beaucoup de pièces portent encore leur étiquette, ce qui montre bien la réduction.",
+   "es": "Muchas prendas conservan su etiqueta, lo que ayuda a mostrar el descuento."
+  }
+ },
+ {
+  "no": 1048,
+  "slug": "costco-apparel-pallet",
+  "cat": "apparel",
+  "type": "pallet",
+  "source": "costco",
+  "cond": "overstock",
+  "units": 350,
+  "unit": "pieces",
+  "price": 1500,
+  "retail": 4150,
+  "img": "/lots/costco-apparel-pallet",
+  "own_photo": false,
+  "name": {
+   "en": "Costco Apparel",
+   "fr": "Vêtements Costco",
+   "es": "Ropa de Costco"
+  },
+  "title": {
+   "en": "Costco Apparel Pallet — Costco Overstock",
+   "fr": "Vêtements Costco — palette, surstock Costco",
+   "es": "Ropa de Costco — palé, excedente de Costco"
+  },
+  "items": {
+   "en": [
+    "Kirkland basics",
+    "32 Degrees and Champion",
+    "outerwear",
+    "family packs"
+   ],
+   "fr": [
+    "basiques Kirkland",
+    "32 Degrees et Champion",
+    "vêtements d'extérieur",
+    "packs familiaux"
+   ],
+   "es": [
+    "básicos Kirkland",
+    "32 Degrees y Champion",
+    "ropa de abrigo",
+    "paquetes familiares"
+   ]
+  },
+  "note": {
+   "en": "New overstock in sealed multipacks: good for discount clothing stores.",
+   "fr": "Surstock neuf en multipacks scellés : idéal pour les magasins de vêtements à prix réduits.",
+   "es": "Excedente nuevo en paquetes sellados: ideal para tiendas de ropa económica."
+  }
+ },
+ {
+  "no": 1049,
+  "slug": "winter-outerwear-pallet",
+  "cat": "apparel",
+  "type": "pallet",
+  "source": "mixed",
+  "cond": "mixed",
+  "units": 120,
+  "unit": "pieces",
+  "price": 900,
+  "retail": 3600,
+  "img": "/lots/winter-outerwear-pallet",
+  "own_photo": false,
+  "name": {
+   "en": "Winter Jackets & Outerwear",
+   "fr": "Manteaux et vêtements d'hiver",
+   "es": "Chamarras y ropa de invierno"
+  },
+  "title": {
+   "en": "Winter Jackets & Outerwear Pallet — Mixed Retailers, Mixed Condition",
+   "fr": "Manteaux et vêtements d'hiver — palette, détaillants divers, état mixte",
+   "es": "Chamarras y ropa de invierno — palé, varios minoristas, condición mixta"
+  },
+  "items": {
+   "en": [
+    "puffer jackets",
+    "parkas",
+    "fleece and soft shells",
+    "gloves and toques"
+   ],
+   "fr": [
+    "doudounes",
+    "parkas",
+    "polaires et softshells",
+    "gants et tuques"
+   ],
+   "es": [
+    "chamarras acolchadas",
+    "parkas",
+    "polares y softshell",
+    "guantes y gorros"
+   ]
+  },
+  "note": {
+   "en": "Strong demand from Canadian buyers from October to February.",
+   "fr": "Forte demande des acheteurs canadiens d'octobre à février.",
+   "es": "Fuerte demanda de compradores canadienses de octubre a febrero."
+  }
+ },
+ {
+  "no": 1050,
+  "slug": "carhartt-workwear-pallet",
+  "cat": "apparel",
+  "type": "pallet",
+  "source": "mixed",
+  "cond": "mixed",
+  "units": 140,
+  "unit": "pieces",
+  "price": 850,
+  "retail": 3400,
+  "img": "/lots/carhartt-workwear-pallet",
+  "own_photo": false,
+  "name": {
+   "en": "Carhartt Workwear",
+   "fr": "Vêtements de travail Carhartt",
+   "es": "Ropa de trabajo Carhartt"
+  },
+  "title": {
+   "en": "Carhartt Workwear Pallet — Mixed Retailers, Mixed Condition",
+   "fr": "Vêtements de travail Carhartt — palette, détaillants divers, état mixte",
+   "es": "Ropa de trabajo Carhartt — palé, varios minoristas, condición mixta"
+  },
+  "items": {
+   "en": [
+    "jackets and vests",
+    "hoodies",
+    "work pants and bibs",
+    "beanies"
+   ],
+   "fr": [
+    "vestes et gilets",
+    "sweats à capuche",
+    "pantalons et salopettes de travail",
+    "tuques"
+   ],
+   "es": [
+    "chamarras y chalecos",
+    "sudaderas",
+    "pantalones y overoles de trabajo",
+    "gorros"
+   ]
+  },
+  "note": {
+   "en": "Workwear keeps its value: ideal for trade and farm-supply stores.",
+   "fr": "Les vêtements de travail gardent leur valeur : parfait pour les quincailleries et coops agricoles.",
+   "es": "La ropa de trabajo conserva su valor: ideal para ferreterías y tiendas agrícolas."
+  }
+ },
+ {
+  "no": 1051,
+  "slug": "clothing-bales-truckload",
+  "cat": "apparel",
+  "type": "truckload",
+  "source": "mixed",
+  "cond": "mixed",
+  "units": 24,
+  "unit": "pallets",
+  "price": 14000,
+  "retail": 56000,
+  "img": "/lots/clothing-bales-truckload",
+  "own_photo": false,
+  "name": {
+   "en": "Clothing Bale",
+   "fr": "Balles de vêtements",
+   "es": "Pacas de ropa"
+  },
+  "title": {
+   "en": "Clothing Bale Truckload — Mixed Retailers, Mixed Condition",
+   "fr": "Balles de vêtements — camion complet, détaillants divers, état mixte",
+   "es": "Pacas de ropa — camión completo, varios minoristas, condición mixta"
+  },
+  "items": {
+   "en": [
+    "24 pallets of sorted bales",
+    "men's, women's and kids' clothing",
+    "denim and outerwear",
+    "shoes in bulk bags"
+   ],
+   "fr": [
+    "24 palettes de balles triées",
+    "vêtements homme, femme et enfant",
+    "denim et vêtements d'extérieur",
+    "chaussures en sacs"
+   ],
+   "es": [
+    "24 palés de pacas clasificadas",
+    "ropa de hombre, mujer y niño",
+    "mezclilla y ropa de abrigo",
+    "calzado en sacos"
+   ]
+  },
+  "note": {
+   "en": "Popular with exporters and thrift chains buying by weight.",
+   "fr": "Très demandé par les exportateurs et chaînes de friperies qui achètent au poids.",
+   "es": "Muy buscado por exportadores y cadenas de segunda mano que compran por peso."
+  }
+ },
+ {
+  "no": 1052,
+  "slug": "cvs-health-beauty-pallet",
+  "cat": "beauty",
+  "type": "pallet",
+  "source": "cvs",
+  "cond": "shelfpulls",
+  "units": 1200,
+  "unit": "units",
+  "price": 4500,
+  "retail": 15000,
+  "img": "/lots/cvs-health-beauty-pallet",
+  "own_photo": false,
+  "name": {
+   "en": "CVS Health & Beauty",
+   "fr": "Santé et beauté CVS",
+   "es": "Salud y belleza de CVS"
+  },
+  "title": {
+   "en": "CVS Health & Beauty Pallet — CVS Shelf Pulls",
+   "fr": "Santé et beauté CVS — palette, retraits de rayon CVS",
+   "es": "Salud y belleza de CVS — palé, retirados de estantería de CVS"
+  },
+  "items": {
+   "en": [
+    "vitamins and supplements",
+    "skin care",
+    "oral care",
+    "first-aid items"
+   ],
+   "fr": [
+    "vitamines et suppléments",
+    "soins de la peau",
+    "soins bucco-dentaires",
+    "articles de premiers soins"
+   ],
+   "es": [
+    "vitaminas y suplementos",
+    "cuidado de la piel",
+    "cuidado bucal",
+    "artículos de primeros auxilios"
+   ]
+  },
+  "note": {
+   "en": "Every pallet is checked for expiry dates; nothing ships with under six months left.",
+   "fr": "Chaque palette est vérifiée : rien n'est expédié à moins de six mois de la date limite.",
+   "es": "Cada palé se revisa: nada se envía con menos de seis meses de vigencia."
+  }
+ },
+ {
+  "no": 1053,
+  "slug": "fragrance-case-pack",
+  "cat": "beauty",
+  "type": "casepack",
+  "source": "mixed",
+  "cond": "overstock",
+  "units": 120,
+  "unit": "units",
+  "price": 1300,
+  "retail": 3600,
+  "img": "/lots/fragrance-case-pack",
+  "own_photo": false,
+  "name": {
+   "en": "Designer Fragrance",
+   "fr": "Parfums de créateurs",
+   "es": "Fragancias de diseñador"
+  },
+  "title": {
+   "en": "Designer Fragrance Case Pack — Mixed Retailers, Overstock",
+   "fr": "Parfums de créateurs — lot de caisses, détaillants divers, surstock",
+   "es": "Fragancias de diseñador — lote de cajas, varios minoristas, excedente"
+  },
+  "items": {
+   "en": [
+    "women's perfumes",
+    "men's colognes",
+    "gift sets",
+    "travel sprays"
+   ],
+   "fr": [
+    "parfums femme",
+    "eaux de Cologne homme",
+    "coffrets cadeaux",
+    "vaporisateurs de voyage"
+   ],
+   "es": [
+    "perfumes de mujer",
+    "colonias de hombre",
+    "sets de regalo",
+    "atomizadores de viaje"
+   ]
+  },
+  "note": {
+   "en": "Sealed and cellophane-wrapped; a top seller ahead of Mother's Day and Christmas.",
+   "fr": "Scellé sous cellophane ; un best-seller avant la fête des Mères et Noël.",
+   "es": "Sellado y con celofán; muy vendido antes del Día de las Madres y Navidad."
+  }
+ },
+ {
+  "no": 1054,
+  "slug": "makeup-cosmetics-gaylord",
+  "cat": "beauty",
+  "type": "gaylord",
+  "source": "mixed",
+  "cond": "shelfpulls",
+  "units": 900,
+  "unit": "units",
+  "price": 1250,
+  "retail": 4150,
+  "img": "/lots/makeup-cosmetics-gaylord",
+  "own_photo": false,
+  "name": {
+   "en": "Makeup & Cosmetics",
+   "fr": "Maquillage et cosmétiques",
+   "es": "Maquillaje y cosméticos"
+  },
+  "title": {
+   "en": "Makeup & Cosmetics Gaylord — Mixed Retailers, Shelf Pulls",
+   "fr": "Maquillage et cosmétiques — gaylord, détaillants divers, retraits de rayon",
+   "es": "Maquillaje y cosméticos — gaylord, varios minoristas, retirados de estantería"
+  },
+  "items": {
+   "en": [
+    "Maybelline and L'Oréal",
+    "eyeshadow palettes",
+    "lip products",
+    "nail polish"
+   ],
+   "fr": [
+    "Maybelline et L'Oréal",
+    "palettes de fards",
+    "produits pour les lèvres",
+    "vernis à ongles"
+   ],
+   "es": [
+    "Maybelline y L'Oréal",
+    "paletas de sombras",
+    "productos para labios",
+    "esmalte de uñas"
+   ]
+  },
+  "note": {
+   "en": "Store shelf pulls in original packaging, ideal for beauty supply and dollar stores.",
+   "fr": "Retraits de rayon en emballage d'origine, parfaits pour boutiques de beauté et magasins à petits prix.",
+   "es": "Retirados de tienda en empaque original, ideales para tiendas de belleza y de a dólar."
+  }
+ },
+ {
+  "no": 1055,
+  "slug": "victoria-secret-mists-case-pack",
+  "cat": "beauty",
+  "type": "casepack",
+  "source": "mixed",
+  "cond": "overstock",
+  "units": 150,
+  "unit": "units",
+  "price": 1400,
+  "retail": 3900,
+  "img": "/lots/victoria-secret-mists-case-pack",
+  "own_photo": false,
+  "name": {
+   "en": "Victoria's Secret Body Mists",
+   "fr": "Brumes corporelles Victoria's Secret",
+   "es": "Brumas corporales Victoria's Secret"
+  },
+  "title": {
+   "en": "Victoria's Secret Body Mists Case Pack — Mixed Retailers, Overstock",
+   "fr": "Brumes corporelles Victoria's Secret — lot de caisses, détaillants divers, surstock",
+   "es": "Brumas corporales Victoria's Secret — lote de cajas, varios minoristas, excedente"
+  },
+  "items": {
+   "en": [
+    "fragrance mists",
+    "body lotions",
+    "gift sets",
+    "travel sizes"
+   ],
+   "fr": [
+    "brumes parfumées",
+    "laits corporels",
+    "coffrets cadeaux",
+    "formats voyage"
+   ],
+   "es": [
+    "brumas de fragancia",
+    "lociones corporales",
+    "sets de regalo",
+    "tamaños de viaje"
+   ]
+  },
+  "note": {
+   "en": "Easy add-on stock for boutiques and online gift shops.",
+   "fr": "Un stock d'appoint facile pour boutiques et sites de cadeaux.",
+   "es": "Stock complementario fácil para boutiques y tiendas de regalos en línea."
+  }
+ },
+ {
+  "no": 1056,
+  "slug": "hair-wigs-case-pack",
+  "cat": "beauty",
+  "type": "casepack",
+  "source": "mixed",
+  "cond": "overstock",
+  "units": 80,
+  "unit": "units",
+  "price": 1400,
+  "retail": 3900,
+  "img": "/lots/hair-wigs-case-pack",
+  "own_photo": false,
+  "name": {
+   "en": "Wigs & Hair Extensions",
+   "fr": "Perruques et extensions",
+   "es": "Pelucas y extensiones"
+  },
+  "title": {
+   "en": "Wigs & Hair Extensions Case Pack — Mixed Retailers, Overstock",
+   "fr": "Perruques et extensions — lot de caisses, détaillants divers, surstock",
+   "es": "Pelucas y extensiones — lote de cajas, varios minoristas, excedente"
+  },
+  "items": {
+   "en": [
+    "lace-front wigs",
+    "synthetic wigs",
+    "clip-in extensions",
+    "wig caps"
+   ],
+   "fr": [
+    "perruques lace front",
+    "perruques synthétiques",
+    "extensions à clips",
+    "bonnets"
+   ],
+   "es": [
+    "pelucas lace front",
+    "pelucas sintéticas",
+    "extensiones de clip",
+    "gorros para peluca"
+   ]
+  },
+  "note": {
+   "en": "Strong margins for beauty supply stores and social-media sellers.",
+   "fr": "De bonnes marges pour boutiques de beauté et vendeurs sur les réseaux sociaux.",
+   "es": "Buenos márgenes para tiendas de belleza y vendedores en redes sociales."
+  }
+ },
+ {
+  "no": 1057,
+  "slug": "seasonal-outdoor-ride-on-pallet",
+  "cat": "home",
+  "type": "pallet",
+  "source": "walmart",
+  "cond": "returns",
+  "units": 22,
+  "unit": "units",
+  "price": 1050,
+  "retail": 4750,
+  "img": "/lots/seasonal-outdoor-ride-on-pallet",
+  "own_photo": true,
+  "name": {
+   "en": "Seasonal Outdoor & Ride-Ons",
+   "fr": "Saisonnier d'extérieur et véhicules pour enfants",
+   "es": "Exterior de temporada y montables"
+  },
+  "title": {
+   "en": "Seasonal Outdoor & Ride-Ons Pallet — Walmart Returns",
+   "fr": "Saisonnier d'extérieur et véhicules pour enfants — palette, retours Walmart",
+   "es": "Exterior de temporada y montables — palé, devoluciones de Walmart"
+  },
+  "items": {
+   "en": [
+    "kids' ride-on Jeeps",
+    "wood-burning fire pits",
+    "electric fireplaces and heaters",
+    "bikes and scooters"
+   ],
+   "fr": [
+    "Jeep électriques pour enfants",
+    "foyers extérieurs au bois",
+    "foyers électriques et chaufferettes",
+    "vélos et trottinettes"
+   ],
+   "es": [
+    "Jeeps montables para niños",
+    "fogatas de leña",
+    "chimeneas eléctricas y calentadores",
+    "bicicletas y scooters"
+   ]
+  },
+  "note": {
+   "en": "Big-ticket items with strong local pickup demand on Facebook Marketplace.",
+   "fr": "Des articles chers très demandés en retrait local sur Marketplace.",
+   "es": "Artículos de alto valor con fuerte demanda de recogida local en Marketplace."
+  }
+ },
+ {
+  "no": 1058,
+  "slug": "lasko-shark-home-pallet",
+  "cat": "home",
+  "type": "pallet",
+  "source": "walmart",
+  "cond": "returns",
+  "units": 28,
+  "unit": "units",
+  "price": 950,
+  "retail": 4300,
+  "img": "/lots/lasko-shark-home-pallet",
+  "own_photo": true,
+  "name": {
+   "en": "Shark, Lasko & Outdoor Home",
+   "fr": "Maison et extérieur Shark et Lasko",
+   "es": "Hogar y exterior Shark y Lasko"
+  },
+  "title": {
+   "en": "Shark, Lasko & Outdoor Home Pallet — Walmart Returns",
+   "fr": "Maison et extérieur Shark et Lasko — palette, retours Walmart",
+   "es": "Hogar y exterior Shark y Lasko — palé, devoluciones de Walmart"
+  },
+  "items": {
+   "en": [
+    "Shark air purifiers",
+    "Lasko tower fans and heaters",
+    "kids' ride-ons",
+    "Ozark Trail camping gear"
+   ],
+   "fr": [
+    "purificateurs d'air Shark",
+    "ventilateurs et chaufferettes Lasko",
+    "véhicules pour enfants",
+    "matériel de camping Ozark Trail"
+   ],
+   "es": [
+    "purificadores Shark",
+    "ventiladores y calentadores Lasko",
+    "montables para niños",
+    "equipo de campamento Ozark Trail"
+   ]
+  },
+  "note": {
+   "en": "A good mix of seasonal and year-round sellers in one load.",
+   "fr": "Un bon mélange d'articles saisonniers et permanents en un seul chargement.",
+   "es": "Una buena mezcla de artículos de temporada y de todo el año en una carga."
+  }
+ },
+ {
+  "no": 1059,
+  "slug": "bissell-christmas-mixed-pallet",
+  "cat": "home",
+  "type": "pallet",
+  "source": "mixed",
+  "cond": "returns",
+  "units": 70,
+  "unit": "units",
+  "price": 800,
+  "retail": 3650,
+  "img": "/lots/bissell-christmas-mixed-pallet",
+  "own_photo": true,
+  "name": {
+   "en": "Bissell Vacuums & Holiday Mix",
+   "fr": "Aspirateurs Bissell et articles des fêtes",
+   "es": "Aspiradoras Bissell y artículos navideños"
+  },
+  "title": {
+   "en": "Bissell Vacuums & Holiday Mix Pallet — Mixed Retailers, Returns",
+   "fr": "Aspirateurs Bissell et articles des fêtes — palette, détaillants divers, retours",
+   "es": "Aspiradoras Bissell y artículos navideños — palé, varios minoristas, devoluciones"
+  },
+  "items": {
+   "en": [
+    "Bissell vacuums and carpet cleaners",
+    "Christmas lights",
+    "microwaves",
+    "home décor"
+   ],
+   "fr": [
+    "aspirateurs et nettoyeurs de tapis Bissell",
+    "lumières de Noël",
+    "micro-ondes",
+    "décoration"
+   ],
+   "es": [
+    "aspiradoras y limpiadoras de alfombras Bissell",
+    "luces navideñas",
+    "microondas",
+    "decoración"
+   ]
+  },
+  "note": {
+   "en": "A holiday-season pallet: list the lights and décor before mid-December.",
+   "fr": "Une palette des fêtes : vendez lumières et décorations avant la mi-décembre.",
+   "es": "Un palé de temporada: publica las luces y la decoración antes de mediados de diciembre."
+  }
+ },
+ {
+  "no": 1060,
+  "slug": "yankee-candle-case-pack",
+  "cat": "home",
+  "type": "casepack",
+  "source": "manufacturer",
+  "cond": "overstock",
+  "units": 144,
+  "unit": "units",
+  "price": 750,
+  "retail": 2100,
+  "img": "/lots/yankee-candle-case-pack",
+  "own_photo": false,
+  "name": {
+   "en": "Yankee Candle",
+   "fr": "Bougies Yankee Candle",
+   "es": "Velas Yankee Candle"
+  },
+  "title": {
+   "en": "Yankee Candle Case Pack — Brand Overstock",
+   "fr": "Bougies Yankee Candle — lot de caisses, surstock de marque",
+   "es": "Velas Yankee Candle — lote de cajas, excedente de marca"
+  },
+  "items": {
+   "en": [
+    "large jar candles",
+    "tumblers",
+    "votives",
+    "seasonal scents"
+   ],
+   "fr": [
+    "grandes bougies en pot",
+    "bougies tumbler",
+    "votives",
+    "parfums saisonniers"
+   ],
+   "es": [
+    "velas grandes en frasco",
+    "vasos",
+    "votivas",
+    "aromas de temporada"
+   ]
+  },
+  "note": {
+   "en": "One of the easiest gift items to sell at holiday markets.",
+   "fr": "L'un des cadeaux les plus faciles à vendre sur les marchés de Noël.",
+   "es": "Uno de los regalos más fáciles de vender en mercados navideños."
+  }
+ },
+ {
+  "no": 1061,
+  "slug": "bedding-home-textiles-pallet",
+  "cat": "home",
+  "type": "pallet",
+  "source": "target",
+  "cond": "returns",
+  "units": 110,
+  "unit": "units",
+  "price": 650,
+  "retail": 2950,
+  "img": "/lots/bedding-home-textiles-pallet",
+  "own_photo": false,
+  "name": {
+   "en": "Bedding & Home Textiles",
+   "fr": "Literie et textiles de maison",
+   "es": "Ropa de cama y textiles para el hogar"
+  },
+  "title": {
+   "en": "Bedding & Home Textiles Pallet — Target Returns",
+   "fr": "Literie et textiles de maison — palette, retours Target",
+   "es": "Ropa de cama y textiles para el hogar — palé, devoluciones de Target"
+  },
+  "items": {
+   "en": [
+    "comforters and duvet sets",
+    "sheet sets",
+    "pillows",
+    "throws and towels"
+   ],
+   "fr": [
+    "couettes et housses",
+    "draps",
+    "oreillers",
+    "jetés et serviettes"
+   ],
+   "es": [
+    "edredones y fundas",
+    "juegos de sábanas",
+    "almohadas",
+    "mantas y toallas"
+   ]
+  },
+  "note": {
+   "en": "Bagged and boxed returns: launder or re-bag the open items and sell as new-other.",
+   "fr": "Retours en sac et en boîte : lavez ou reconditionnez les articles ouverts.",
+   "es": "Devoluciones en bolsa y caja: lava o reempaca los artículos abiertos."
+  }
+ },
+ {
+  "no": 1062,
+  "slug": "rugs-pallet",
+  "cat": "home",
+  "type": "pallet",
+  "source": "mixed",
+  "cond": "overstock",
+  "units": 25,
+  "unit": "units",
+  "price": 2500,
+  "retail": 6900,
+  "img": "/lots/rugs-pallet",
+  "own_photo": false,
+  "name": {
+   "en": "Area Rugs",
+   "fr": "Tapis",
+   "es": "Tapetes"
+  },
+  "title": {
+   "en": "Area Rugs Pallet — Mixed Retailers, Overstock",
+   "fr": "Tapis — palette, détaillants divers, surstock",
+   "es": "Tapetes — palé, varios minoristas, excedente"
+  },
+  "items": {
+   "en": [
+    "5x7 and 8x10 area rugs",
+    "runners",
+    "outdoor rugs",
+    "rug pads"
+   ],
+   "fr": [
+    "tapis 5x7 et 8x10",
+    "tapis de couloir",
+    "tapis d'extérieur",
+    "sous-tapis"
+   ],
+   "es": [
+    "tapetes de 5x7 y 8x10",
+    "caminos",
+    "tapetes de exterior",
+    "bases antideslizantes"
+   ]
+  },
+  "note": {
+   "en": "Rolled and wrapped overstock, the cleanest rug condition you can buy in bulk.",
+   "fr": "Surstock roulé et emballé : le meilleur état possible pour des tapis en gros.",
+   "es": "Excedente enrollado y envuelto: la mejor condición para comprar tapetes al por mayor."
+  }
+ },
+ {
+  "no": 1063,
+  "slug": "christmas-trees-pallet",
+  "cat": "home",
+  "type": "pallet",
+  "source": "homedepot",
+  "cond": "mixed",
+  "units": 25,
+  "unit": "units",
+  "price": 700,
+  "retail": 2800,
+  "img": "/lots/christmas-trees-pallet",
+  "own_photo": false,
+  "name": {
+   "en": "Artificial Christmas Tree",
+   "fr": "Sapins de Noël artificiels",
+   "es": "Árboles de Navidad artificiales"
+  },
+  "title": {
+   "en": "Artificial Christmas Tree Pallet — Home Depot Mixed Condition",
+   "fr": "Sapins de Noël artificiels — palette, état mixte Home Depot",
+   "es": "Árboles de Navidad artificiales — palé, condición mixta de Home Depot"
+  },
+  "items": {
+   "en": [
+    "pre-lit trees",
+    "6.5 and 7.5 ft trees",
+    "slim and full trees",
+    "tree stands"
+   ],
+   "fr": [
+    "sapins pré-éclairés",
+    "sapins de 6,5 et 7,5 pi",
+    "sapins minces et pleins",
+    "pieds de sapin"
+   ],
+   "es": [
+    "árboles preiluminados",
+    "árboles de 6.5 y 7.5 pies",
+    "árboles delgados y frondosos",
+    "bases"
+   ]
+  },
+  "note": {
+   "en": "Ships from October; the earlier you list, the better the price.",
+   "fr": "Expédié dès octobre ; plus vous listez tôt, meilleur est le prix.",
+   "es": "Se envía desde octubre; cuanto antes publiques, mejor precio."
+  }
+ },
+ {
+  "no": 1064,
+  "slug": "household-essentials-pallet",
+  "cat": "grocery",
+  "type": "pallet",
+  "source": "dollargeneral",
+  "cond": "shelfpulls",
+  "units": 420,
+  "unit": "units",
+  "price": 650,
+  "retail": 2150,
+  "img": "/lots/household-essentials-pallet",
+  "own_photo": false,
+  "name": {
+   "en": "Household Essentials",
+   "fr": "Essentiels ménagers",
+   "es": "Básicos del hogar"
+  },
+  "title": {
+   "en": "Household Essentials Pallet — Dollar General Shelf Pulls",
+   "fr": "Essentiels ménagers — palette, retraits de rayon Dollar General",
+   "es": "Básicos del hogar — palé, retirados de estantería de Dollar General"
+  },
+  "items": {
+   "en": [
+    "cleaning supplies",
+    "paper goods",
+    "laundry products",
+    "kitchen basics"
+   ],
+   "fr": [
+    "produits de nettoyage",
+    "produits en papier",
+    "produits de lessive",
+    "essentiels de cuisine"
+   ],
+   "es": [
+    "productos de limpieza",
+    "productos de papel",
+    "productos de lavandería",
+    "básicos de cocina"
+   ]
+  },
+  "note": {
+   "en": "Everyday items that sell every week in discount and corner stores.",
+   "fr": "Des articles du quotidien qui se vendent chaque semaine en dépanneur.",
+   "es": "Artículos de uso diario que se venden cada semana en tiendas de descuento."
+  }
+ },
+ {
+  "no": 1065,
+  "slug": "snacks-candy-case-pack",
+  "cat": "grocery",
+  "type": "casepack",
+  "source": "manufacturer",
+  "cond": "overstock",
+  "units": 80,
+  "unit": "cases",
+  "price": 650,
+  "retail": 1800,
+  "img": "/lots/snacks-candy-case-pack",
+  "own_photo": false,
+  "name": {
+   "en": "Snacks & Candy",
+   "fr": "Collations et bonbons",
+   "es": "Botanas y dulces"
+  },
+  "title": {
+   "en": "Snacks & Candy Case Pack — Brand Overstock",
+   "fr": "Collations et bonbons — lot de caisses, surstock de marque",
+   "es": "Botanas y dulces — lote de cajas, excedente de marca"
+  },
+  "items": {
+   "en": [
+    "chips",
+    "candy bars",
+    "gummies",
+    "cookies"
+   ],
+   "fr": [
+    "croustilles",
+    "barres chocolatées",
+    "jujubes",
+    "biscuits"
+   ],
+   "es": [
+    "papas fritas",
+    "barras de chocolate",
+    "gomitas",
+    "galletas"
+   ]
+  },
+  "note": {
+   "en": "At least four months of shelf life on every case.",
+   "fr": "Au moins quatre mois de durée de conservation sur chaque caisse.",
+   "es": "Al menos cuatro meses de vida útil en cada caja."
+  }
+ },
+ {
+  "no": 1066,
+  "slug": "laundry-detergent-pallet",
+  "cat": "grocery",
+  "type": "pallet",
+  "source": "walmart",
+  "cond": "overstock",
+  "units": 140,
+  "unit": "units",
+  "price": 900,
+  "retail": 2500,
+  "img": "/lots/laundry-detergent-pallet",
+  "own_photo": false,
+  "name": {
+   "en": "Laundry Detergent",
+   "fr": "Détergent à lessive",
+   "es": "Detergente para ropa"
+  },
+  "title": {
+   "en": "Laundry Detergent Pallet — Walmart Overstock",
+   "fr": "Détergent à lessive — palette, surstock Walmart",
+   "es": "Detergente para ropa — palé, excedente de Walmart"
+  },
+  "items": {
+   "en": [
+    "liquid detergent",
+    "pods",
+    "fabric softener",
+    "stain removers"
+   ],
+   "fr": [
+    "détergent liquide",
+    "capsules",
+    "assouplissant",
+    "détachants"
+   ],
+   "es": [
+    "detergente líquido",
+    "cápsulas",
+    "suavizante",
+    "quitamanchas"
+   ]
+  },
+  "note": {
+   "en": "Heavy, fast-moving stock: ideal for discount grocers.",
+   "fr": "Stock lourd à forte rotation : idéal pour les épiceries à rabais.",
+   "es": "Stock pesado de alta rotación: ideal para tiendas de abarrotes de descuento."
+  }
+ },
+ {
+  "no": 1067,
+  "slug": "diapers-baby-care-pallet",
+  "cat": "grocery",
+  "type": "pallet",
+  "source": "target",
+  "cond": "overstock",
+  "units": 48,
+  "unit": "cases",
+  "price": 700,
+  "retail": 1950,
+  "img": "/lots/diapers-baby-care-pallet",
+  "own_photo": false,
+  "name": {
+   "en": "Diapers & Baby Care",
+   "fr": "Couches et soins bébé",
+   "es": "Pañales y cuidado del bebé"
+  },
+  "title": {
+   "en": "Diapers & Baby Care Pallet — Target Overstock",
+   "fr": "Couches et soins bébé — palette, surstock Target",
+   "es": "Pañales y cuidado del bebé — palé, excedente de Target"
+  },
+  "items": {
+   "en": [
+    "diapers sizes 1–6",
+    "training pants",
+    "baby wipes",
+    "baby lotion and wash"
+   ],
+   "fr": [
+    "couches tailles 1 à 6",
+    "culottes d'apprentissage",
+    "lingettes",
+    "lotions et nettoyants bébé"
+   ],
+   "es": [
+    "pañales de etapa 1 a 6",
+    "calzones entrenadores",
+    "toallitas",
+    "lociones y jabones para bebé"
+   ]
+  },
+  "note": {
+   "en": "Repeat-purchase stock that turns quickly in family neighbourhoods.",
+   "fr": "Un stock d'achat répété qui tourne vite dans les quartiers familiaux.",
+   "es": "Producto de compra repetida que rota rápido en zonas familiares."
+  }
+ },
+ {
+  "no": 1068,
+  "slug": "pet-food-supplies-pallet",
+  "cat": "grocery",
+  "type": "pallet",
+  "source": "walmart",
+  "cond": "shelfpulls",
+  "units": 45,
+  "unit": "units",
+  "price": 550,
+  "retail": 1850,
+  "img": "/lots/pet-food-supplies-pallet",
+  "own_photo": false,
+  "name": {
+   "en": "Pet Food & Supplies",
+   "fr": "Nourriture et accessoires pour animaux",
+   "es": "Alimento y accesorios para mascotas"
+  },
+  "title": {
+   "en": "Pet Food & Supplies Pallet — Walmart Shelf Pulls",
+   "fr": "Nourriture et accessoires pour animaux — palette, retraits de rayon Walmart",
+   "es": "Alimento y accesorios para mascotas — palé, retirados de estantería de Walmart"
+  },
+  "items": {
+   "en": [
+    "dry dog and cat food",
+    "treats",
+    "cat litter",
+    "toys and beds"
+   ],
+   "fr": [
+    "croquettes chien et chat",
+    "friandises",
+    "litière",
+    "jouets et lits"
+   ],
+   "es": [
+    "croquetas para perro y gato",
+    "premios",
+    "arena para gato",
+    "juguetes y camas"
+   ]
+  },
+  "note": {
+   "en": "Best-before dates are listed on the manifest; all bags have at least four months left.",
+   "fr": "Les dates figurent au manifeste ; tous les sacs ont au moins quatre mois.",
+   "es": "Las fechas aparecen en el manifiesto; todos los sacos tienen al menos cuatro meses."
+  }
+ },
+ {
+  "no": 1069,
+  "slug": "walmart-general-merchandise-pallet",
+  "cat": "general",
+  "type": "pallet",
+  "source": "walmart",
+  "cond": "returns",
+  "units": 85,
+  "unit": "units",
+  "price": 750,
+  "retail": 3400,
+  "img": "/lots/walmart-general-merchandise-pallet",
+  "own_photo": true,
+  "name": {
+   "en": "Walmart General Merchandise",
+   "fr": "Marchandise générale Walmart",
+   "es": "Mercancía general de Walmart"
+  },
+  "title": {
+   "en": "Walmart General Merchandise Pallet — Walmart Returns",
+   "fr": "Marchandise générale Walmart — palette, retours Walmart",
+   "es": "Mercancía general de Walmart — palé, devoluciones de Walmart"
+  },
+  "items": {
+   "en": [
+    "Mr. Coffee and Farberware",
+    "HART tools",
+    "Ozark Trail wagons",
+    "air fryers and microwaves"
+   ],
+   "fr": [
+    "Mr. Coffee et Farberware",
+    "outils HART",
+    "chariots Ozark Trail",
+    "friteuses à air et micro-ondes"
+   ],
+   "es": [
+    "Mr. Coffee y Farberware",
+    "herramientas HART",
+    "carritos Ozark Trail",
+    "freidoras de aire y microondas"
+   ]
+  },
+  "note": {
+   "en": "A true mixed-store pallet, ideal for testing a new bin store or booth.",
+   "fr": "Une vraie palette de magasin, parfaite pour lancer un magasin à bacs.",
+   "es": "Un palé de tienda variado, ideal para probar una nueva tienda de contenedores."
+  }
+ },
+ {
+  "no": 1070,
+  "slug": "mixed-general-merchandise-pallet",
+  "cat": "general",
+  "type": "pallet",
+  "source": "amazon",
+  "cond": "returns",
+  "units": 95,
+  "unit": "units",
+  "price": 650,
+  "retail": 2950,
+  "img": "/lots/mixed-general-merchandise-pallet",
+  "own_photo": true,
+  "name": {
+   "en": "Amazon Mixed Merchandise",
+   "fr": "Marchandise mixte Amazon",
+   "es": "Mercancía mixta de Amazon"
+  },
+  "title": {
+   "en": "Amazon Mixed Merchandise Pallet — Amazon Returns",
+   "fr": "Marchandise mixte Amazon — palette, retours Amazon",
+   "es": "Mercancía mixta de Amazon — palé, devoluciones de Amazon"
+  },
+  "items": {
+   "en": [
+    "Intex air mattresses",
+    "memory foam pillows",
+    "sports gear",
+    "home storage"
+   ],
+   "fr": [
+    "matelas gonflables Intex",
+    "oreillers à mémoire de forme",
+    "articles de sport",
+    "rangement"
+   ],
+   "es": [
+    "colchones inflables Intex",
+    "almohadas viscoelásticas",
+    "artículos deportivos",
+    "organizadores"
+   ]
+  },
+  "note": {
+   "en": "Broad mix of household categories; manifests available on request.",
+   "fr": "Large éventail de catégories ; manifeste disponible sur demande.",
+   "es": "Amplia variedad de categorías; manifiesto disponible a pedido."
+  }
+ },
+ {
+  "no": 1071,
+  "slug": "general-merchandise-truckload",
+  "cat": "general",
+  "type": "truckload",
+  "source": "walmart",
+  "cond": "returns",
+  "units": 26,
+  "unit": "pallets",
+  "price": 16500,
+  "retail": 75000,
+  "img": "/lots/general-merchandise-truckload",
+  "own_photo": true,
+  "name": {
+   "en": "Walmart Mixed Merchandise",
+   "fr": "Marchandise mixte Walmart",
+   "es": "Mercancía mixta de Walmart"
+  },
+  "title": {
+   "en": "Walmart Mixed Merchandise Truckload — Walmart Returns",
+   "fr": "Marchandise mixte Walmart — camion complet, retours Walmart",
+   "es": "Mercancía mixta de Walmart — camión completo, devoluciones de Walmart"
+  },
+  "items": {
+   "en": [
+    "26 pallets of mixed merchandise",
+    "home and kitchen",
+    "toys and seasonal",
+    "small appliances"
+   ],
+   "fr": [
+    "26 palettes de marchandise mixte",
+    "maison et cuisine",
+    "jouets et saisonnier",
+    "petit électroménager"
+   ],
+   "es": [
+    "26 palés de mercancía mixta",
+    "hogar y cocina",
+    "juguetes y temporada",
+    "pequeños electrodomésticos"
+   ]
+  },
+  "note": {
+   "en": "The lowest cost per unit we offer: built for bin stores and multi-booth sellers.",
+   "fr": "Notre coût par unité le plus bas : conçu pour les magasins à bacs et multi-kiosques.",
+   "es": "Nuestro menor costo por unidad: pensado para tiendas de contenedores y varios puestos."
+  }
+ },
+ {
+  "no": 1072,
+  "slug": "target-general-merchandise-truckload",
+  "cat": "general",
+  "type": "truckload",
+  "source": "target",
+  "cond": "mixed",
+  "units": 26,
+  "unit": "pallets",
+  "price": 15000,
+  "retail": 60000,
+  "img": "/lots/target-general-merchandise-truckload",
+  "own_photo": false,
+  "name": {
+   "en": "Target Mixed Merchandise",
+   "fr": "Marchandise mixte Target",
+   "es": "Mercancía mixta de Target"
+  },
+  "title": {
+   "en": "Target Mixed Merchandise Truckload — Target Mixed Condition",
+   "fr": "Marchandise mixte Target — camion complet, état mixte Target",
+   "es": "Mercancía mixta de Target — camión completo, condición mixta de Target"
+  },
+  "items": {
+   "en": [
+    "home décor and kitchen",
+    "toys and baby",
+    "seasonal",
+    "electronics accessories"
+   ],
+   "fr": [
+    "décoration et cuisine",
+    "jouets et bébé",
+    "saisonnier",
+    "accessoires électroniques"
+   ],
+   "es": [
+    "decoración y cocina",
+    "juguetes y bebé",
+    "temporada",
+    "accesorios electrónicos"
+   ]
+  },
+  "note": {
+   "en": "Target's own brands (Threshold, Cat & Jack, Hearth & Hand) are a large share of each load.",
+   "fr": "Les marques maison Target (Threshold, Cat & Jack, Hearth & Hand) forment une grande part du chargement.",
+   "es": "Las marcas propias de Target (Threshold, Cat & Jack, Hearth & Hand) son gran parte de la carga."
+  }
+ },
+ {
+  "no": 1073,
+  "slug": "qvc-home-beauty-pallet",
+  "cat": "general",
+  "type": "pallet",
+  "source": "qvc",
+  "cond": "returns",
+  "units": 130,
+  "unit": "units",
+  "price": 1000,
+  "retail": 4550,
+  "img": "/lots/qvc-home-beauty-pallet",
+  "own_photo": false,
+  "name": {
+   "en": "QVC Home & Beauty",
+   "fr": "Maison et beauté QVC",
+   "es": "Hogar y belleza QVC"
+  },
+  "title": {
+   "en": "QVC Home & Beauty Pallet — QVC Returns",
+   "fr": "Maison et beauté QVC — palette, retours QVC",
+   "es": "Hogar y belleza QVC — palé, devoluciones de QVC"
+  },
+  "items": {
+   "en": [
+    "kitchen gadgets",
+    "beauty sets",
+    "fashion accessories",
+    "home décor"
+   ],
+   "fr": [
+    "gadgets de cuisine",
+    "coffrets beauté",
+    "accessoires de mode",
+    "décoration"
+   ],
+   "es": [
+    "gadgets de cocina",
+    "sets de belleza",
+    "accesorios de moda",
+    "decoración"
+   ]
+  },
+  "note": {
+   "en": "TV-shopping brands with strong name recognition among older shoppers.",
+   "fr": "Des marques de téléachat très connues des acheteurs plus âgés.",
+   "es": "Marcas de televenta muy conocidas entre compradores mayores."
+  }
+ },
+ {
+  "no": 1074,
+  "slug": "dollar-general-mixed-pallet",
+  "cat": "general",
+  "type": "pallet",
+  "source": "dollargeneral",
+  "cond": "mixed",
+  "units": 380,
+  "unit": "units",
+  "price": 500,
+  "retail": 2000,
+  "img": "/lots/dollar-general-mixed-pallet",
+  "own_photo": false,
+  "name": {
+   "en": "Dollar General Mixed",
+   "fr": "Mixte Dollar General",
+   "es": "Mixto de Dollar General"
+  },
+  "title": {
+   "en": "Dollar General Mixed Pallet — Dollar General Mixed Condition",
+   "fr": "Mixte Dollar General — palette, état mixte Dollar General",
+   "es": "Mixto de Dollar General — palé, condición mixta de Dollar General"
+  },
+  "items": {
+   "en": [
+    "household goods",
+    "health and beauty",
+    "seasonal",
+    "snacks"
+   ],
+   "fr": [
+    "articles ménagers",
+    "santé et beauté",
+    "saisonnier",
+    "collations"
+   ],
+   "es": [
+    "artículos del hogar",
+    "salud y belleza",
+    "temporada",
+    "botanas"
+   ]
+  },
+  "note": {
+   "en": "The lowest-price pallet on the site: a safe first order.",
+   "fr": "La palette la moins chère du site : une première commande sans risque.",
+   "es": "El palé más económico del sitio: una primera compra segura."
+  }
+ },
+ {
+  "no": 1075,
+  "slug": "mystery-premium-gaylord",
+  "cat": "general",
+  "type": "gaylord",
+  "source": "mixed",
+  "cond": "mixed",
+  "units": 100,
+  "unit": "units",
+  "price": 450,
+  "retail": 1800,
+  "img": "/lots/mystery-premium-gaylord",
+  "own_photo": false,
+  "name": {
+   "en": "Premium Mystery",
+   "fr": "Mystère premium",
+   "es": "Misterio premium"
+  },
+  "title": {
+   "en": "Premium Mystery Gaylord — Mixed Retailers, Mixed Condition",
+   "fr": "Mystère premium — gaylord, détaillants divers, état mixte",
+   "es": "Misterio premium — gaylord, varios minoristas, condición mixta"
+  },
+  "items": {
+   "en": [
+    "electronics",
+    "home goods",
+    "toys",
+    "beauty"
+   ],
+   "fr": [
+    "électronique",
+    "articles de maison",
+    "jouets",
+    "beauté"
+   ],
+   "es": [
+    "electrónica",
+    "artículos del hogar",
+    "juguetes",
+    "belleza"
+   ]
+  },
+  "note": {
+   "en": "Unmanifested and priced for the surprise; great content for unboxing videos.",
+   "fr": "Sans manifeste, prix de surprise ; idéal pour les vidéos de déballage.",
+   "es": "Sin manifiesto, precio sorpresa; ideal para videos de unboxing."
+  }
+ }
+]
