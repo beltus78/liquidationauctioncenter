@@ -22,3 +22,8 @@ Guides already published (don't repeat these topics):
 - Search Console: domain property sc-domain:liquidationauctioncenter.com verified (DNS TXT google-site-verification in Cloudflare — don't remove it); /sitemap.xml submitted 2026-11-20 (first status "Couldn't fetch" is normal for a new property; the sitemap serves 200 to Googlebot). IndexNow pinged for the guides index + 4 new guides (HTTP 200).
 - 2026-11-20: real business address added (1601 Spring St, Greensboro, NC 27403) — footer, contact, privacy, emails, Organization JSON-LD (PostalAddress + telephone).
 - 2026-11-20: lot photo galleries — 244 extra photos (up to 4 per lot) drawn from the owner's other pallet sites, re-cropped and colour-adjusted so files differ; near-duplicates and wrong-product matches removed by hand. Product JSON-LD now lists all images.
+
+## 2026-11-21 — on-page audit
+- Titles: suffix dropped when the full title would pass 65 chars; titles still over 65 are cut at a word boundary.
+- Meta descriptions: under 110 chars are padded with the site tagline; over 160 clipped at a word boundary.
+- Search Console: property verified (Cloudflare DNS) and sitemap submitted.

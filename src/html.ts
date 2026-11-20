@@ -36,6 +36,7 @@ export function lotCard(t: T, l: Lot, eager = false) {
 <div class="card-f"><p class="card-p"><span>${esc(t.from)}</span> <b>${price(t, l.price)}</b></p><button class="add" type="button" data-add="${l.slug}" aria-label="${esc(t.addToList)}: ${esc(lotName(t, l))}">+ <span>${esc(t.addToList)}</span></button></div></div></article>`;
 }
 
+const fitTitle = (s: string) => (s.length <= 65 ? s : s.slice(0, 66).replace(/\s+\S*$/, "").replace(/[\s—–|,:-]+$/, ""));
 export function layout(pg: Page) {
   const { t } = pg;
   const L = t.lang;
@@ -43,7 +44,9 @@ export function layout(pg: Page) {
   const alts = pg.alts ?? LANGS;
   const alternates = alts.map((l) => `<link rel="alternate" hreflang="${l}" href="${SITE.url}${link(l, pg.path)}">`).join("") +
     `<link rel="alternate" hreflang="x-default" href="${SITE.url}${link("en", pg.path)}">`;
-  const title = pg.rawTitle || pg.title.includes(SITE.name) ? pg.title : `${pg.title} | ${SITE.name}`;
+  const title = fitTitle(pg.rawTitle || pg.title.includes(SITE.name) || pg.title.length + SITE.name.length + 3 > 65 ? pg.title : `${pg.title} | ${SITE.name}`);
+  // Meta description 110–160 chars: pad short ones with the site tagline, clip long ones at a word boundary.
+  { let d = pg.description; if (d.length < 110) d = `${d.replace(/\s*$/, "")}${/[.!?]$/.test(d) ? "" : "."} ${t.footerTag}`; if (d.length > 160) d = d.slice(0, 159).replace(/\s+\S*$/, "") + "…"; pg = { ...pg, description: d }; }
   const image = pg.image ?? `${SITE.url}/og-default.jpg`;
   const nav: [string, string][] = [["/lots", t.navLots], ["/truckloads", t.navTruckloads], ["/how-it-works", t.navHow], ["/shipping", t.navShipping], ["/faq", t.navFaq], ["/contact", t.navContact]];
   const other = t.cur === "USD" ? "CAD" : "USD";
