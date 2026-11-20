@@ -91,6 +91,7 @@ export const en = {
   clear: "Clear filters",
 
   // lot
+  photo: "Photo",
   lot: "Lot",
   from: "From",
   units: "Units",

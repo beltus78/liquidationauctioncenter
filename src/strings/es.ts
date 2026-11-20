@@ -87,6 +87,7 @@ export const es: Strings = {
   noResults: "Ningún lote coincide con estos filtros.",
   clear: "Quitar filtros",
 
+  photo: "Foto",
   lot: "Lote",
   from: "Desde",
   units: "Unidades",

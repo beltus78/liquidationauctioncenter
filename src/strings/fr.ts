@@ -87,6 +87,7 @@ export const fr: Strings = {
   noResults: "Aucun lot ne correspond à ces filtres.",
   clear: "Effacer les filtres",
 
+  photo: "Photo",
   lot: "Lot",
   from: "À partir de",
   units: "Unités",

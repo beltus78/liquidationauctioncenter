@@ -148,4 +148,12 @@
       .then(function (r) { if (!r.ok) throw new Error(r.error || T.error); cf.innerHTML = '<p class="form-msg ok">✓ ' + esc(T.contactOk) + "</p>"; })
       .catch(function (x) { msg.textContent = x.message && x.message !== "Server error" ? x.message : T.error; msg.className = "form-msg err"; btn.disabled = false; });
   });
+
+  // ---- lot photo gallery ----
+  var thumbs = $("[data-thumbs]"), mainImg = $("[data-main]");
+  if (thumbs && mainImg) thumbs.addEventListener("click", function (e) {
+    var b = e.target.closest("button[data-src]"); if (!b) return;
+    mainImg.src = b.getAttribute("data-src");
+    $$("button", thumbs).forEach(function (x) { x.removeAttribute("aria-current"); }); b.setAttribute("aria-current", "true");
+  });
 })();

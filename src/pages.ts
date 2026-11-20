@@ -154,11 +154,11 @@ export function lot(t: T, slug: string): Page | null {
   return {
     t, path: `/lot/${l.slug}`, title, rawTitle: title.length > 36, description: clip(desc), image: `${SITE.url}${l.img}-md.webp`,
     jsonLd: [org(), crumbs(t, [[t.navLots, "/lots"], [tk(t, `cat:${l.cat}`), `/lots/${l.cat}`], [`${t.lot} ${l.no}`, `/lot/${l.slug}`]]),
-      { "@context": "https://schema.org", "@type": "Product", name: title, sku: `LAC-${l.no}`, image: `${SITE.url}${l.img}-md.webp`, description: desc, category: tk(t, `cat:${l.cat}`),
+      { "@context": "https://schema.org", "@type": "Product", name: title, sku: `LAC-${l.no}`, image: [l.img, ...Array.from({ length: l.gallery }, (_, i) => `${l.img}-g${i + 1}`)].map((b) => `${SITE.url}${b}-md.webp`), description: desc, category: tk(t, `cat:${l.cat}`),
         offers: { "@type": "Offer", price: usdPrice, priceCurrency: "USD", availability: "https://schema.org/InStock", itemCondition: l.cond === "overstock" ? "https://schema.org/NewCondition" : "https://schema.org/UsedCondition", url: SITE.url + link(t.lang, `/lot/${l.slug}`), seller: { "@type": "Organization", name: SITE.name } } }],
     body: `<nav class="wrap crumbs" aria-label="Breadcrumb"><a href="${link(t.lang, "/lots")}">${esc(t.navLots)}</a> / <a href="${link(t.lang, `/lots/${l.cat}`)}">${esc(tk(t, `cat:${l.cat}`))}</a> / <span>${esc(t.lot)} ${l.no}</span></nav>
 <section class="wrap pdp">
-<div class="pdp-media"><figure class="pdp-img"><img src="${l.img}-md.webp" alt="${esc(title)}" width="960" height="720" fetchpriority="high"><span class="tag tag-lg">${esc(t.lot)} ${l.no}</span></figure></div>
+<div class="pdp-media"><figure class="pdp-img"><img src="${l.img}-md.webp" alt="${esc(title)}" width="960" height="720" fetchpriority="high" data-main><span class="tag tag-lg">${esc(t.lot)} ${l.no}</span></figure>${l.gallery ? `<div class="thumbs" data-thumbs>${[l.img, ...Array.from({ length: l.gallery }, (_, i) => `${l.img}-g${i + 1}`)].map((b, i) => `<button type="button" data-src="${b}-md.webp"${i ? "" : ' aria-current="true"'} aria-label="${esc(t.photo)} ${i + 1}"><img src="${b}-sm.webp" alt="" width="120" height="90" loading="lazy"></button>`).join("")}</div>` : ""}</div>
 <div class="pdp-info"><p class="kicker">${esc(tk(t, `src:${l.source}`))} · ${esc(tk(t, `type:${l.type}`))} · ${esc(tk(t, `cat:${l.cat}`))}</p>
 <h1 class="h-lg">${esc(title)}</h1>
 <div class="pdp-price"><p><span>${esc(t.from)}</span> <b>${price(t, l.price)}</b>${t.cur === "CAD" ? ` <small>(${esc(t.approx)} · ${money(l.price, { ...t, cur: "USD" })} USD)</small>` : ""}</p><p class="small muted">${esc(t.priceNote)}</p></div>

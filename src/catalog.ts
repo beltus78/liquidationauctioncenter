@@ -17,7 +17,7 @@ export const SITE = {
 export type Lang3 = { en: string; fr: string; es: string };
 export type Lot = {
   no: number; slug: string; cat: CatSlug; type: LotType; source: string; cond: Cond; units: number; unit: string;
-  price: number; retail: number; img: string; own_photo: boolean;
+  price: number; retail: number; img: string; own_photo: boolean; /** Extra photos: /lots/{slug}-g1..gN-{sm,md}.webp */ gallery: number;
   name: Lang3; title: Lang3; items: { en: string[]; fr: string[]; es: string[] }; note: Lang3;
 };
 

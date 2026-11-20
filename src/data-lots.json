@@ -12,6 +12,7 @@
   "retail": 6600,
   "img": "/lots/milwaukee-m18-fuel-kits-pallet",
   "own_photo": true,
+  "gallery": 4,
   "name": {
    "en": "Milwaukee M18 & M12 Fuel Kits",
    "fr": "Kits Milwaukee M18 et M12 Fuel",
@@ -61,6 +62,7 @@
   "retail": 6100,
   "img": "/lots/dewalt-20v-atomic-xr-pallet",
   "own_photo": true,
+  "gallery": 4,
   "name": {
    "en": "DeWalt 20V Atomic & XR Power Tools",
    "fr": "Outils électriques DeWalt 20V Atomic et XR",
@@ -110,6 +112,7 @@
   "retail": 5000,
   "img": "/lots/dewalt-mixed-tools-gaylord",
   "own_photo": true,
+  "gallery": 4,
   "name": {
    "en": "DeWalt Mixed Tools",
    "fr": "Outils DeWalt assortis",
@@ -159,6 +162,7 @@
   "retail": 4600,
   "img": "/lots/dewalt-tool-pallet-sealed-kits",
   "own_photo": true,
+  "gallery": 4,
   "name": {
    "en": "DeWalt Sealed Combo Kits",
    "fr": "Kits combinés DeWalt scellés",
@@ -208,6 +212,7 @@
   "retail": 145500,
   "img": "/lots/dewalt-milwaukee-tools-truckload",
   "own_photo": true,
+  "gallery": 4,
   "name": {
    "en": "DeWalt & Milwaukee Tool",
    "fr": "Outils DeWalt et Milwaukee",
@@ -257,6 +262,7 @@
   "retail": 1400,
   "img": "/lots/loose-dewalt-tools-case-pack",
   "own_photo": true,
+  "gallery": 4,
   "name": {
    "en": "Loose DeWalt Bare Tools",
    "fr": "Outils DeWalt nus en vrac",
@@ -306,6 +312,7 @@
   "retail": 6800,
   "img": "/lots/ridgid-ryobi-tools-pallet",
   "own_photo": false,
+  "gallery": 4,
   "name": {
    "en": "Ridgid & Ryobi Tools",
    "fr": "Outils Ridgid et Ryobi",
@@ -355,6 +362,7 @@
   "retail": 2800,
   "img": "/lots/makita-tools-pallet",
   "own_photo": false,
+  "gallery": 4,
   "name": {
    "en": "Makita LXT Tools",
    "fr": "Outils Makita LXT",
@@ -404,6 +412,7 @@
   "retail": 6800,
   "img": "/lots/toro-ryobi-outdoor-power-pallet",
   "own_photo": false,
+  "gallery": 4,
   "name": {
    "en": "Toro Mowers & Outdoor Power",
    "fr": "Tondeuses Toro et motorisé d'extérieur",
@@ -453,6 +462,7 @@
   "retail": 12700,
   "img": "/lots/pressure-washer-pallet",
   "own_photo": false,
+  "gallery": 4,
   "name": {
    "en": "Ryobi Pressure Washers",
    "fr": "Nettoyeurs haute pression Ryobi",
@@ -502,6 +512,7 @@
   "retail": 10000,
   "img": "/lots/ps5-console-pallet",
   "own_photo": true,
+  "gallery": 4,
   "name": {
    "en": "PlayStation 5 Console",
    "fr": "Consoles PlayStation 5",
@@ -551,6 +562,7 @@
   "retail": 10900,
   "img": "/lots/ps5-console-case-pack",
   "own_photo": true,
+  "gallery": 4,
   "name": {
    "en": "PS5 Console Returns",
    "fr": "Consoles PS5 retournées",
@@ -600,6 +612,7 @@
   "retail": 201500,
   "img": "/lots/ps5-slim-truckload",
   "own_photo": true,
+  "gallery": 2,
   "name": {
    "en": "PS5 Slim Console",
    "fr": "Consoles PS5 Slim",
@@ -649,6 +662,7 @@
   "retail": 8600,
   "img": "/lots/premium-electronics-gaylord",
   "own_photo": true,
+  "gallery": 4,
   "name": {
    "en": "Premium Electronics & Accessories",
    "fr": "Électronique et accessoires premium",
@@ -698,6 +712,7 @@
   "retail": 3400,
   "img": "/lots/amazon-small-electronics-pallet",
   "own_photo": true,
+  "gallery": 4,
   "name": {
    "en": "Amazon Small Electronics",
    "fr": "Petite électronique Amazon",
@@ -747,6 +762,7 @@
   "retail": 5700,
   "img": "/lots/smart-tv-pallet",
   "own_photo": false,
+  "gallery": 3,
   "name": {
    "en": "Smart TVs 43–65 in",
    "fr": "Téléviseurs intelligents 43–65 po",
@@ -796,6 +812,7 @@
   "retail": 6100,
   "img": "/lots/laptop-mixed-brands-pallet",
   "own_photo": false,
+  "gallery": 4,
   "name": {
    "en": "Mixed-Brand Laptops",
    "fr": "Ordinateurs portables multimarques",
@@ -845,6 +862,7 @@
   "retail": 2500,
   "img": "/lots/hp-laptops-case-pack",
   "own_photo": false,
+  "gallery": 3,
   "name": {
    "en": "HP Laptop Shelf Pulls",
    "fr": "Portables HP retirés de rayon",
@@ -894,6 +912,7 @@
   "retail": 5500,
   "img": "/lots/starlink-kits-pallet",
   "own_photo": false,
+  "gallery": 1,
   "name": {
    "en": "Starlink Standard Kits",
    "fr": "Kits Starlink Standard",
@@ -943,6 +962,7 @@
   "retail": 1150,
   "img": "/lots/jbl-speakers-case-pack",
   "own_photo": false,
+  "gallery": 4,
   "name": {
    "en": "JBL Portable Speakers",
    "fr": "Enceintes portables JBL",
@@ -992,6 +1012,7 @@
   "retail": 2000,
   "img": "/lots/video-games-gaylord",
   "own_photo": false,
+  "gallery": 4,
   "name": {
    "en": "Video Games & Gaming Accessories",
    "fr": "Jeux vidéo et accessoires",
@@ -1041,6 +1062,7 @@
   "retail": 6000,
   "img": "/lots/iphone-mixed-generations-case-pack",
   "own_photo": false,
+  "gallery": 4,
   "name": {
    "en": "iPhone Mixed Generations",
    "fr": "iPhone de générations mixtes",
@@ -1090,6 +1112,7 @@
   "retail": 7200,
   "img": "/lots/iphone-16-pro-max-case-pack",
   "own_photo": false,
+  "gallery": 4,
   "name": {
    "en": "iPhone 16 Pro Max",
    "fr": "iPhone 16 Pro Max",
@@ -1139,6 +1162,7 @@
   "retail": 3600,
   "img": "/lots/apple-watch-case-pack",
   "own_photo": false,
+  "gallery": 3,
   "name": {
    "en": "Apple Watch Returns",
    "fr": "Apple Watch retournées",
@@ -1188,6 +1212,7 @@
   "retail": 4600,
   "img": "/lots/airpods-pro-case-pack",
   "own_photo": false,
+  "gallery": 3,
   "name": {
    "en": "AirPods Pro Returns",
    "fr": "AirPods Pro retournés",
@@ -1237,6 +1262,7 @@
   "retail": 17600,
   "img": "/lots/ipad-macbook-mixed-pallet",
   "own_photo": false,
+  "gallery": 4,
   "name": {
    "en": "iPad & MacBook Air",
    "fr": "iPad et MacBook Air",
@@ -1286,6 +1312,7 @@
   "retail": 2100,
   "img": "/lots/phone-cases-accessories-gaylord",
   "own_photo": false,
+  "gallery": 2,
   "name": {
    "en": "Phone Cases & Accessories",
    "fr": "Étuis et accessoires de téléphone",
@@ -1335,6 +1362,7 @@
   "retail": 4300,
   "img": "/lots/instant-pot-vacuum-mix-pallet",
   "own_photo": true,
+  "gallery": 4,
   "name": {
    "en": "Instant Pot & Vacuum Mix",
    "fr": "Instant Pot et aspirateurs",
@@ -1384,6 +1412,7 @@
   "retail": 3850,
   "img": "/lots/kitchen-appliance-pallet",
   "own_photo": true,
+  "gallery": 4,
   "name": {
    "en": "Kitchen Appliance",
    "fr": "Électroménager de cuisine",
@@ -1433,6 +1462,7 @@
   "retail": 4100,
   "img": "/lots/kitchen-cookware-small-appliances-pallet",
   "own_photo": true,
+  "gallery": 4,
   "name": {
    "en": "Cookware & Small Appliances",
    "fr": "Batterie de cuisine et petit électroménager",
@@ -1482,6 +1512,7 @@
   "retail": 6400,
   "img": "/lots/major-appliance-mixed-pallet",
   "own_photo": true,
+  "gallery": 4,
   "name": {
    "en": "Compact Fridges, Ranges & Espresso",
    "fr": "Mini-frigos, cuisinières et espresso",
@@ -1531,6 +1562,7 @@
   "retail": 3200,
   "img": "/lots/kenmore-black-decker-gaylord",
   "own_photo": true,
+  "gallery": 4,
   "name": {
    "en": "Kenmore & Black+Decker Small Appliances",
    "fr": "Petit électroménager Kenmore et Black+Decker",
@@ -1580,6 +1612,7 @@
   "retail": 3650,
   "img": "/lots/hamilton-beach-microwave-pallet",
   "own_photo": false,
+  "gallery": 2,
   "name": {
    "en": "Hamilton Beach Countertop",
    "fr": "Électroménager de comptoir Hamilton Beach",
@@ -1629,6 +1662,7 @@
   "retail": 4100,
   "img": "/lots/air-conditioner-pallet",
   "own_photo": false,
+  "gallery": 4,
   "name": {
    "en": "Window & Portable Air Conditioners",
    "fr": "Climatiseurs de fenêtre et portables",
@@ -1678,6 +1712,7 @@
   "retail": 74000,
   "img": "/lots/scratch-dent-appliances-truckload",
   "own_photo": false,
+  "gallery": 4,
   "name": {
    "en": "Scratch & Dent Appliance",
    "fr": "Électroménager rayé et bosselé",
@@ -1727,6 +1762,7 @@
   "retail": 66000,
   "img": "/lots/toy-gaylord-container-load",
   "own_photo": true,
+  "gallery": 4,
   "name": {
    "en": "Toy Gaylord Container",
    "fr": "Conteneur de gaylords de jouets",
@@ -1776,6 +1812,7 @@
   "retail": 3850,
   "img": "/lots/toy-gaylord-lego-star-wars",
   "own_photo": true,
+  "gallery": 3,
   "name": {
    "en": "Branded Toys (LEGO, Pokémon, Monster High)",
    "fr": "Jouets de marque (LEGO, Pokémon, Monster High)",
@@ -1825,6 +1862,7 @@
   "retail": 3550,
   "img": "/lots/toy-gaylord-truck-mix",
   "own_photo": true,
+  "gallery": 2,
   "name": {
    "en": "Mixed Toys",
    "fr": "Jouets variés",
@@ -1874,6 +1912,7 @@
   "retail": 3200,
   "img": "/lots/toy-bins-watermelon-gaylords",
   "own_photo": true,
+  "gallery": 3,
   "name": {
    "en": "Amazon Toy Returns",
    "fr": "Retours de jouets Amazon",
@@ -1923,6 +1962,7 @@
   "retail": 5000,
   "img": "/lots/pokemon-tcg-sealed-case-pack",
   "own_photo": false,
+  "gallery": 3,
   "name": {
    "en": "Pokémon TCG Sealed Product",
    "fr": "Produits scellés Pokémon JCC",
@@ -1972,6 +2012,7 @@
   "retail": 1800,
   "img": "/lots/funko-hot-wheels-collectibles-case-pack",
   "own_photo": false,
+  "gallery": 4,
   "name": {
    "en": "Funko Pop & Hot Wheels Collectibles",
    "fr": "Objets de collection Funko Pop et Hot Wheels",
@@ -2021,6 +2062,7 @@
   "retail": 3000,
   "img": "/lots/lego-sets-pallet",
   "own_photo": false,
+  "gallery": 2,
   "name": {
    "en": "LEGO Sets",
    "fr": "Ensembles LEGO",
@@ -2070,6 +2112,7 @@
   "retail": 5000,
   "img": "/lots/shoebox-mixed-footwear-pallet",
   "own_photo": true,
+  "gallery": 4,
   "name": {
    "en": "Boxed Brand-Name Footwear",
    "fr": "Chaussures de marque en boîte",
@@ -2119,6 +2162,7 @@
   "retail": 3800,
   "img": "/lots/nike-jordan-sneakers-case-pack",
   "own_photo": false,
+  "gallery": 3,
   "name": {
    "en": "Nike & Jordan Sneakers",
    "fr": "Baskets Nike et Jordan",
@@ -2168,6 +2212,7 @@
   "retail": 6800,
   "img": "/lots/athletic-shoes-pallet",
   "own_photo": false,
+  "gallery": 3,
   "name": {
    "en": "Athletic Shoes (Nike, Adidas, Puma)",
    "fr": "Chaussures de sport (Nike, Adidas, Puma)",
@@ -2217,6 +2262,7 @@
   "retail": 4100,
   "img": "/lots/amazon-apparel-gaylord",
   "own_photo": false,
+  "gallery": 3,
   "name": {
    "en": "Amazon Apparel",
    "fr": "Vêtements Amazon",
@@ -2266,6 +2312,7 @@
   "retail": 3850,
   "img": "/lots/kohls-apparel-pallet",
   "own_photo": false,
+  "gallery": 4,
   "name": {
    "en": "Kohl's Department Store Apparel",
    "fr": "Vêtements de grand magasin Kohl's",
@@ -2315,6 +2362,7 @@
   "retail": 4150,
   "img": "/lots/costco-apparel-pallet",
   "own_photo": false,
+  "gallery": 3,
   "name": {
    "en": "Costco Apparel",
    "fr": "Vêtements Costco",
@@ -2364,6 +2412,7 @@
   "retail": 3600,
   "img": "/lots/winter-outerwear-pallet",
   "own_photo": false,
+  "gallery": 3,
   "name": {
    "en": "Winter Jackets & Outerwear",
    "fr": "Manteaux et vêtements d'hiver",
@@ -2413,6 +2462,7 @@
   "retail": 3400,
   "img": "/lots/carhartt-workwear-pallet",
   "own_photo": false,
+  "gallery": 3,
   "name": {
    "en": "Carhartt Workwear",
    "fr": "Vêtements de travail Carhartt",
@@ -2462,6 +2512,7 @@
   "retail": 56000,
   "img": "/lots/clothing-bales-truckload",
   "own_photo": false,
+  "gallery": 0,
   "name": {
    "en": "Clothing Bale",
    "fr": "Balles de vêtements",
@@ -2511,6 +2562,7 @@
   "retail": 15000,
   "img": "/lots/cvs-health-beauty-pallet",
   "own_photo": false,
+  "gallery": 4,
   "name": {
    "en": "CVS Health & Beauty",
    "fr": "Santé et beauté CVS",
@@ -2560,6 +2612,7 @@
   "retail": 3600,
   "img": "/lots/fragrance-case-pack",
   "own_photo": false,
+  "gallery": 0,
   "name": {
    "en": "Designer Fragrance",
    "fr": "Parfums de créateurs",
@@ -2609,6 +2662,7 @@
   "retail": 4150,
   "img": "/lots/makeup-cosmetics-gaylord",
   "own_photo": false,
+  "gallery": 4,
   "name": {
    "en": "Makeup & Cosmetics",
    "fr": "Maquillage et cosmétiques",
@@ -2658,6 +2712,7 @@
   "retail": 3900,
   "img": "/lots/victoria-secret-mists-case-pack",
   "own_photo": false,
+  "gallery": 3,
   "name": {
    "en": "Victoria's Secret Body Mists",
    "fr": "Brumes corporelles Victoria's Secret",
@@ -2707,6 +2762,7 @@
   "retail": 3900,
   "img": "/lots/hair-wigs-case-pack",
   "own_photo": false,
+  "gallery": 0,
   "name": {
    "en": "Wigs & Hair Extensions",
    "fr": "Perruques et extensions",
@@ -2756,6 +2812,7 @@
   "retail": 4750,
   "img": "/lots/seasonal-outdoor-ride-on-pallet",
   "own_photo": true,
+  "gallery": 0,
   "name": {
    "en": "Seasonal Outdoor & Ride-Ons",
    "fr": "Saisonnier d'extérieur et véhicules pour enfants",
@@ -2805,6 +2862,7 @@
   "retail": 4300,
   "img": "/lots/lasko-shark-home-pallet",
   "own_photo": true,
+  "gallery": 4,
   "name": {
    "en": "Shark, Lasko & Outdoor Home",
    "fr": "Maison et extérieur Shark et Lasko",
@@ -2854,6 +2912,7 @@
   "retail": 3650,
   "img": "/lots/bissell-christmas-mixed-pallet",
   "own_photo": true,
+  "gallery": 4,
   "name": {
    "en": "Bissell Vacuums & Holiday Mix",
    "fr": "Aspirateurs Bissell et articles des fêtes",
@@ -2903,6 +2962,7 @@
   "retail": 2100,
   "img": "/lots/yankee-candle-case-pack",
   "own_photo": false,
+  "gallery": 2,
   "name": {
    "en": "Yankee Candle",
    "fr": "Bougies Yankee Candle",
@@ -2952,6 +3012,7 @@
   "retail": 2950,
   "img": "/lots/bedding-home-textiles-pallet",
   "own_photo": false,
+  "gallery": 4,
   "name": {
    "en": "Bedding & Home Textiles",
    "fr": "Literie et textiles de maison",
@@ -3001,6 +3062,7 @@
   "retail": 6900,
   "img": "/lots/rugs-pallet",
   "own_photo": false,
+  "gallery": 3,
   "name": {
    "en": "Area Rugs",
    "fr": "Tapis",
@@ -3050,6 +3112,7 @@
   "retail": 2800,
   "img": "/lots/christmas-trees-pallet",
   "own_photo": false,
+  "gallery": 3,
   "name": {
    "en": "Artificial Christmas Tree",
    "fr": "Sapins de Noël artificiels",
@@ -3099,6 +3162,7 @@
   "retail": 2150,
   "img": "/lots/household-essentials-pallet",
   "own_photo": false,
+  "gallery": 4,
   "name": {
    "en": "Household Essentials",
    "fr": "Essentiels ménagers",
@@ -3148,6 +3212,7 @@
   "retail": 1800,
   "img": "/lots/snacks-candy-case-pack",
   "own_photo": false,
+  "gallery": 0,
   "name": {
    "en": "Snacks & Candy",
    "fr": "Collations et bonbons",
@@ -3197,6 +3262,7 @@
   "retail": 2500,
   "img": "/lots/laundry-detergent-pallet",
   "own_photo": false,
+  "gallery": 3,
   "name": {
    "en": "Laundry Detergent",
    "fr": "Détergent à lessive",
@@ -3246,6 +3312,7 @@
   "retail": 1950,
   "img": "/lots/diapers-baby-care-pallet",
   "own_photo": false,
+  "gallery": 3,
   "name": {
    "en": "Diapers & Baby Care",
    "fr": "Couches et soins bébé",
@@ -3295,6 +3362,7 @@
   "retail": 1850,
   "img": "/lots/pet-food-supplies-pallet",
   "own_photo": false,
+  "gallery": 1,
   "name": {
    "en": "Pet Food & Supplies",
    "fr": "Nourriture et accessoires pour animaux",
@@ -3344,6 +3412,7 @@
   "retail": 3400,
   "img": "/lots/walmart-general-merchandise-pallet",
   "own_photo": true,
+  "gallery": 4,
   "name": {
    "en": "Walmart General Merchandise",
    "fr": "Marchandise générale Walmart",
@@ -3393,6 +3462,7 @@
   "retail": 2950,
   "img": "/lots/mixed-general-merchandise-pallet",
   "own_photo": true,
+  "gallery": 4,
   "name": {
    "en": "Amazon Mixed Merchandise",
    "fr": "Marchandise mixte Amazon",
@@ -3442,6 +3512,7 @@
   "retail": 75000,
   "img": "/lots/general-merchandise-truckload",
   "own_photo": true,
+  "gallery": 4,
   "name": {
    "en": "Walmart Mixed Merchandise",
    "fr": "Marchandise mixte Walmart",
@@ -3491,6 +3562,7 @@
   "retail": 60000,
   "img": "/lots/target-general-merchandise-truckload",
   "own_photo": false,
+  "gallery": 4,
   "name": {
    "en": "Target Mixed Merchandise",
    "fr": "Marchandise mixte Target",
@@ -3540,6 +3612,7 @@
   "retail": 4550,
   "img": "/lots/qvc-home-beauty-pallet",
   "own_photo": false,
+  "gallery": 4,
   "name": {
    "en": "QVC Home & Beauty",
    "fr": "Maison et beauté QVC",
@@ -3589,6 +3662,7 @@
   "retail": 2000,
   "img": "/lots/dollar-general-mixed-pallet",
   "own_photo": false,
+  "gallery": 4,
   "name": {
    "en": "Dollar General Mixed",
    "fr": "Mixte Dollar General",
@@ -3638,6 +3712,7 @@
   "retail": 1800,
   "img": "/lots/mystery-premium-gaylord",
   "own_photo": false,
+  "gallery": 4,
   "name": {
    "en": "Premium Mystery",
    "fr": "Mystère premium",

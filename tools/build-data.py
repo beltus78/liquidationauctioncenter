@@ -37,6 +37,7 @@ for no, r in enumerate(L, start=1001):
     ]
     out.append({"no": no, "slug": slug, "cat": cat, "type": typ, "source": src, "cond": cond, "units": units, "unit": ukey,
                 "price": price, "retail": retail, "img": f"/lots/{slug}", "own_photo": image.startswith("p:"),
+                "gallery": sum(os.path.exists(os.path.join(HERE, "..", "public", "lots", f"{slug}-g{i}-md.webp")) for i in range(1, 9)),
                 "name": {"en": names[0], "fr": names[1], "es": names[2]},
                 "title": {"en": titles[0], "fr": titles[1], "es": titles[2]},
                 "items": {"en": items[0], "fr": items[1], "es": items[2]},
