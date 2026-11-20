@@ -1,13 +1,14 @@
 import LOTS_JSON from "./data-lots.json";
 
-// ⚠️ Placeholders — replace before launch (also used in emails and legal pages).
+// Company details (also used in emails, legal pages and JSON-LD). stateOfReg is still unconfirmed and not shown anywhere.
 export const SITE = {
   name: "Liquidation Auction Center",
   domain: "liquidationauctioncenter.com",
   url: "https://liquidationauctioncenter.com",
   company: "Liquidation Auction Center",
-  address1: "[Street address]",
-  address2: "[City, State ZIP]",
+  address1: "1601 Spring St",
+  address2: "Greensboro, NC 27403, United States",
+  street: "1601 Spring St", city: "Greensboro", region: "NC", postal: "27403", country: "US",
   stateOfReg: "[State of registration]",
   email: "sales@liquidationauctioncenter.com",
   phone: "+1 (450) 485-9006",

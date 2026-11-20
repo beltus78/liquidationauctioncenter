@@ -4,7 +4,7 @@ import { esc, link, shown, lotCard, lotName, lotTitle, price, unitWord, cpu, cou
 import { fill, money, num, tk, type T } from "./i18n";
 import { GUIDE_BY, guidesNewestFirst, renderMd } from "./guides";
 
-const org = () => ({ "@context": "https://schema.org", "@type": "Organization", name: SITE.name, url: SITE.url, email: SITE.email, logo: `${SITE.url}/favicon.svg`, areaServed: ["US", "CA"] });
+const org = () => ({ "@context": "https://schema.org", "@type": "Organization", name: SITE.name, url: SITE.url, email: SITE.email, telephone: SITE.phone, logo: `${SITE.url}/favicon.svg`, areaServed: ["US", "CA"], address: { "@type": "PostalAddress", streetAddress: SITE.street, addressLocality: SITE.city, addressRegion: SITE.region, postalCode: SITE.postal, addressCountry: SITE.country } });
 /** Meta description: cut at a word boundary, max 160 chars. */
 const clip = (s: string, n = 160) => (s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, "") + "…");
 const crumbs = (t: T, items: [string, string][]) => ({ "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: items.map(([n, p], i) => ({ "@type": "ListItem", position: i + 1, name: n, item: SITE.url + link(t.lang, p) })) });
