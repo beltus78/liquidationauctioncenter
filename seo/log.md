@@ -14,3 +14,8 @@ Guides already published (don't repeat these topics):
 - Optional env vars for verification meta tags: GOOGLE_SITE_VERIFICATION, BING_SITE_VERIFICATION.
 - IndexNow key file: /56798b12585e43048e92d02c341c7e41.txt (used to ping Bing/Yandex with new URLs).
 - Open (needs Beltus): real address and state of registration; Terms/Privacy still show placeholders.
+
+## 2026-11-20 — Four more buyer guides (catch-up with the older sites)
+- Added 4 guides (now 6, same level as Best Liquidation Center): liquidation-lot-profit-cost-per-unit-retail-value (landed cost per unit, est. retail, unsellable allowance); liquidation-auction-vs-fixed-price-lots (auctions vs fixed price — honest about "Auction" being the brand name only); home-depot-tool-return-pallets-what-to-expect (sorting, battery/tool testing, grading, pricing); receiving-liquidation-freight-dock-liftgate-damage-claims (delivery types, inspection, noting damage on the receipt).
+- Topics chosen not to overlap Best Liquidation Center's guides (how to buy, returns vs overstock vs shelf pulls, electronics, tools bulk, clothing, toys, shoes). All internal links checked (200), all in sitemap-en.xml, descriptions 140–160 chars, seoTitles ≤ 65.
+- Next candidates: Apple/phone case packs (IMEI, activation lock), appliance pallets (freight + testing), bin store stocking, Quebec/French-language buying notes.
