@@ -87,6 +87,7 @@ export const es: Strings = {
   noResults: "Ningún lote coincide con estos filtros.",
   clear: "Quitar filtros",
 
+  weAccept: "Aceptamos",
   photo: "Foto",
   lot: "Lote",
   from: "Desde",
@@ -225,6 +226,7 @@ export const es: Strings = {
   thanks3: "Paga en la fecha elegida; reservamos el flete en cuanto se acredite.",
 
   "pay:wire": "Transferencia bancaria / ACH",
+  "pay:paypal": "PayPal (o tarjeta de débito/crédito vía PayPal)",
   "pay:zelle": "Zelle",
   "pay:cashapp": "Cash App",
   "pay:applepay": "Apple Pay",

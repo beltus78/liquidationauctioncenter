@@ -87,6 +87,7 @@ export const fr: Strings = {
   noResults: "Aucun lot ne correspond à ces filtres.",
   clear: "Effacer les filtres",
 
+  weAccept: "Paiements acceptés",
   photo: "Photo",
   lot: "Lot",
   from: "À partir de",
@@ -225,6 +226,7 @@ export const fr: Strings = {
   thanks3: "Payez à la date choisie ; nous réservons le transport dès réception.",
 
   "pay:wire": "Virement bancaire / ACH",
+  "pay:paypal": "PayPal (ou carte de débit/crédit via PayPal)",
   "pay:zelle": "Zelle",
   "pay:cashapp": "Cash App",
   "pay:applepay": "Apple Pay",

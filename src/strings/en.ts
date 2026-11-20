@@ -91,6 +91,7 @@ export const en = {
   clear: "Clear filters",
 
   // lot
+  weAccept: "We accept",
   photo: "Photo",
   lot: "Lot",
   from: "From",
@@ -236,6 +237,7 @@ export const en = {
 
   // payment method names
   "pay:wire": "Bank wire / ACH",
+  "pay:paypal": "PayPal (or debit/credit card via PayPal)",
   "pay:zelle": "Zelle",
   "pay:cashapp": "Cash App",
   "pay:applepay": "Apple Pay",

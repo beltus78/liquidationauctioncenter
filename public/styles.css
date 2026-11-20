@@ -240,3 +240,4 @@ fieldset{border:0;padding:0;margin:0}legend{font:600 1.15rem var(--serif);margin
 .thumbs button:hover{opacity:1}.thumbs button[aria-current]{border-color:var(--brass);opacity:1}
 .thumbs img{width:100%;aspect-ratio:4/3;object-fit:cover}
 @media (min-width:901px){.pdp-media{position:sticky;top:96px}.pdp-img{position:relative;top:auto}}
+.ft-pay{margin-top:32px;color:#B9C4BC}

@@ -1,4 +1,4 @@
-import { CATS, LOTS, SITE, TYPES, toCur, type Lot } from "./catalog";
+import { CATS, LOTS, PAY_CA, PAY_US, SITE, TYPES, toCur, type Lot } from "./catalog";
 import { LANGS, LANG_NAMES, fill, money, num, tk, type Lang, type T } from "./i18n";
 
 export const esc = (v: unknown) =>
@@ -81,6 +81,7 @@ ${(pg.jsonLd ?? []).map((j) => `<script type="application/ld+json">${JSON.string
 <div><h4>${esc(t.help_)}</h4><a href="${link(L, "/how-it-works")}">${esc(t.navHow)}</a><a href="${link(L, "/shipping")}">${esc(t.navShipping)}</a><a href="${link(L, "/returns")}">${esc(t.returnsTitle)}</a><a href="${link(L, "/faq")}">${esc(t.navFaq)}</a><a href="${link(L, "/about")}">${esc(t.aboutTitle)}</a><a href="/en/guides">${esc(t.guidesLink)}</a><a href="${link(L, "/contact")}">${esc(t.navContact)}</a></div>
 <div><h4>${esc(t.legal)}</h4><a href="${link(L, "/terms")}">${esc(t.termsTitle)}</a><a href="${link(L, "/privacy")}">${esc(t.privacyTitle)}</a></div>
 </div>
+<p class="small ft-pay">${esc(t.weAccept)}: ${[...new Set([...PAY_US, ...PAY_CA])].map((m) => esc(tk(t, `pay:${m}`))).join(" · ")}</p>
 <p class="small ft-tm">${esc(t.tmNote)}</p>
 <p class="small ft-copy">© ${new Date().getUTCFullYear()} ${SITE.company}. ${esc(t.rights)}</p></div></footer>
 ${SITE.phone ? `<a class="wa" href="https://wa.me/${tel.replace("+", "")}" aria-label="${esc(t.whatsapp)}"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.8 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.1.1-1.8-.1-2.9-1-4.9-3.9-5-4.1-.2-.2-1.2-1.6-1.2-3s.8-2.2 1-2.5c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2c.1.2.1.4 0 .6l-.4.6-.4.5c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.7-.1l1.9.9c.3.1.5.2.6.3.1.2.1.7-.1 1.3Z"/></svg></a>` : ""}

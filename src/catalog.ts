@@ -41,8 +41,8 @@ export const toCur = (usd: number, cur: Cur) => (cur === "CAD" ? Math.round(usd 
 // ---------- order rules (shared with the browser script) ----------
 export const MAX_PAY_DAYS = 3;
 export const WIRE_ONLY_OVER_USD = 10000;
-export const PAY_US = ["wire", "zelle", "cashapp", "applepay", "chime"] as const;
-export const PAY_CA = ["interac", "wire"] as const;
+export const PAY_US = ["paypal", "wire", "zelle", "cashapp", "applepay", "chime"] as const;
+export const PAY_CA = ["paypal", "interac", "wire"] as const;
 export type PayMethod = (typeof PAY_US)[number] | (typeof PAY_CA)[number];
 export function allowedPay(country: "US" | "CA", subtotalUsd: number): PayMethod[] {
   if (subtotalUsd > WIRE_ONLY_OVER_USD) return ["wire"];

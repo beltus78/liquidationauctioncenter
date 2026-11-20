@@ -4,7 +4,7 @@
 - Catalog data is generated: edit `tools/lots.py`, run `python3 tools/build-data.py` → `src/data-lots.json`. Lot images: `public/lots/{slug}-sm.webp|-md.webp`.
 - Lot names and descriptions must stay different from the owner's other pallet sites (Best Liquidation Center, Liquidation Pallets Wholesales, Wholesale Pallets Liquidators).
 - Scroll animations: `public/motion.js` + the motion block at the end of `public/styles.css` (data-story / data-chap / data-fly / data-split / data-stagger / data-reveal / data-count).
-- Payment rules exist in three places — keep them in sync: `src/catalog.ts` (allowedPay), `public/app.js`, `migrations` CHECK.
+- Payment rules exist in three places — keep them in sync: `src/catalog.ts` (allowedPay), `public/app.js`, `migrations` CHECK. PayPal = PayPal invoice sent by the owner after the delivered total is confirmed (buyers can pay by card through it); it is the card option Google Merchant Center needs.
 - Never put payment account details in page HTML; they belong in `src/payments.ts` (emails only).
 - Run `npm run check` before committing. Bump `?v=` on styles.css/app.js in `src/html.ts` after changing them.
 
