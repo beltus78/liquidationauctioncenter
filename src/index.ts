@@ -1,6 +1,7 @@
 import { BY_SLUG, CATS, CA_PROV, LOTS, MAX_PAY_DAYS, SITE, US_STATES, allowedPay, toCur, type Cur, type PayMethod } from "./catalog";
 import { LANGS, detectLang, isLang, money, strings, tk, type Lang, type T } from "./i18n";
-import { esc, layout, link } from "./html";
+import { esc, layout, link, setVerify } from "./html";
+import { GUIDES } from "./guides";
 import { PAY_DETAILS } from "./payments";
 import * as P from "./pages";
 
@@ -9,6 +10,8 @@ export interface Env {
   DB: D1Database;
   RESEND_API_KEY?: string;
   SALES_EMAIL: string;
+  GOOGLE_SITE_VERIFICATION?: string;
+  BING_SITE_VERIFICATION?: string;
   EMAIL_FROM: string;
 }
 type CF = { country?: string; regionCode?: string };
@@ -33,6 +36,7 @@ export default {
     const url = new URL(req.url);
     if (url.hostname.startsWith("www.")) { url.hostname = url.hostname.slice(4); return Response.redirect(url.toString(), 301); }
     const path = url.pathname;
+    setVerify({ google: env.GOOGLE_SITE_VERIFICATION, bing: env.BING_SITE_VERIFICATION });
 
     if (path === "/api/order" && req.method === "POST") return order(req, env);
     if (path === "/api/contact" && req.method === "POST") return contactMsg(req, env);
@@ -58,6 +62,8 @@ export default {
     }
 
     const lang = first;
+    // Guides exist in English only.
+    if (lang !== "en" && rest[0] === "guides") return Response.redirect(new URL(`/en/${rest.join("/")}`, url).toString(), 301);
     const cc = cookieOf(req, "cur");
     const cur: Cur = cc === "USD" || cc === "CAD" ? cc : cf.country === "CA" ? "CAD" : "USD";
     const t = strings(lang, cur);
@@ -87,11 +93,13 @@ function route(t: T, sub: string, url: URL) {
     case "/privacy": return P.privacy(t);
     case "/usa": return P.region(t, "usa");
     case "/canada": return P.region(t, "canada");
+    case "/guides": return t.lang === "en" ? P.guides(t) : null;
     case "/thanks": return P.thanks(t, (url.searchParams.get("n") ?? "").replace(/[^A-Z0-9-]/g, "").slice(0, 30), url.searchParams.get("m") === "quote" ? "quote" : "order");
   }
   let m;
   if ((m = s.match(/^\/lots\/([a-z]+)$/))) return P.category(t, m[1]!, url);
   if ((m = s.match(/^\/lot\/([a-z0-9-]+)$/))) return P.lot(t, m[1]!);
+  if ((m = s.match(/^\/guides\/([a-z0-9-]+)$/)) && t.lang === "en") return P.guide(t, m[1]!);
   return null;
 }
 
@@ -100,7 +108,11 @@ const PATHS = () => ["/", "/lots", "/truckloads", "/how-it-works", "/shipping", 
   ...CATS.map((c) => `/lots/${c}`), ...LOTS.map((l) => `/lot/${l.slug}`)];
 const xml = (body: string) => new Response(`<?xml version="1.0" encoding="UTF-8"?>${body}`, { headers: { "content-type": "application/xml", "cache-control": "public, max-age=3600" } });
 const sitemapIndex = () => xml(`<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${LANGS.map((l) => `<sitemap><loc>${SITE.url}/sitemap-${l}.xml</loc></sitemap>`).join("")}</sitemapindex>`);
-const sitemap = (lang: Lang) => xml(`<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${PATHS().map((p) => `<url><loc>${SITE.url}${link(lang, p)}</loc>${LANGS.map((l) => `<xhtml:link rel="alternate" hreflang="${l}" href="${SITE.url}${link(l, p)}"/>`).join("")}<xhtml:link rel="alternate" hreflang="x-default" href="${SITE.url}${link("en", p)}"/></url>`).join("")}</urlset>`);
+const sitemap = (lang: Lang) => xml(`<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${PATHS().map((p) => `<url><loc>${SITE.url}${link(lang, p)}</loc>${LANGS.map((l) => `<xhtml:link rel="alternate" hreflang="${l}" href="${SITE.url}${link(l, p)}"/>`).join("")}<xhtml:link rel="alternate" hreflang="x-default" href="${SITE.url}${link("en", p)}"/></url>`).join("")}${lang === "en" ? guideUrls() : ""}</urlset>`);
+
+// Guides are English only: no alternates, lastmod = published/updated date.
+const guideUrls = () => [`<url><loc>${SITE.url}/en/guides</loc><lastmod>${GUIDES.map((g) => g.updated ?? g.published).sort().at(-1)}</lastmod></url>`,
+  ...GUIDES.map((g) => `<url><loc>${SITE.url}/en/guides/${g.slug}</loc><lastmod>${g.updated ?? g.published}</lastmod></url>`)].join("");
 
 // ---------- forms ----------
 class UserError extends Error {}

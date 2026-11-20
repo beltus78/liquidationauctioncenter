@@ -255,6 +255,7 @@ export const es: Strings = {
   usPage: "Palés de liquidación en EE. UU.",
   caPage: "Palés de liquidación en Canadá",
   approx: "aprox.",
-  metaHome: "Liquidation Auction Center — Palés, gaylords y camiones de liquidación al mayoreo | EE. UU. y Canadá",
-  metaHomeD: "Lotes de liquidación a precio fijo para revendedores: palés de herramientas, electrónica, juguetes y mercancía general, gaylords y camiones completos. Flete a EE. UU. y Canadá.",
+  guidesLink: "Guías de compra (inglés)",
+  metaHome: "Palés y camiones de liquidación | Liquidation Auction Center",
+  metaHomeD: "Palés, gaylords y camiones de liquidación a precio fijo: herramientas, electrónica, juguetes y mercancía general para revendedores. Envío a EE. UU. y Canadá.",
 };

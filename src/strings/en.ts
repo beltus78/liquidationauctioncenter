@@ -267,7 +267,8 @@ export const en = {
   usPage: "Liquidation pallets in the USA",
   caPage: "Liquidation pallets in Canada",
   approx: "approx.",
-  metaHome: "Liquidation Auction Center — Wholesale Liquidation Pallets, Gaylords & Truckloads | USA & Canada",
-  metaHomeD: "Fixed-price liquidation lots for resellers: tool, electronics, toy and general-merchandise pallets, gaylords and truckloads from major retailers. Freight across the USA & Canada.",
+  guidesLink: "Buyer guides",
+  metaHome: "Liquidation Pallets & Truckloads | Liquidation Auction Center",
+  metaHomeD: "Fixed-price liquidation pallets, gaylords and truckloads of tools, electronics, toys and general merchandise for resellers. Freight across the USA & Canada.",
 };
 export type Strings = { [K in keyof typeof en]: string };

@@ -7,9 +7,15 @@ export const esc = (v: unknown) =>
 export type Page = {
   t: T; path: string; title: string; description: string; body: string;
   image?: string; jsonLd?: object[]; noindex?: boolean; scriptData?: Record<string, unknown>;
+  /** Languages this page exists in (default: all). Guides are English only. */ alts?: Lang[]; ogType?: string; /** Use title as-is (no " | site name" suffix). */ rawTitle?: boolean;
 };
 
 export const link = (lang: Lang, path: string) => `/${lang}${path === "/" ? "/" : path}`;
+/** Hides "[placeholder]" company details on public pages until the real ones are filled in. */
+export const shown = (s: string) => (s.includes("[") ? "" : s);
+export type Verify = { google?: string; bing?: string };
+let VERIFY: Verify = {};
+export const setVerify = (v: Verify) => { VERIFY = v; };
 
 export const MARK = `<svg class="mk" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#173A2A"/><rect x="3.5" y="3.5" width="57" height="57" rx="11" fill="none" stroke="#C9A24E" stroke-opacity=".5" stroke-width="1.2"/><g fill="#C9A24E"><rect x="11" y="42" width="42" height="4.2" rx="1"/><rect x="12.5" y="46.2" width="7" height="4.4"/><rect x="28.5" y="46.2" width="7" height="4.4"/><rect x="44.5" y="46.2" width="7" height="4.4"/><rect x="11" y="50.6" width="42" height="3.6" rx="1"/></g><g transform="rotate(-28 37 30)"><rect x="35.3" y="6" width="3.4" height="20" rx="1.4" fill="#F3ECDB"/><rect x="26" y="24.5" width="22" height="11" rx="2.4" fill="#F3ECDB"/><rect x="29.6" y="24.5" width="2.2" height="11" fill="#C9A24E"/><rect x="42.2" y="24.5" width="2.2" height="11" fill="#C9A24E"/></g><g stroke="#C9A24E" stroke-width="1.8" stroke-linecap="round" fill="none"><path d="M51.5 33.5l3.4-2.2"/><path d="M52.5 38.4h4"/><path d="M20 37.5l-3.6-1.6"/></g></svg>`;
 export const LOGO = `<span class="logo">${MARK}<span class="logo-t"><b>Liquidation</b><b>Auction Center</b></span></span>`;
@@ -34,9 +40,10 @@ export function layout(pg: Page) {
   const { t } = pg;
   const L = t.lang;
   const url = SITE.url + link(L, pg.path);
-  const alternates = LANGS.map((l) => `<link rel="alternate" hreflang="${l}" href="${SITE.url}${link(l, pg.path)}">`).join("") +
+  const alts = pg.alts ?? LANGS;
+  const alternates = alts.map((l) => `<link rel="alternate" hreflang="${l}" href="${SITE.url}${link(l, pg.path)}">`).join("") +
     `<link rel="alternate" hreflang="x-default" href="${SITE.url}${link("en", pg.path)}">`;
-  const title = pg.title.includes(SITE.name) ? pg.title : `${pg.title} | ${SITE.name}`;
+  const title = pg.rawTitle || pg.title.includes(SITE.name) ? pg.title : `${pg.title} | ${SITE.name}`;
   const image = pg.image ?? `${SITE.url}/og-default.jpg`;
   const nav: [string, string][] = [["/lots", t.navLots], ["/truckloads", t.navTruckloads], ["/how-it-works", t.navHow], ["/shipping", t.navShipping], ["/faq", t.navFaq], ["/contact", t.navContact]];
   const other = t.cur === "USD" ? "CAD" : "USD";
@@ -45,12 +52,13 @@ export function layout(pg: Page) {
   return `<!doctype html><html lang="${t.locale}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title)}</title><meta name="description" content="${esc(pg.description)}">
 ${pg.noindex ? `<meta name="robots" content="noindex,follow">` : `<link rel="canonical" href="${url}">${alternates}`}
-<meta property="og:site_name" content="${SITE.name}"><meta property="og:type" content="website"><meta property="og:title" content="${esc(title)}">
+<meta property="og:site_name" content="${SITE.name}"><meta property="og:type" content="${pg.ogType ?? "website"}"><meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(pg.description)}"><meta property="og:url" content="${url}"><meta property="og:image" content="${esc(image)}">
 <meta property="og:locale" content="${t.locale.replace("-", "_")}"><meta name="twitter:card" content="summary_large_image">
+${VERIFY.google ? `<meta name="google-site-verification" content="${esc(VERIFY.google)}">` : ""}${VERIFY.bing ? `<meta name="msvalidate.01" content="${esc(VERIFY.bing)}">` : ""}
 <meta name="theme-color" content="#0E2219"><link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/styles.css?v=2">
+<link rel="stylesheet" href="/styles.css?v=3">
 ${(pg.jsonLd ?? []).map((j) => `<script type="application/ld+json">${JSON.stringify(j).replace(/</g, "\\u003c")}</script>`).join("")}
 </head><body>
 <a class="skip" href="#main">${esc(t.skip)}</a>
@@ -67,10 +75,10 @@ ${(pg.jsonLd ?? []).map((j) => `<script type="application/ld+json">${JSON.string
 <footer class="ft"><div class="wrap">
 <div class="ft-top"><p class="ft-big">${esc(t.footerTag)}</p><a class="btn btn-brass" href="${link(L, "/lots")}">${esc(t.ctaBrowse)} →</a></div>
 <div class="ft-grid">
-<div>${LOGO}<p class="small">${esc(SITE.company)}<br>${esc(SITE.address1)}<br>${esc(SITE.address2)}<br><a href="mailto:${SITE.email}">${SITE.email}</a>${SITE.phone ? `<br><a href="tel:${tel}">${esc(SITE.phone)}</a>` : ""}</p></div>
+<div>${LOGO}<p class="small">${[SITE.company, shown(SITE.address1), shown(SITE.address2)].filter(Boolean).map(esc).join("<br>")}<br><a href="mailto:${SITE.email}">${SITE.email}</a>${SITE.phone ? `<br><a href="tel:${tel}">${esc(SITE.phone)}</a>` : ""}</p></div>
 <div><h4>${esc(t.shop_)}</h4>${CATS.map((c) => `<a href="${link(L, `/lots/${c}`)}">${esc(tk(t, `cat:${c}`))}</a>`).join("")}</div>
 <div><h4>${esc(t.lotSize)}</h4>${TYPES.map((x) => `<a href="${link(L, `/lots?type=${x}`)}">${esc(tk(t, `type:${x}`))}</a>`).join("")}<a href="${link(L, "/usa")}">${esc(t.usPage)}</a><a href="${link(L, "/canada")}">${esc(t.caPage)}</a></div>
-<div><h4>${esc(t.help_)}</h4><a href="${link(L, "/how-it-works")}">${esc(t.navHow)}</a><a href="${link(L, "/shipping")}">${esc(t.navShipping)}</a><a href="${link(L, "/returns")}">${esc(t.returnsTitle)}</a><a href="${link(L, "/faq")}">${esc(t.navFaq)}</a><a href="${link(L, "/about")}">${esc(t.aboutTitle)}</a><a href="${link(L, "/contact")}">${esc(t.navContact)}</a></div>
+<div><h4>${esc(t.help_)}</h4><a href="${link(L, "/how-it-works")}">${esc(t.navHow)}</a><a href="${link(L, "/shipping")}">${esc(t.navShipping)}</a><a href="${link(L, "/returns")}">${esc(t.returnsTitle)}</a><a href="${link(L, "/faq")}">${esc(t.navFaq)}</a><a href="${link(L, "/about")}">${esc(t.aboutTitle)}</a><a href="/en/guides">${esc(t.guidesLink)}</a><a href="${link(L, "/contact")}">${esc(t.navContact)}</a></div>
 <div><h4>${esc(t.legal)}</h4><a href="${link(L, "/terms")}">${esc(t.termsTitle)}</a><a href="${link(L, "/privacy")}">${esc(t.privacyTitle)}</a></div>
 </div>
 <p class="small ft-tm">${esc(t.tmNote)}</p>

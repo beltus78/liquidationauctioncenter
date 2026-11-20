@@ -1,9 +1,12 @@
 import { BY_SLUG, CAD_RATE, CATS, CA_PROV, CONDS, FEATURED, LOTS, MAX_PAY_DAYS, PAY_CA, PAY_US, SITE, SOURCES, TYPES, US_STATES, WIRE_ONLY_OVER_USD, toCur, type CatSlug, type Lot } from "./catalog";
 import { ABOUT, FAQ, HOW, PRIVACY, RETURNS, SHIPPING, TERMS } from "./content";
-import { esc, link, lotCard, lotName, lotTitle, price, unitWord, cpu, countIn, type Page } from "./html";
+import { esc, link, shown, lotCard, lotName, lotTitle, price, unitWord, cpu, countIn, type Page } from "./html";
 import { fill, money, num, tk, type T } from "./i18n";
+import { GUIDE_BY, guidesNewestFirst, renderMd } from "./guides";
 
 const org = () => ({ "@context": "https://schema.org", "@type": "Organization", name: SITE.name, url: SITE.url, email: SITE.email, logo: `${SITE.url}/favicon.svg`, areaServed: ["US", "CA"] });
+/** Meta description: cut at a word boundary, max 160 chars. */
+const clip = (s: string, n = 160) => (s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, "") + "…");
 const crumbs = (t: T, items: [string, string][]) => ({ "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: items.map(([n, p], i) => ({ "@type": "ListItem", position: i + 1, name: n, item: SITE.url + link(t.lang, p) })) });
 
 // ---------- home ----------
@@ -91,15 +94,15 @@ function applyFilters(f: Filters) {
   return r;
 }
 
-function listing(t: T, path: string, h1: string, intro: string, f: Filters, lockCat?: CatSlug): Page {
+function listing(t: T, path: string, h1: string, intro: string, f: Filters, lockCat?: CatSlug, lockType?: string): Page {
   const items = applyFilters(f);
   const q = (over: Partial<Filters>) => { const m = { ...f, ...over }; const s = new URLSearchParams(); for (const [k, v] of Object.entries(m)) if (v && !(lockCat && k === "cat")) s.set(k, v); const str = s.toString(); return `${link(t.lang, path)}${str ? `?${str}` : ""}`; };
   const group = (label: string, key: keyof Filters, values: readonly string[], prefix: string, count: (v: string) => number) =>
     `<div class="fg"><p class="fg-h">${esc(label)}</p><a href="${q({ [key]: undefined })}"${!f[key] ? ' aria-current="true"' : ""}>${esc(t.filterAll)}</a>${values.filter((v) => count(v) > 0).map((v) => `<a href="${q({ [key]: v })}"${f[key] === v ? ' aria-current="true"' : ""}>${esc(tk(t, `${prefix}:${v}`))} <small>${count(v)}</small></a>`).join("")}</div>`;
   const base = LOTS.filter((l) => !lockCat || l.cat === lockCat);
-  const filtered = !!(f.type || f.source || f.cond || (!lockCat && f.cat) || f.sort);
+  const filtered = !!((f.type && f.type !== lockType) || f.source || f.cond || (!lockCat && f.cat) || f.sort);
   return {
-    t, path, title: h1, description: (intro || t.metaHomeD).slice(0, 300), noindex: filtered,
+    t, path, title: h1, description: clip(intro ? (intro.length < 110 ? `${intro} ${t.footerTag}` : intro) : t.metaHomeD), noindex: filtered,
     jsonLd: [org(), crumbs(t, [[t.navLots, "/lots"], ...(lockCat ? [[h1, path]] as [string, string][] : [])]), { "@context": "https://schema.org", "@type": "ItemList", itemListElement: items.slice(0, 60).map((l, i) => ({ "@type": "ListItem", position: i + 1, url: SITE.url + link(t.lang, `/lot/${l.slug}`), name: lotTitle(t, l) })) }],
     body: `<section class="wrap page-head"><p class="kicker">${esc(t.navLots)}</p><h1 class="h-xl">${esc(h1)}</h1>${intro ? `<p class="lead muted">${esc(intro)}</p>` : ""}</section>
 <section class="wrap shop">
@@ -122,7 +125,7 @@ export function category(t: T, slug: string, url: URL): Page | null {
   const c = slug as CatSlug;
   return listing(t, `/lots/${c}`, tk(t, `cat:${c}`), tk(t, `catD:${c}`), { ...pickFilters(url), cat: c }, c);
 }
-export const truckloads = (t: T, url: URL) => listing(t, "/truckloads", t.sizeTruckload, t.sizeTruckloadD, { ...pickFilters(url), type: "truckload" });
+export const truckloads = (t: T, url: URL) => listing(t, "/truckloads", t.sizeTruckload, t.sizeTruckloadD, { ...pickFilters(url), type: "truckload" }, undefined, "truckload");
 
 // ---------- lot page ----------
 function lotDescription(t: T, l: Lot) {
@@ -149,7 +152,7 @@ export function lot(t: T, slug: string): Page | null {
   const desc = `${lotDescription(t, l)} ${t.from} ${price(t, l.price)}.`;
   const usdPrice = l.price;
   return {
-    t, path: `/lot/${l.slug}`, title: `${t.lot} ${l.no} · ${title}`, description: desc.slice(0, 300), image: `${SITE.url}${l.img}-md.webp`,
+    t, path: `/lot/${l.slug}`, title, rawTitle: title.length > 36, description: clip(desc), image: `${SITE.url}${l.img}-md.webp`,
     jsonLd: [org(), crumbs(t, [[t.navLots, "/lots"], [tk(t, `cat:${l.cat}`), `/lots/${l.cat}`], [`${t.lot} ${l.no}`, `/lot/${l.slug}`]]),
       { "@context": "https://schema.org", "@type": "Product", name: title, sku: `LAC-${l.no}`, image: `${SITE.url}${l.img}-md.webp`, description: desc, category: tk(t, `cat:${l.cat}`),
         offers: { "@type": "Offer", price: usdPrice, priceCurrency: "USD", availability: "https://schema.org/InStock", itemCondition: l.cond === "overstock" ? "https://schema.org/NewCondition" : "https://schema.org/UsedCondition", url: SITE.url + link(t.lang, `/lot/${l.slug}`), seller: { "@type": "Organization", name: SITE.name } } }],
@@ -227,7 +230,7 @@ export const thanks = (t: T, n: string, mode: string): Page => ({
 // ---------- content pages ----------
 const secs = (s: [string, string[]][]) => s.map(([h, ps]) => `<h2 class="h-md">${esc(h)}</h2>${ps.map((p) => `<p>${esc(p)}</p>`).join("")}`).join("");
 const textPage = (t: T, path: string, h1: string, intro: string, body: string, extra: object[] = [], aside = ""): Page => ({
-  t, path, title: h1, description: (intro || body.replace(/<[^>]+>/g, " ")).replace(/\s+/g, " ").trim().slice(0, 280), jsonLd: [org(), ...extra],
+  t, path, title: h1, description: clip((intro || body.replace(/<[^>]+>/g, " ")).replace(/\s+/g, " ").trim()), jsonLd: [org(), ...extra],
   body: `<section class="wrap page-head"><h1 class="h-xl" data-split>${esc(h1)}</h1>${intro ? `<p class="lead muted">${esc(intro)}</p>` : ""}</section><section class="wrap prose-wrap"><div class="prose">${body}</div>${aside}</section>`,
 });
 const helpAside = (t: T) => `<aside class="prose-aside">${ctaBand(t)}</aside>`;
@@ -267,7 +270,7 @@ export function contact(t: T): Page {
 <label class="span2">${esc(t.message)} *<textarea name="message" rows="6" required maxlength="3000"></textarea></label></div>
 <input type="text" name="website" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
 <button class="btn btn-brass" type="submit">${esc(t.send)}</button><p class="form-msg" data-msg role="status"></p></form>
-<aside class="contact-side"><p><b>${esc(SITE.company)}</b><br>${esc(SITE.address1)}<br>${esc(SITE.address2)}</p><p><a class="ul" href="mailto:${SITE.email}">${SITE.email}</a></p>${SITE.phone ? `<p><a class="ul" href="tel:${SITE.phone.replace(/[^\d+]/g, "")}">${esc(SITE.phone)}</a></p>` : ""}<img src="/photos/warehouse-racks.webp" alt="" loading="lazy" width="600" height="800"></aside></section>`,
+<aside class="contact-side"><p><b>${esc(SITE.company)}</b>${[shown(SITE.address1), shown(SITE.address2)].filter(Boolean).map((x) => `<br>${esc(x)}`).join("")}</p><p><a class="ul" href="mailto:${SITE.email}">${SITE.email}</a></p>${SITE.phone ? `<p><a class="ul" href="tel:${SITE.phone.replace(/[^\d+]/g, "")}">${esc(SITE.phone)}</a></p>` : ""}<img src="/photos/warehouse-racks.webp" alt="" loading="lazy" width="600" height="800"></aside></section>`,
   };
 }
 
@@ -275,3 +278,31 @@ export const notFound = (t: T): Page => ({
   t, path: "/404", title: t.notFound, description: t.notFoundText, noindex: true,
   body: `<section class="wrap narrow sec"><h1 class="h-xl">${esc(t.notFound)}</h1><p class="lead">${esc(t.notFoundText)}</p><p><a class="btn btn-brass" href="${link(t.lang, "/lots")}">${esc(t.ctaBrowse)} →</a></p></section>`,
 });
+
+// ---------- buyer guides (English only) ----------
+const fmtDate = (d: string) => new Date(d + "T12:00:00Z").toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });
+export function guides(t: T): Page {
+  const list = guidesNewestFirst();
+  return {
+    t, path: "/guides", alts: ["en"], title: "Liquidation Buying Guides for Resellers",
+    description: "Practical guides for resellers buying liquidation pallets, gaylords and truckloads in the USA and Canada: lot sizes, condition, freight, customs and payment.",
+    jsonLd: [org(), crumbs(t, [["Home", "/"], ["Guides", "/guides"]]), { "@context": "https://schema.org", "@type": "CollectionPage", name: "Liquidation buying guides", url: SITE.url + "/en/guides", hasPart: list.map((g) => ({ "@type": "Article", headline: g.title, url: `${SITE.url}/en/guides/${g.slug}`, datePublished: g.published })) }],
+    body: `<section class="wrap page-head"><p class="kicker">Buyer guides</p><h1 class="h-xl" data-split>Liquidation buying guides</h1><p class="lead muted">Straight answers for resellers buying liquidation lots in the USA and Canada — from choosing a lot size to freight, customs and payment.</p></section>
+<section class="wrap prose-wrap"><div class="prose guide-list">${list.map((g) => `<article class="guide-item"><p class="small muted">${fmtDate(g.updated ?? g.published)}</p><h2 class="h-md"><a href="/en/guides/${g.slug}">${esc(g.title)}</a></h2><p>${esc(g.excerpt)}</p><p><a class="ul" href="/en/guides/${g.slug}">Read the guide →</a></p></article>`).join("")}</div>${helpAside(t)}</section>`,
+  };
+}
+export function guide(t: T, slug: string): Page | null {
+  const g = GUIDE_BY.get(slug);
+  if (!g) return null;
+  const url = `${SITE.url}/en/guides/${g.slug}`;
+  const more = guidesNewestFirst().filter((x) => x.slug !== g.slug).slice(0, 3);
+  return {
+    t, path: `/guides/${g.slug}`, alts: ["en"], ogType: "article", rawTitle: !!g.seoTitle, title: g.seoTitle ?? g.title, description: g.description,
+    jsonLd: [
+      { "@context": "https://schema.org", "@type": "Article", headline: g.title, description: g.description, datePublished: g.published, dateModified: g.updated ?? g.published, inLanguage: "en", mainEntityOfPage: url, image: `${SITE.url}/og-default.jpg`, author: { "@type": "Organization", name: SITE.name, url: SITE.url }, publisher: { "@type": "Organization", name: SITE.name, logo: { "@type": "ImageObject", url: `${SITE.url}/favicon.svg` } } },
+      crumbs(t, [["Home", "/"], ["Guides", "/guides"], [g.title, `/guides/${g.slug}`]]),
+    ],
+    body: `<section class="wrap page-head"><p class="kicker"><a class="ul" href="/en/guides">Buyer guides</a> · ${fmtDate(g.updated ?? g.published)}</p><h1 class="h-xl" data-split>${esc(g.title)}</h1><p class="lead muted">${esc(g.excerpt)}</p></section>
+<section class="wrap prose-wrap"><div class="prose guide">${renderMd(g.body, (p) => link("en", p))}${more.length ? `<h2 class="h-md">More guides</h2><ul>${more.map((x) => `<li><a href="/en/guides/${x.slug}">${esc(x.title)}</a></li>`).join("")}</ul>` : ""}</div>${helpAside(t)}</section>`,
+  };
+}

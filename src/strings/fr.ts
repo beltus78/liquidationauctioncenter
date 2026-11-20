@@ -255,6 +255,7 @@ export const fr: Strings = {
   usPage: "Palettes de liquidation aux États-Unis",
   caPage: "Palettes de liquidation au Canada",
   approx: "env.",
-  metaHome: "Liquidation Auction Center — Palettes, gaylords et camions de liquidation en gros | États-Unis et Canada",
-  metaHomeD: "Lots de liquidation à prix fixe pour revendeurs : palettes d'outils, d'électronique, de jouets et de marchandise générale, gaylords et camions complets. Livraison aux États-Unis et au Canada.",
+  guidesLink: "Guides d'achat (anglais)",
+  metaHome: "Palettes et camions de liquidation | Liquidation Auction Center",
+  metaHomeD: "Palettes, gaylords et camions de liquidation à prix fixe : outils, électronique, jouets et marchandise générale pour revendeurs. Livraison É.-U. et Canada.",
 };
