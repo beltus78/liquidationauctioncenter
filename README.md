@@ -3,7 +3,7 @@
 Fixed-price liquidation lots (case packs, gaylords, pallets, truckloads) for resellers in the USA and Canada.
 "Auction" is the brand name only: there is no bidding. English `/en/`, French `/fr/` (Quebec visitors land here) and Spanish `/es/`.
 
-**Stack:** Cloudflare Worker (TypeScript, server-rendered HTML, no framework) · D1 database `liquidationauctioncenter` · Resend for email · static files in `public/`.
+**Stack:** Cloudflare Worker (TypeScript, server-rendered HTML, no framework) · D1 database `liquidationauctioncenter` · Cloudflare Email Sending (`EMAIL` binding, no API key) for website emails · Zoho Mail (free) for the sales@ inbox · static files in `public/`.
 Deploys automatically from GitHub (`main`) with Cloudflare Workers Builds.
 
 ## What happens on an order
@@ -25,8 +25,8 @@ Deploys automatically from GitHub (`main`) with Cloudflare Workers Builds.
 ## Cloudflare setup (one time)
 1. **Workers & Pages → Create → Import a repository** → `beltus78/liquidationauctioncenter`, branch `main`. Build command: none. Deploy command: `npx wrangler deploy`.
 2. **Settings → Domains & Routes** → add `liquidationauctioncenter.com` and `www.liquidationauctioncenter.com` (www redirects to the apex).
-3. **Resend** → add the domain, add its DNS records in Cloudflare, create an API key → Worker **Settings → Variables and Secrets** → secret `RESEND_API_KEY`.
-4. **Email Routing** → forward `sales@liquidationauctioncenter.com` to your inbox.
+3. **Email Sending** (done): Email Service → Email Sending → liquidationauctioncenter.com is onboarded; the Worker sends through the `EMAIL` binding in `wrangler.jsonc`. A `RESEND_API_KEY` secret is only an optional fallback.
+4. **Inbox:** sales@ is a Zoho Mail (Forever Free) mailbox — the domain's MX/SPF/DKIM point to Zoho. Don't turn on Cloudflare Email Routing for the apex (it would replace Zoho's MX).
 
 The D1 database already exists (id in `wrangler.jsonc`) with the tables from `migrations/0001_init.sql`.
 New migrations: add `migrations/000N_name.sql` and run `bash deploy.sh` (or `npx wrangler d1 migrations apply liquidationauctioncenter --remote`).

@@ -7,6 +7,7 @@
   "d1_databases": [
     { "binding": "DB", "database_name": "liquidationauctioncenter", "database_id": "d61be733-98db-424b-8405-73e88c6dcbfa", "migrations_dir": "migrations" }
   ],
+  "send_email": [{ "name": "EMAIL" }],
   "vars": {
     "SALES_EMAIL": "sales@liquidationauctioncenter.com",
     "EMAIL_FROM": "Liquidation Auction Center <orders@liquidationauctioncenter.com>"

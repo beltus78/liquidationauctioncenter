@@ -15,3 +15,4 @@
 - Sitemaps: `/sitemap.xml` → `/sitemap-{en,fr,es}.xml` (guides only in `sitemap-en.xml`). Filtered listing views are noindex on purpose.
 - Log every SEO change in `seo/log.md`. IndexNow key: `56798b12585e43048e92d02c341c7e41` (file in `public/`).
 - Never: prices in guide text, guaranteed lot contents/condition, fake reviews, changing payment rules, contact or company details, URLs.
+- Email: website emails go out via Cloudflare Email Sending (`env.EMAIL.send`, binding in wrangler.jsonc). Inbound mail for sales@ is Zoho Mail — never enable Cloudflare Email Routing on the apex.

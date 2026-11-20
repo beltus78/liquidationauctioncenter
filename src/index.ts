@@ -8,7 +8,8 @@ import * as P from "./pages";
 export interface Env {
   ASSETS: Fetcher;
   DB: D1Database;
-  RESEND_API_KEY?: string;
+  EMAIL?: SendEmail; // Cloudflare Email Sending binding
+  RESEND_API_KEY?: string; // optional fallback
   SALES_EMAIL: string;
   GOOGLE_SITE_VERIFICATION?: string;
   BING_SITE_VERIFICATION?: string;
@@ -240,11 +241,20 @@ const mail = (title: string, body: string, lang = "en") => `<!doctype html><html
 <p style="font-size:12px;color:#5B6B60">${esc(SITE.company)} · ${esc(SITE.address1)} · ${esc(SITE.address2)} · ${SITE.email}</p></div></div></body></html>`;
 
 async function sendEmail(env: Env, to: string, subject: string, htmlBody: string, replyTo?: string) {
-  if (!env.RESEND_API_KEY) { console.warn(`Email not sent (no RESEND_API_KEY): ${subject}`); return false; }
+  const text = htmlBody.replace(/<(br|\/p|\/tr|\/h1|hr)[^>]*>/gi, "\n").replace(/<[^>]+>/g, "").replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/\n{3,}/g, "\n\n").trim();
+  const m = env.EMAIL_FROM.match(/^(.*?)\s*<([^>]+)>$/);
+  const from = m ? { name: m[1]!.trim(), email: m[2]!.trim() } : env.EMAIL_FROM;
+  if (env.EMAIL) {
+    try {
+      await env.EMAIL.send({ from, to, subject, html: htmlBody, text, ...(replyTo ? { replyTo } : {}) });
+      return true;
+    } catch (e) { console.error(`Email Sending failed (${(e as { code?: string }).code ?? "?"}): ${(e as Error).message} — ${subject}`); if (!env.RESEND_API_KEY) return false; }
+  }
+  if (!env.RESEND_API_KEY) { console.warn(`Email not sent (no EMAIL binding or RESEND_API_KEY): ${subject}`); return false; }
   try {
     const r = await fetch("https://api.resend.com/emails", {
       method: "POST", headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, "content-type": "application/json" },
-      body: JSON.stringify({ from: env.EMAIL_FROM, to: [to], subject, html: htmlBody, ...(replyTo ? { reply_to: replyTo } : {}) }),
+      body: JSON.stringify({ from: env.EMAIL_FROM, to: [to], subject, html: htmlBody, text, ...(replyTo ? { reply_to: replyTo } : {}) }),
     });
     if (!r.ok) console.error(`Resend ${r.status}: ${await r.text()}`);
     return r.ok;
