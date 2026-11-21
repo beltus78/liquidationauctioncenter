@@ -2,6 +2,7 @@
 - Plain Cloudflare Worker, no framework. Pages: `src/pages.ts`; layout and lot card: `src/html.ts`; routing, forms, emails: `src/index.ts`.
 - UI text lives in `src/strings/{en,fr,es}.ts` (same keys in all three — `en.ts` exports the type). Long copy: `src/content.ts`.
 - Catalog data is generated: edit `tools/lots.py`, run `python3 tools/build-data.py` → `src/data-lots.json`. Lot images: `public/lots/{slug}-sm.webp|-md.webp`.
+- Lot names/titles never name a retailer or product brand (Google Merchant Center safety); brands may appear only in the items lists. Renamed slugs live in `tools/slug-renames.json` (old URLs 301). Merchant Center feed: `src/feed.ts` → `/feeds/google-us.xml`.
 - Lot names and descriptions must stay different from the owner's other pallet sites (Best Liquidation Center, Liquidation Pallets Wholesales, Wholesale Pallets Liquidators).
 - Scroll animations: `public/motion.js` + the motion block at the end of `public/styles.css` (data-story / data-chap / data-fly / data-split / data-stagger / data-reveal / data-count).
 - Payment rules exist in three places — keep them in sync: `src/catalog.ts` (allowedPay), `public/app.js`, `migrations` CHECK. PayPal = PayPal invoice sent by the owner after the delivered total is confirmed (buyers can pay by card through it); it is the card option Google Merchant Center needs.

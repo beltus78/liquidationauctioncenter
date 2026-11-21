@@ -13,11 +13,17 @@ COND = {"returns": ("Returns", "retours", "devoluciones"), "overstock": ("Overst
 RATIO = {"returns": 0.22, "overstock": 0.36, "shelfpulls": 0.30, "mixed": 0.25}
 HIGH = {"phones"}  # sealed/branded phones recover much closer to retail
 
+# Titles never name a retailer or product brand (Google Merchant Center / trademark safety).
+# The lot's source stays a separate fact on the page, not part of the product name.
+COND_T = {"returns": ("Customer Returns", "retours clients", "devoluciones de clientes"),
+          "overstock": ("New Overstock", "surstock neuf", "excedente nuevo"),
+          "shelfpulls": ("Shelf Pulls", "retraits de rayon", "retirados de estantería"),
+          "mixed": ("Mixed Condition", "état mixte", "condición mixta")}
 def phrase(src, cond, i):
-    if src == "manufacturer": return ("Brand Overstock", "surstock de marque", "excedente de marca")[i] if cond == "overstock" else ("Brand " + COND[cond][0], "marque, " + COND[cond][1], "marca, " + COND[cond][2])[i]
-    if src == "mixed": return ("Mixed Retailers, " + COND[cond][0], "détaillants divers, " + COND[cond][1], "varios minoristas, " + COND[cond][2])[i]
-    s = SRC[src]
-    return (f"{s} {COND[cond][0]}", f"{COND[cond][1]} {s}", f"{COND[cond][2]} de {s}")[i]
+    return COND_T[cond][i]
+
+# Old slug -> new slug (old URLs 301 to the new ones in src/index.ts). Image files keep the old name.
+RENAME = json.load(open(os.path.join(HERE, "slug-renames.json")))
 
 def nice(n):
     step = 50 if n < 5000 else 100 if n < 20000 else 500
@@ -25,7 +31,8 @@ def nice(n):
 
 out = []
 for no, r in enumerate(L, start=1001):
-    slug, cat, typ, src, cond, units, ukey, price, image, names, items, notes = r
+    slug0, cat, typ, src, cond, units, ukey, price, image, names, items, notes = r
+    slug = RENAME.get(slug0, slug0)
     ratio = RATIO[cond]
     if cat in HIGH or (slug.startswith("ps5") and cond == "overstock"): ratio = 0.72 if cond == "overstock" else 0.5
     retail = nice(price / ratio)
@@ -36,8 +43,8 @@ for no, r in enumerate(L, start=1001):
         f"{names[2]} — {t[2]}, {phrase(src, cond, 2)}",
     ]
     out.append({"no": no, "slug": slug, "cat": cat, "type": typ, "source": src, "cond": cond, "units": units, "unit": ukey,
-                "price": price, "retail": retail, "img": f"/lots/{slug}", "own_photo": image.startswith("p:"),
-                "gallery": sum(os.path.exists(os.path.join(HERE, "..", "public", "lots", f"{slug}-g{i}-md.webp")) for i in range(1, 9)),
+                "price": price, "retail": retail, "img": f"/lots/{slug0}", "own_photo": image.startswith("p:"),
+                "gallery": sum(os.path.exists(os.path.join(HERE, "..", "public", "lots", f"{slug0}-g{i}-md.webp")) for i in range(1, 9)),
                 "name": {"en": names[0], "fr": names[1], "es": names[2]},
                 "title": {"en": titles[0], "fr": titles[1], "es": titles[2]},
                 "items": {"en": items[0], "fr": items[1], "es": items[2]},

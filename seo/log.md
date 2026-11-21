@@ -31,3 +31,8 @@ Guides already published (don't repeat these topics):
 ## 2026-11-21 — daily health check
 - Local crawl clean (200s, one h1, titles ≤65, descriptions 110–160, canonical/hreflang/og/JSON-LD, internal links and images, robots, sitemaps). No fixes needed.
 - IndexNow: full sitemap submitted 2026-11-21 (301 URLs, HTTP 200).
+
+## 2026-11-22 — Lot names cleaned for Google Merchant Center (owner request)
+- All 75 lot names/titles (EN/FR/ES) rewritten without retailer or product-brand names; brands stay only in the "inside the lot" lists. Source (e.g. Home Depot returns) is still shown as a separate fact.
+- 8 URLs that carried a retailer name renamed with 301s from the old URL (map: `tools/slug-renames.json`).
+- New Google product feed: `/feeds/google-us.xml` (59 lots; high counterfeit-risk lots excluded, see `src/feed.ts`).

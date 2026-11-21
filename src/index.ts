@@ -1,3 +1,5 @@
+import RENAMED from "../tools/slug-renames.json";
+import { googleFeed } from "./feed";
 import { BY_SLUG, CATS, CA_PROV, LOTS, MAX_PAY_DAYS, SITE, US_STATES, allowedPay, toCur, type Cur, type PayMethod } from "./catalog";
 import { LANGS, detectLang, isLang, money, strings, tk, type Lang, type T } from "./i18n";
 import { esc, layout, link, setVerify } from "./html";
@@ -42,6 +44,7 @@ export default {
     if (path === "/api/order" && req.method === "POST") return order(req, env);
     if (path === "/api/contact" && req.method === "POST") return contactMsg(req, env);
     if (path === "/robots.txt") return new Response(`User-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /*/order-list\nDisallow: /*/thanks\nSitemap: ${SITE.url}/sitemap.xml\n`, { headers: { "content-type": "text/plain" } });
+    if (path === "/feeds/google-us.xml") return googleFeed();
     if (path === "/sitemap.xml") return sitemapIndex();
     const sm = path.match(/^\/sitemap-([a-z]{2})\.xml$/);
     if (sm && isLang(sm[1]!)) return sitemap(sm[1]);
@@ -63,6 +66,10 @@ export default {
     }
 
     const lang = first;
+    // Lots renamed so URLs no longer carry a retailer name: old URL -> new URL.
+    const old = path.match(/^\/[a-z]{2}\/lot\/([a-z0-9-]+)\/?$/);
+    const moved = old ? (RENAMED as Record<string, string>)[old[1]!] : undefined;
+    if (moved) return Response.redirect(new URL(`/${lang}/lot/${moved}`, url).toString(), 301);
     // Guides exist in English only.
     if (lang !== "en" && rest[0] === "guides") return Response.redirect(new URL(`/en/${rest.join("/")}`, url).toString(), 301);
     const cc = cookieOf(req, "cur");

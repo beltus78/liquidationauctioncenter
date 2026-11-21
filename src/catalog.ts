@@ -33,7 +33,7 @@ export const SOURCES = ["homedepot", "walmart", "target", "amazon", "costco", "k
 
 export const LOTS = (LOTS_JSON as Lot[]).slice().sort((a, b) => a.no - b.no);
 export const BY_SLUG = new Map(LOTS.map((l) => [l.slug, l]));
-export const FEATURED = ["milwaukee-m18-fuel-kits-pallet", "ps5-console-pallet", "premium-electronics-gaylord", "toy-gaylord-lego-star-wars", "instant-pot-vacuum-mix-pallet", "walmart-general-merchandise-pallet", "iphone-mixed-generations-case-pack", "shoebox-mixed-footwear-pallet"];
+export const FEATURED = ["milwaukee-m18-fuel-kits-pallet", "ps5-console-pallet", "premium-electronics-gaylord", "toy-gaylord-lego-star-wars", "instant-pot-vacuum-mix-pallet", "big-box-general-merchandise-pallet", "iphone-mixed-generations-case-pack", "shoebox-mixed-footwear-pallet"];
 
 // ---------- money ----------
 export const CAD_RATE = 1.37; // USD → CAD for display only (approximate); update when the rate moves
