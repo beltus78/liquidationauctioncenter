@@ -218,9 +218,9 @@ ${pay.lines.map((x) => `<p style="margin:0 0 4px">${esc(x)}</p>`).join("")}<p st
 }
 const PAY_REF: Record<Lang, string> = { en: "Put {n} in the payment memo or reference.", fr: "Indiquez {n} dans la note ou la référence du paiement.", es: "Indique {n} en el concepto o referencia del pago." };
 const PAY_WAIT: Record<Lang, string> = {
-  en: "Please wait for our email confirming the delivered total (lots + freight) before sending payment.",
-  fr: "Attendez notre courriel confirmant le total livré (lots + transport) avant d'envoyer le paiement.",
-  es: "Espere nuestro correo con el total entregado (lotes + flete) antes de enviar el pago.",
+  en: "Please wait for our email confirming your total before sending payment.",
+  fr: "Attendez notre courriel confirmant votre total avant d'envoyer le paiement.",
+  es: "Espere nuestro correo con su total antes de enviar el pago.",
 };
 
 async function contactMsg(req: Request, env: Env) {

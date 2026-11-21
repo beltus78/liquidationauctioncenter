@@ -22,7 +22,7 @@ function desc(l: Lot) {
   const unit = l.unit === "pallets" ? "pallets" : "units";
   return `Wholesale liquidation ${TYPE_W[l.type]} of about ${l.units.toLocaleString("en-US")} ${unit} (${COND_W[l.cond]}). ` +
     `Loads like this usually include ${list}. ${l.note.en} ` +
-    `Sold as one lot to resellers and businesses; contents vary from load to load and are not guaranteed. Freight is quoted to your address before payment. Ships within the United States and Canada.`;
+    `Sold as one lot to resellers and businesses; contents vary from load to load and are not guaranteed. Free shipping within the 48 contiguous US states.`;
 }
 
 export function googleFeed(): Response {

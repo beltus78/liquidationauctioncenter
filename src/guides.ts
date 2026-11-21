@@ -69,7 +69,7 @@ What to weigh:
 
 - Cost per unit drops noticeably compared with case packs.
 - You need a way to receive a pallet: a loading dock, a forklift or pallet jack, or a liftgate delivery.
-- Buying two or more pallets on the same shipment usually lowers freight per pallet. Our [shipping page](/shipping) explains how freight is quoted.
+- Shipping is free to the 48 contiguous US states; our [shipping page](/shipping) explains delivery options and how freight to Canada, Alaska, Hawaii and Puerto Rico is quoted.
 
 ## Truckloads: lowest cost per unit, highest commitment
 

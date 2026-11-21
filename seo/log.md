@@ -36,3 +36,6 @@ Guides already published (don't repeat these topics):
 - All 75 lot names/titles (EN/FR/ES) rewritten without retailer or product-brand names; brands stay only in the "inside the lot" lists. Source (e.g. Home Depot returns) is still shown as a separate fact.
 - 8 URLs that carried a retailer name renamed with 301s from the old URL (map: `tools/slug-renames.json`).
 - New Google product feed: `/feeds/google-us.xml` (59 lots; high counterfeit-risk lots excluded, see `src/feed.ts`).
+
+## 2026-11-22 — Free shipping in the contiguous US (owner decision)
+- Owner chose free shipping for Google Merchant Center. Site copy (EN/FR/ES: header bar, how it works, shipping page, FAQ, terms, order emails, feed descriptions) now says standard shipping is free to the 48 contiguous US states; liftgate is an optional extra; Alaska, Hawaii, Puerto Rico and Canada are quoted.
