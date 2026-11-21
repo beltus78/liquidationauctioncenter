@@ -270,7 +270,7 @@ export function contact(t: T): Page {
 <label class="span2">${esc(t.message)} *<textarea name="message" rows="6" required maxlength="3000"></textarea></label></div>
 <input type="text" name="website" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
 <button class="btn btn-brass" type="submit">${esc(t.send)}</button><p class="form-msg" data-msg role="status"></p></form>
-<aside class="contact-side"><p><b>${esc(SITE.company)}</b>${[shown(SITE.address1), shown(SITE.address2)].filter(Boolean).map((x) => `<br>${esc(x)}`).join("")}</p><p><a class="ul" href="mailto:${SITE.email}">${SITE.email}</a></p>${SITE.phone ? `<p><a class="ul" href="tel:${SITE.phone.replace(/[^\d+]/g, "")}">${esc(SITE.phone)}</a></p>` : ""}<img src="/photos/warehouse-racks.webp" alt="" loading="lazy" width="600" height="800"></aside></section>`,
+<aside class="contact-side"><p><b>${esc(SITE.company)}</b>${[shown(SITE.address1), shown(SITE.address2)].filter(Boolean).map((x) => `<br>${esc(x)}`).join("")}</p><p><a class="ul" href="mailto:${SITE.email}">${SITE.email}</a></p>${SITE.phone ? `<p><a class="ul" href="tel:${SITE.phone.replace(/[^\d+]/g, "")}">${esc(SITE.phone)}</a></p>` : ""}${SITE.whatsapp ? `<p><a class="ul" href="https://wa.me/${SITE.whatsapp.replace(/\D/g, "")}">WhatsApp ${esc(SITE.whatsapp)}</a></p>` : ""}<img src="/photos/warehouse-racks.webp" alt="" loading="lazy" width="600" height="800"></aside></section>`,
   };
 }
 

@@ -11,7 +11,9 @@ export const SITE = {
   street: "1601 Spring St", city: "Greensboro", region: "NC", postal: "27403", country: "US",
   stateOfReg: "[State of registration]",
   email: "sales@liquidationauctioncenter.com",
-  phone: "+1 (450) 485-9006",
+  phone: "+1 (828) 344-8110",
+  /** WhatsApp only (floating button + contact page); calls go to `phone`. */
+  whatsapp: "+1 (450) 485-9006",
 };
 
 export type Lang3 = { en: string; fr: string; es: string };
