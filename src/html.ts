@@ -72,7 +72,7 @@ ${(pg.jsonLd ?? []).map((j) => `<script type="application/ld+json">${JSON.string
 <a class="skip" href="#main">${esc(t.skip)}</a>
 <div class="util"><div class="wrap util-in"><span>${esc(t.util)}</span>
 <span class="util-r"><a class="cur" href="?cur=${other}" rel="nofollow" title="${esc(t.currency)}"><b>${t.cur}</b> · ${other}</a>
-<details class="langs"><summary aria-label="${esc(t.language)}">${L.toUpperCase()} ▾</summary><div class="langs-menu">${LANGS.map((l) => `<a hreflang="${l}" lang="${l}" href="${link(l, pg.path)}"${l === L ? ' aria-current="true"' : ""}>${LANG_NAMES[l]}</a>`).join("")}</div></details></span></div></div>
+<details class="langs"><summary aria-label="${esc(t.language)}">${L.toUpperCase()} ▾</summary><div class="langs-menu">${LANGS.map((l) => `<a hreflang="${l}" lang="${l}" href="${link(l, alts.includes(l) ? pg.path : "/")}"${l === L ? ' aria-current="true"' : ""}>${LANG_NAMES[l]}</a>`).join("")}</div></details></span></div></div>
 <header class="hd"><div class="wrap hd-in">
 <a href="${link(L, "/")}" class="hd-logo" aria-label="${SITE.name}">${LOGO}</a>
 <nav class="hd-nav" aria-label="Main">${nav.map(([p, n]) => `<a href="${link(L, p)}"${pg.path === p ? ' aria-current="page"' : ""}>${esc(n)}</a>`).join("")}</nav>

@@ -39,3 +39,7 @@ Guides already published (don't repeat these topics):
 
 ## 2026-11-22 — Free shipping in the contiguous US (owner decision)
 - Owner chose free shipping for Google Merchant Center. Site copy (EN/FR/ES: header bar, how it works, shipping page, FAQ, terms, order emails, feed descriptions) now says standard shipping is free to the 48 contiguous US states; liftgate is an optional extra; Alaska, Hawaii, Puerto Rico and Canada are quoted.
+
+## 2026-11-23 — daily health check
+- Local crawl: all 105 sitemap-en URLs + 40 random fr/es URLs — 200s, one h1, titles ≤65, descriptions 110–160, canonical/hreflang/og/JSON-LD, images, robots, sitemaps all OK. Live home + /sitemap.xml 200.
+- Fixed: the language menu on English-only guide pages linked to /fr/guides… and /es/guides… (14 internal links that 301 back to /en/). Languages a page doesn't exist in now link to that language's home (/fr/, /es/). Code: language menu in `src/html.ts` (uses `pg.alts`).
