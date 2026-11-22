@@ -1,6 +1,9 @@
 import { CATS, LOTS, PAY_CA, PAY_US, SITE, TYPES, toCur, type Lot } from "./catalog";
 import { LANGS, LANG_NAMES, fill, money, num, tk, type Lang, type T } from "./i18n";
 
+// Google Ads (account 770-919-2011): tag + conversion labels
+const ADS = { id: "AW-18579092076", quote: "AW-18579092076/tabqCLDghL0dEOzkmZtF", whatsapp: "AW-18579092076/om_1CLPghL0dEOzkmZtF" };
+
 export const esc = (v: unknown) =>
   String(v ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);
 
@@ -62,6 +65,8 @@ ${VERIFY.google ? `<meta name="google-site-verification" content="${esc(VERIFY.g
 <meta name="theme-color" content="#0E2219"><link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/styles.css?v=3">
+<script async src="https://www.googletagmanager.com/gtag/js?id=${ADS.id}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${ADS.id}');${pg.path === "/thanks" ? `gtag('event','conversion',{send_to:'${ADS.quote}',value:1.0,currency:'USD'});` : ""}document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href*="wa.me/"]');if(a)gtag('event','conversion',{send_to:'${ADS.whatsapp}',value:1.0,currency:'USD'});},true);</script>
 ${(pg.jsonLd ?? []).map((j) => `<script type="application/ld+json">${JSON.stringify(j).replace(/</g, "\\u003c")}</script>`).join("")}
 </head><body>
 <a class="skip" href="#main">${esc(t.skip)}</a>
