@@ -13,7 +13,7 @@ export const SITE = {
   email: "sales@liquidationauctioncenter.com",
   phone: "+1 (828) 344-8110",
   /** WhatsApp only (floating button + contact page); calls go to `phone`. */
-  whatsapp: "+1 (450) 485-9006",
+  whatsapp: "+1 (407) 378-0429",
 };
 
 export type Lang3 = { en: string; fr: string; es: string };

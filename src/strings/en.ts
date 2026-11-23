@@ -115,7 +115,7 @@ export const en = {
   estNote: "Estimated retail is based on typical MSRP for this kind of load; individual lots vary.",
   manifestNote: "Manifests, extra photos and video are available on request for most lots.",
   whatsapp: "WhatsApp us",
-  callUs: "Call us",
+  callUs: "Call or text us",
 
   // units
   "u:units": "units",

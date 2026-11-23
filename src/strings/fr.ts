@@ -111,7 +111,7 @@ export const fr: Strings = {
   estNote: "La valeur de détail estimée repose sur le PDSF habituel de ce type de chargement ; chaque lot varie.",
   manifestNote: "Manifestes, photos et vidéos supplémentaires disponibles sur demande pour la plupart des lots.",
   whatsapp: "WhatsApp",
-  callUs: "Appelez-nous",
+  callUs: "Appelez-nous ou textez-nous",
 
   "u:units": "unités",
   "u:pairs": "paires",

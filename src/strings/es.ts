@@ -111,7 +111,7 @@ export const es: Strings = {
   estNote: "El valor estimado en tienda se basa en el precio de lista habitual de este tipo de carga; cada lote varía.",
   manifestNote: "Manifiestos, fotos y videos adicionales disponibles a pedido para la mayoría de los lotes.",
   whatsapp: "WhatsApp",
-  callUs: "Llámanos",
+  callUs: "Llámanos o envíanos un SMS",
 
   "u:units": "unidades",
   "u:pairs": "pares",

@@ -43,3 +43,4 @@ Guides already published (don't repeat these topics):
 ## 2026-11-23 — daily health check
 - Local crawl: all 105 sitemap-en URLs + 40 random fr/es URLs — 200s, one h1, titles ≤65, descriptions 110–160, canonical/hreflang/og/JSON-LD, images, robots, sitemaps all OK. Live home + /sitemap.xml 200.
 - Fixed: the language menu on English-only guide pages linked to /fr/guides… and /es/guides… (14 internal links that 301 back to /en/). Languages a page doesn't exist in now link to that language's home (/fr/, /es/). Code: language menu in `src/html.ts` (uses `pg.alts`).
+- 2026-11-23: contact numbers — calls/SMS +1 (828) 344-8110, WhatsApp +1 (407) 378-0429 (replaces +1 450 485 9006).
