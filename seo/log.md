@@ -45,7 +45,7 @@ Guides already published (don't repeat these topics):
 ## 2026-11-23 — daily health check
 - Local crawl: all 105 sitemap-en URLs + 40 random fr/es URLs — 200s, one h1, titles ≤65, descriptions 110–160, canonical/hreflang/og/JSON-LD, images, robots, sitemaps all OK. Live home + /sitemap.xml 200.
 - Fixed: the language menu on English-only guide pages linked to /fr/guides… and /es/guides… (14 internal links that 301 back to /en/). Languages a page doesn't exist in now link to that language's home (/fr/, /es/). Code: language menu in `src/html.ts` (uses `pg.alts`).
-- 2026-11-23: contact numbers — calls/SMS +1 (828) 344-8110, WhatsApp +1 (407) 378-0429.
+- 2026-11-23: contact numbers — calls/SMS +1 (828) 344-8110, WhatsApp +1 (450) 485-9006.
 
 ## 2026-11-24 — Tue guide: bin store stocking
 - New guide: /en/guides/how-to-stock-a-bin-store-liquidation-inventory — "How to Stock a Bin Store: Choosing Liquidation Inventory That Keeps the Bins Full" (seoTitle 51 chars, description 158). Target keyword: "how to stock a bin store" (+ bin store inventory / liquidation pallets for bin stores). ~1,200 words.
@@ -54,3 +54,6 @@ Guides already published (don't repeat these topics):
 - Search Console: sc-domain:liquidationauctioncenter.com is not yet available in Windsor.ai (only the older properties are connected) — topic chosen from keyword research.
 - Next ideas: flea market sellers' guide (what sells, booth stock from case packs), Amazon/online-return pallets explained (without naming as lot brand), appliance pallets testing & freight, Quebec/French-language buying notes, Texas/Florida regional freight guides.
 
+
+## 2026-11-24 — WhatsApp number changed (owner decision)
+- WhatsApp is now +1 (450) 485-9006 (floating button, contact page, footer, terms EN/FR/ES). Single source: `SITE.whatsapp` in `src/catalog.ts`; the terms text in `src/content.ts` repeats it. Calls/SMS stay +1 (828) 344-8110.

@@ -145,7 +145,7 @@ export const TERMS: Record<Lang, Sec[]> = {
     ["Condition and title", ["Lots are sold by the lot in the condition described, without warranty of individual items beyond what the listing states. Title and risk pass to the buyer when the shipment is handed to the carrier or collected at our dock."]],
     ["Claims", ["Arrival claims must be reported within 48 hours of delivery, as described in our Returns & arrival claims policy. Our liability is limited to the price paid for the affected lot."]],
     ["Brands and resale", ["Retailer and brand names describe the origin or contents of merchandise; we are not affiliated with them. Buyers are responsible for complying with resale, recall, labelling and import rules in their jurisdiction."]],
-    ["Company", ["These terms are offered by Liquidation Auction Center, 1601 Spring St, Greensboro, NC 27403, United States. Email: sales@liquidationauctioncenter.com · Phone / text: +1 (828) 344-8110 · WhatsApp: +1 (407) 378-0429."]],
+    ["Company", ["These terms are offered by Liquidation Auction Center, 1601 Spring St, Greensboro, NC 27403, United States. Email: sales@liquidationauctioncenter.com · Phone / text: +1 (828) 344-8110 · WhatsApp: +1 (450) 485-9006."]],
   ],
   fr: [
     ["Clientèle", ["Liquidation Auction Center vend en gros aux entreprises et revendeurs des États-Unis et du Canada. En commandant, vous confirmez acheter pour une entreprise ou pour la revente."]],
@@ -154,7 +154,7 @@ export const TERMS: Record<Lang, Sec[]> = {
     ["État et transfert de propriété", ["Les lots sont vendus dans l'état décrit, sans garantie des articles individuels au-delà de la fiche. La propriété et les risques passent à l'acheteur à la remise au transporteur ou à l'enlèvement au quai."]],
     ["Réclamations", ["Les réclamations doivent être faites sous 48 heures après livraison, selon notre politique de retours et réclamations. Notre responsabilité se limite au prix payé pour le lot concerné."]],
     ["Marques et revente", ["Les noms de détaillants et de marques indiquent la provenance ou le contenu ; nous ne leur sommes pas affiliés. L'acheteur doit respecter les règles de revente, de rappel, d'étiquetage et d'importation de sa juridiction."]],
-    ["Entreprise", ["Ces conditions sont proposées par Liquidation Auction Center, 1601 Spring St, Greensboro, NC 27403, États-Unis. Courriel : sales@liquidationauctioncenter.com · Téléphone / texto : +1 (828) 344-8110 · WhatsApp : +1 (407) 378-0429."]],
+    ["Entreprise", ["Ces conditions sont proposées par Liquidation Auction Center, 1601 Spring St, Greensboro, NC 27403, États-Unis. Courriel : sales@liquidationauctioncenter.com · Téléphone / texto : +1 (828) 344-8110 · WhatsApp : +1 (450) 485-9006."]],
   ],
   es: [
     ["A quién vendemos", ["Liquidation Auction Center vende al mayoreo a negocios y revendedores de Estados Unidos y Canadá. Al hacer un pedido confirmas que compras para un negocio o para reventa."]],
@@ -163,7 +163,7 @@ export const TERMS: Record<Lang, Sec[]> = {
     ["Condición y propiedad", ["Los lotes se venden en la condición descrita, sin garantía de artículos individuales más allá de la ficha. La propiedad y el riesgo pasan al comprador al entregar el envío al transportista o al recogerlo en el muelle."]],
     ["Reclamos", ["Los reclamos de llegada deben reportarse dentro de las 48 horas posteriores a la entrega, según nuestra política. Nuestra responsabilidad se limita al precio pagado por el lote afectado."]],
     ["Marcas y reventa", ["Los nombres de minoristas y marcas indican el origen o contenido; no estamos afiliados a ellos. El comprador debe cumplir las normas de reventa, retiro de productos, etiquetado e importación de su jurisdicción."]],
-    ["Empresa", ["Estas condiciones las ofrece Liquidation Auction Center, 1601 Spring St, Greensboro, NC 27403, Estados Unidos. Correo: sales@liquidationauctioncenter.com · Teléfono / SMS: +1 (828) 344-8110 · WhatsApp: +1 (407) 378-0429."]],
+    ["Empresa", ["Estas condiciones las ofrece Liquidation Auction Center, 1601 Spring St, Greensboro, NC 27403, Estados Unidos. Correo: sales@liquidationauctioncenter.com · Teléfono / SMS: +1 (828) 344-8110 · WhatsApp: +1 (450) 485-9006."]],
   ],
 };
 
