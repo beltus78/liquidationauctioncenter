@@ -397,6 +397,96 @@ Shipments into Canada also clear customs before final delivery, and your customs
 
 If you're unsure which delivery type fits your address, tell us when you [request a quote](/order-list?mode=quote) — we'll confirm the delivered total and delivery options before you pay.`,
   },
+  {
+    slug: "how-to-stock-a-bin-store-liquidation-inventory",
+    title: "How to Stock a Bin Store: Choosing Liquidation Inventory That Keeps the Bins Full",
+    seoTitle: "How to Stock a Bin Store with Liquidation Inventory",
+    description: "How to stock a bin store with liquidation lots: which categories suit bins, how much to order per restock cycle, sorting before drop day and planning freight.",
+    excerpt: "A bin store lives or dies on fresh product every restock day. This guide covers which lots work in bins, how to size orders to your weekly cycle and what to pull out before items hit the floor.",
+    published: "2026-11-24",
+    body: `A bin store sells on one promise: every restock day, the bins are full of things nobody has picked through yet. Shoppers come back because the mix changes, not because any single item is special. That makes buying inventory the hardest part of running one. Order too little and the floor looks picked over by mid-week. Order the wrong kind of lot and you fill bins with items that are too big, too fragile or too valuable to sell at a flat bin price.
+
+This guide is about the buying side: which liquidation formats and categories suit bins, how to size orders to your cycle, and what to sort out before anything reaches the floor.
+
+## What makes merchandise "bin-friendly"
+
+Not every returned or overstock item belongs in a bin. Before you buy, picture each type of item being dug through by dozens of shoppers. Bin-friendly goods tend to be:
+
+- **Small to medium in size** — items that fit in a bin without blocking everything underneath them.
+- **Sturdy** — packaged toys, home goods, small kitchen items, beauty products, phone accessories and apparel survive handling; glassware and loose electronics often don't.
+- **Varied** — a bin with fifty different things is more fun to search than a bin with fifty copies of the same thing.
+- **Low to mid value per piece** — items worth far more than your top bin price are better sold separately (see "pull-outs" below).
+
+Bulky goods like furniture, large appliances or ride-on toys are not bin stock, but many bin store owners sell them on a separate "big items" shelf or wall at individual prices.
+
+## Which liquidation formats suit a bin store
+
+Most bin stores buy one of three formats:
+
+- **Mixed general merchandise pallets.** Online-return and big-box pallets carry the kind of variety bins need. Browse the [general merchandise lots](/lots/general) to see how the mix is described — for example our [online-return mixed merchandise pallet](/lot/mixed-general-merchandise-pallet).
+- **Gaylords.** Tall boxes packed loose with smaller items — toys, accessories, cosmetics, apparel — are close to bin-ready, though they still need sorting. See all [gaylord lots](/lots?type=gaylord), such as the [returned toys and games gaylords](/lot/toy-bins-watermelon-gaylords).
+- **Truckloads.** Once a store has steady weekly sales, a full trailer usually lowers the cost per unit and keeps a backlog on hand for several restocks. Our [truckload page](/truckloads) explains how full loads are put together.
+
+If you're not sure how these formats compare on unit count, storage and freight, our guide to [case packs, gaylords, pallets and truckloads](/guides/liquidation-lot-sizes-case-pack-gaylord-pallet-truckload) walks through the trade-offs.
+
+## Category mix: build bins people want to dig through
+
+Many bin stores start with general merchandise and then layer in categories that bring in particular shoppers:
+
+- **Toys** pull in families, especially in the weeks before holidays and birthdays.
+- **Home and kitchen** — small appliances, décor, storage, bedding — sells steadily to almost everyone.
+- **Beauty and personal care** is small, light and quick to sort.
+- **Apparel and shoes** move well if you have space for a rack or a separate clothing bin.
+- **Household essentials and grocery** (non-perishable, in-date items only) give regulars a reason to come back weekly.
+
+Keep notes on which categories empty first and which are still sitting in the bins on the last, cheapest day of your cycle. That record is more useful than any general advice, because every neighborhood buys differently.
+
+## Size orders to your restock cycle
+
+Most bin stores run a weekly cycle: restock on day one at the highest price, then lower the price each day until the last day clears what's left. Whatever your schedule, the buying question is the same — how many units do you need on the floor each restock, and how many restocks should you hold in the back?
+
+A practical way to work it out:
+
+1. **Count your bins** and estimate how many items fill one bin to a level that looks generous.
+2. **Multiply by your restock days** per week to get the units you need each week.
+3. **Add a sorting loss.** Some items will be pulled out for separate sale, set aside as unsellable or kept for parts. Use your own numbers once you have them.
+4. **Compare against lot unit counts.** Every lot page shows an approximate unit count, so you can estimate how many restocks one pallet or one truckload covers.
+5. **Hold a buffer.** Freight can take longer than planned. Having at least one restock's worth of sorted stock in the back protects your busiest day.
+
+Our guide on [cost per unit and estimated retail value](/guides/liquidation-lot-profit-cost-per-unit-retail-value) shows how to put landed cost per unit next to your bin prices before you commit.
+
+## Sort before the floor: the pull-out rule
+
+The step that separates profitable bin stores from break-even ones happens before drop day. Open every pallet or gaylord in the back room and sort into four piles:
+
+- **Bin stock** — the bulk of the lot.
+- **Pull-outs** — items worth clearly more than your top bin price (tools, branded electronics, sealed collectibles). Price and shelve them separately, or list them online.
+- **Big items** — anything too large for a bin, for a separate floor area.
+- **Unsellable** — broken, incomplete or unsafe items. Recycle or dispose of them properly; don't put them in bins.
+
+Test anything that plugs in or takes batteries before it goes out. Remove sharp items, loose blades and anything that looks recalled or unsafe. Liquidation merchandise is sold as described on each lot page, and contents and condition vary from lot to lot, so build sorting time into every restock.
+
+## Freight and receiving for a storefront
+
+Bin stores are often in retail units without a loading dock. Before you order:
+
+- Check whether your building has a dock, a forklift or a pallet jack, and how wide the back door is.
+- Ask for **liftgate delivery** if there is no dock — it lowers the pallet to the ground at the truck's tail.
+- Confirm access hours with your landlord; a full truckload takes time to unload.
+- Inspect the shipment on arrival and note any visible damage on the delivery receipt before signing.
+
+Our [shipping page](/shipping) covers delivery options, and the guide to [receiving freight, liftgates and damage claims](/guides/receiving-liquidation-freight-dock-liftgate-damage-claims) explains what to check while the driver is still there.
+
+## Opening your first restock cycles
+
+When you're starting out, it can make sense to buy two or three different pallets rather than one truckload. You'll learn which categories your customers buy, how long sorting really takes and how many units fill your bins. Once you can predict a week of sales, moving up to [truckloads](/lots?type=truckload) is a natural next step.
+
+Many owners also keep simple records per lot: date received, units sorted to bins, pull-outs, unsellable items and how fast the bins emptied. After a few cycles, those notes tell you exactly what to reorder.
+
+## Ready to stock your bins?
+
+Browse [all lots](/lots) by category and size, then add the ones that fit your store to a [quote request](/order-list?mode=quote). We'll confirm availability and the delivered total for your address before you pay — whether you're in the US or [Canada](/canada).`,
+  },
 ];
 
 export const GUIDE_BY = new Map(GUIDES.map((g) => [g.slug, g]));
