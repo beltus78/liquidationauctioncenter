@@ -43,7 +43,7 @@ export default {
 
     if (path === "/api/order" && req.method === "POST") return order(req, env);
     if (path === "/api/contact" && req.method === "POST") return contactMsg(req, env);
-    if (path === "/robots.txt") return new Response(`User-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /*/order-list\nDisallow: /*/thanks\nSitemap: ${SITE.url}/sitemap.xml\n`, { headers: { "content-type": "text/plain" } });
+    if (path === "/robots.txt") return new Response(`User-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /*/order-list\nDisallow: /*/thanks\nDisallow: /*?cur=\nSitemap: ${SITE.url}/sitemap.xml\n`, { headers: { "content-type": "text/plain" } });
     if (path === "/feeds/google-us.xml") return googleFeed();
     if (path === "/sitemap.xml") return sitemapIndex();
     const sm = path.match(/^\/sitemap-([a-z]{2})\.xml$/);

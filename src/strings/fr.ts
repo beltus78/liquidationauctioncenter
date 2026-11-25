@@ -260,5 +260,6 @@ export const fr: Strings = {
   approx: "env.",
   guidesLink: "Guides d'achat (anglais)",
   metaHome: "Palettes et camions de liquidation | Liquidation Auction Center",
+  lotsD: "Tous les lots de liquidation à prix fixe par catégorie, taille et état : caisses, gaylords, palettes et camions pour revendeurs aux É.-U. et au Canada.",
   metaHomeD: "Palettes, gaylords et camions de liquidation à prix fixe : outils, électronique, jouets et marchandise générale pour revendeurs. Livraison gratuite aux É.-U. contigus.",
 };

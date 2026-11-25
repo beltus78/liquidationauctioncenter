@@ -260,5 +260,6 @@ export const es: Strings = {
   approx: "aprox.",
   guidesLink: "Guías de compra (inglés)",
   metaHome: "Palés y camiones de liquidación | Liquidation Auction Center",
+  lotsD: "Explore todos los lotes de liquidación a precio fijo por categoría, tamaño y estado: cajas, gaylords, palés y camiones para revendedores en EE. UU. y Canadá.",
   metaHomeD: "Palés, gaylords y camiones de liquidación a precio fijo: herramientas, electrónica, juguetes y mercancía general para revendedores. Envío gratis en EE. UU. continental.",
 };

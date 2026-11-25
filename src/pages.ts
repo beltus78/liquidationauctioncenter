@@ -119,7 +119,7 @@ ${items.length ? `<div class="grid">${items.map((l, i) => lotCard(t, l, i < 6)).
   };
 }
 
-export const lots = (t: T, url: URL) => { const f = pickFilters(url); return listing(t, "/lots", f.cat ? tk(t, `cat:${f.cat}`) : t.allLots, f.cat ? tk(t, `catD:${f.cat}`) : t.metaHomeD, f); };
+export const lots = (t: T, url: URL) => { const f = pickFilters(url); return listing(t, "/lots", f.cat ? tk(t, `cat:${f.cat}`) : t.allLots, f.cat ? tk(t, `catD:${f.cat}`) : t.lotsD, f); };
 export function category(t: T, slug: string, url: URL): Page | null {
   if (!(CATS as readonly string[]).includes(slug)) return null;
   const c = slug as CatSlug;

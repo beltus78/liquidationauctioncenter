@@ -57,3 +57,9 @@ Guides already published (don't repeat these topics):
 
 ## 2026-11-24 — WhatsApp number changed (owner decision)
 - WhatsApp is now +1 (450) 485-9006 (floating button, contact page, footer, terms EN/FR/ES). Single source: `SITE.whatsapp` in `src/catalog.ts`; the terms text in `src/content.ts` repeats it. Calls/SMS stay +1 (828) 344-8110.
+
+## 2026-11-25 — SEO audit (all sitemap URLs)
+**Crawled:** all 302 sitemap URLs (EN/FR/ES) on a local `wrangler dev` (all 200, one <h1> each, titles/descriptions within limits, canonicals + og tags present, JSON-LD valid, no broken internal links or missing images across 1,540 links, robots.txt + sitemaps valid).
+**Found & fixed:**
+- /lots used the homepage meta description in all three languages (duplicate of /) → new `lotsD` string in src/strings/{en,fr,es}.ts, used as the /lots intro and description (EN 153, FR 150, ES 157 chars).
+- The header currency switch (?cur=CAD/USD, a 302 that sets a cookie) was linked from every page → robots.txt now also has `Disallow: /*?cur=` (the link was already rel=nofollow).

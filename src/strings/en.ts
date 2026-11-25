@@ -272,6 +272,7 @@ export const en = {
   approx: "approx.",
   guidesLink: "Buyer guides",
   metaHome: "Liquidation Pallets & Truckloads | Liquidation Auction Center",
+  lotsD: "Browse all fixed-price liquidation lots by category, size and condition: case packs, gaylords, pallets and truckloads for resellers in the US and Canada.",
   metaHomeD: "Fixed-price liquidation pallets, gaylords and truckloads of tools, electronics, toys and general merchandise for resellers. Free shipping in the contiguous US.",
 };
 export type Strings = { [K in keyof typeof en]: string };
